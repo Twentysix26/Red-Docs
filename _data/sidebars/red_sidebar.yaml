@@ -83,7 +83,7 @@ entries:
       url: /red_guides_make_cog/
       output: web
 
-  - title: Guides
+  - title: Custom cogs
     output: web
     folderitems:
 
