@@ -46,11 +46,11 @@ Red is in continuous development and new features get added all the time. Stay t
 
 * [Command list](/Red-Docs/red_commands/)
 
-* [Audio module](https://github.com/Twentysix26/Red-DiscordBot/wiki/Audio-module)
+* [Audio module](/Red-Docs/red_audio)
 
 ## Common issues  
 For installation and general issues:
-* [Troubleshooting](https://github.com/Twentysix26/Red-DiscordBot/wiki/Troubleshooting)
+* [Troubleshooting](/Red-Docs/red_guide_troubleshooting/)
 
 ## Cogs  
 

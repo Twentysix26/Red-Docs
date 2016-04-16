@@ -50,3 +50,15 @@ entries:
     - title: Red's commands
       url: /red_commands/
       output: web
+
+    - title: Audio module
+      url: /red_audio/
+      output: web
+
+  - title: Troubleshooting
+    output: web
+    folderitems:
+
+    - title: General problems
+      url: /red_guide_troubleshooting/
+      output: web
