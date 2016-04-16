@@ -18,3 +18,17 @@
    * Title should have one whitespace after `#` symbols. `### Like this`
    * Table should be separated from everything before and after it by one newline
    * Internal links should start with `/Red-Docs/` and have a trailing `/` like this: `[Example](/Red-Docs/example/)`
+ * After that you need to add your doc to the sidebar. You do this by oppening a `red_sidebar.yml` which is located `_data/sidebars/`.
+   * Choose a category your doc should belong to, or add a new one based off this template (indentation is important here):
+```
+- title: Overview
+    output: web
+    folderitems:
+```
+   * Add your page based off this template:
+```
+- title: Installing on Linux
+      url: /red_install_linux/
+      output: web
+```
+ * Commit your changes and push them.
