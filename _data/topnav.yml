@@ -16,7 +16,7 @@ topnav_dropdowns:
           external_url: https://github.com/Twentysix26/Red-DiscordBot
         - title: Unofficial Discord API documentation
           external_url: https://discordpy.readthedocs.org/en/async/
-        - title: Discord developer
+        - title: Discord Developer documentation
           external_url: https://discordapp.com/developers/docs/intro
 
 
