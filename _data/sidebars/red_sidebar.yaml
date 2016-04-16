@@ -79,13 +79,13 @@ entries:
       url: /red_guides_aliases/
       output: web
 
-    - title: Make your own cog
-      url: /red_guides_make_cog/
-      output: web
-
   - title: Custom cogs
     output: web
     folderitems:
+
+    - title: Make your own cog
+      url: /red_guides_make_cog/
+      output: web
 
     - title: Publish your cog
       url: /red_cog_how_to_publish/
