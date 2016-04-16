@@ -6,7 +6,7 @@ permalink: /red_guide_bot_accounts/
 
 ![](https://img.shields.io/badge/Guide%20by-fishyfing-blue.svg)
 
-# What is a bot account?
+## What is a bot account?
 
 A bot account is different to a normal account. Any public bot account will have this ![Bot tag](https://i.imgur.com/OQufliA.png "Bot Tag") next to them, and this is a *must* for all public bot accounts (aka a bot that is on a server you aren't on). If you don't have one of these by the **1st May 2016** your, account will be forcibly converted.
 
@@ -20,7 +20,7 @@ This means that once you create a bot account, you cannot log into it. This is n
 
 This is saying that you cannot add a bot to your friends list (which is a lie!). ![proof](https://i.imgur.com/pagjorI.png)
 ![bs](http://i.imgur.com/0DSbAs4.gif)
-#### Bot Invites
+## Bot Invites
 
 >Bots cannot accept invites.
 
@@ -47,11 +47,13 @@ Standard users are restricted to sending a certain amount of messages per minute
 Here's a handy gif to explain the process. ![oauth new bot](http://i.imgur.com/Y2ouW7I.gif)
 
 
-# <a name="converting-an-account"></a>Converting a user account
+## Converting a user account
 >But what if my bot is already in *loads* of servers, and I don't want to re-add it?
 
 Luckily for you, up until the ***1st of May 2016***, you can convert existing user accounts to bot accounts. 
+
 ### Convert automatically
+
 1. Download [this script](https://gist.github.com/Twentysix26/c2e5f0e9c0120308122361566c2c997e).
 2. Run it ***in the terminal***
   * To do this, type `cd /path/to/file/` then `python3 bot_conversion.py`
@@ -62,7 +64,7 @@ Luckily for you, up until the ***1st of May 2016***, you can convert existing us
 ### Convert manually (for if the above script fails)
 ***This assumes you are using a Linux or Mac machine.***
 
-##### Step 1: Get your authorization header
+#### Step 1: Get your authorization header
 1. Open Google Chrome and navigate to [discordapp.com](https://discordapp.com) and login with *your account*.  
 2. Right click, and press inspect.  
 3. Click console, and type `localStorage`  
@@ -70,14 +72,14 @@ Luckily for you, up until the ***1st of May 2016***, you can convert existing us
 
 If that was a bit complicated, here's a handy gif! ![get auth header](http://i.imgur.com/FyxSvpE.gif)
 
-##### Step 2: Get your bot account's authorization header
+#### Step 2: Get your bot account's authorization header
 Follow the above stepes except this time, ***login to your bot's user account***. Copy that down too.
 
-##### Step 3: Create a Discord application
+#### Step 3: Create a Discord application
 1. Navigate to https://discordapp.com/developers/applications/me and click 'New Application'. Enter a name and press create.
 2. Copy the `Client ID` This will be used to add your account to the application.
 
-##### Step 4: Convert the account
+#### Step 4: Convert the account
 **This process is _irreversible_. Only continue if you know what you are doing!**  
 1. Open your console.  For Mac, it can be found under Applications/Utilities/Terminal.app  
 2. Type `curl -H 'Authorization: YOUR TOKEN' \` Replace `YOUR TOKEN` with the token you grabbed earlier for *your account*. Press 'Enter'.  
