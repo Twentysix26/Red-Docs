@@ -44,7 +44,7 @@ Red is in continuous development and new features get added all the time. Stay t
 
 * [Some general tips](/Red-Docs/red_general-tips)
 
-* [Command list](https://github.com/Twentysix26/Red-DiscordBot/wiki/Red-V2-Commands) (Work in progress!)
+* [Command list](/Red-Docs/red_commands/)
 
 * [Audio module](https://github.com/Twentysix26/Red-DiscordBot/wiki/Audio-module)
 
