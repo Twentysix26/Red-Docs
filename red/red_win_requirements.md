@@ -34,6 +34,7 @@ Of course .exe and .dll are only for Windows. [Linux users may refer to this](/R
 _**NOTE: The opus library bitness MUST match your python's installation bitness. For example, if you installed python 32bit your opus library MUST be 32 bit too**_
 
 **cogs.image requirements:**
+
 ```
 pip3 install imgurpython
 ```
