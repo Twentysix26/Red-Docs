@@ -39,10 +39,6 @@ entries:
       url: /red_install_mac/
       output: web
 
-    - title: Autorestarting on Linux
-      url: /red_linux_upstart/
-      output: web
-
   - title: How to use
     output: web
     folderitems:
@@ -70,6 +66,10 @@ entries:
   - title: Guides
     output: web
     folderitems:
+
+    - title: Autorestarting on Linux
+      url: /red_guide_linux_upstart/
+      output: web
     
     - title: Bot Accounts
       url: /red_guide_bot_accounts/

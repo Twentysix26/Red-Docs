@@ -1,7 +1,7 @@
 ---
 title: Autorestarting on Linux
 sidebar: red_sidebar
-permalink: /red_linux_upstart/
+permalink: /red_guide_linux_upstart/
 ---
 
 **NOTE: Before doing this, start it at least once and do the configuration process.**  
