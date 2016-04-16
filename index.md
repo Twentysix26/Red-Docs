@@ -5,6 +5,7 @@ type: homepage
 ---
 
 Red is in continuous development and new features get added all the time. Stay tuned by [joining the official server](https://discord.gg/0k4npTwMvTpv9wrh)!
+[<img src="https://discordapp.com/api/servers/133049272517001216/widget.png?style=banner5">](https://discord.gg/0k4npTwMvTpv9wrh)
 
 ## Installation
 
@@ -40,9 +41,3 @@ For installation and general issues:
 ## Cogs  
 
 * [Publishing cogs](/Red-Docs/red_cog_how_to_publish/)
-
-
-
-
-
-

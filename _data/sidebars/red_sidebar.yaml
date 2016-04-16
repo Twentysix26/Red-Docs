@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Red-Docs
-  version: 
+  version:
   folders:
 
   - title: Overview
@@ -14,7 +14,7 @@ entries:
       url: /
       type: homepage
       output: web
-  
+
   - title: Installation
     output: web
     folderitems:
@@ -67,16 +67,16 @@ entries:
     output: web
     folderitems:
 
+    - title: Aliases
+      url: /red_guide_aliases/
+      output: web
+
     - title: Autorestarting on Linux
       url: /red_guide_linux_upstart/
       output: web
-    
+
     - title: Bot Accounts
       url: /red_guide_bot_accounts/
-      output: web
-
-    - title: Aliases
-      url: /red_guide_aliases/
       output: web
 
   - title: Custom cogs
@@ -90,4 +90,3 @@ entries:
     - title: Publish your cog
       url: /red_cog_how_to_publish/
       output: web
-    
