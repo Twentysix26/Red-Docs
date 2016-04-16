@@ -62,3 +62,11 @@ entries:
     - title: General problems
       url: /red_guide_troubleshooting/
       output: web
+
+  - title: Guides
+    output: web
+   folderitems:
+    
+    - title: Bot Accounts
+      url: /red_guides_bot_accounts/
+      output: web
