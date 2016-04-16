@@ -1,0 +1,40 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Red-Docs
+  version: 
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+
+    - title: About
+      url: /
+      type: homepage
+      output: web
+  
+  - title: Installation
+    output: web
+    folderitems:
+
+    - title: Windows requirements
+      url: /red_win_requirements/
+      output: web
+
+    - title: Installing on Windows
+      url: /red_install_win/
+      output: web
+
+    - title: Installing on Linux
+      url: /red_install_linux/
+      output: web
+
+    - title: Installing on Mac
+      url: /red_install_mac/
+      output: web
+
+    - title: Autorestarting on Linux
+      url: /red_linux_upstart/
+      output: web

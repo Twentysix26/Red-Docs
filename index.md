@@ -1,6 +1,6 @@
 ---
 title: Red documentation
-sidebar: mydoc_sidebar
+sidebar: red_sidebar
 type: homepage
 ---
 
@@ -22,14 +22,39 @@ The default set of modules includes and it's not limited to:
 
 Red is in continuous development and new features get added all the time. Stay tuned by [joining the official server](https://discord.gg/0k4npTwMvTpv9wrh)!
 
-## I don't know what you're waiting for, tell me how to install this already!
+## Installation
 
-The installation process is as straightforward as ever: [[Wiki]](https://github.com/Twentysix26/Red-DiscordBot/wiki).  
-Don't forget to read the [general tips](https://github.com/Twentysix26/Red-DiscordBot/wiki/General-tips) for a better idea of how Red works.
+### Windows
 
-If [*after reading the guides*](https://github.com/Twentysix26/Red-DiscordBot/wiki) you're still experiencing issues that are not listed in [this page](https://github.com/Twentysix26/Red-DiscordBot/wiki/Troubleshooting), feel free to join the [official server](https://discord.gg/0k4npTwMvTpv9wrh) with your main account to get some help.  
+* [Windows Requirements](/Red-Docs/red_win_requirements/) (**do this first!**)
 
-Have fun!
+* [Installing Red](/Red-Docs/red_install_win/)
+
+### Linux
+
+* [How to install on Linux, general steps](/Red-Docs/red_install_linux/)
+
+* [Autorestarting (upstart)](/Red-Docs/red_linux_upstart/)
+
+### Mac
+
+* [How to install on Mac](/Red-Docs/red_install_mac/)
+
+## How to use
+
+* [Some general tips](https://github.com/Twentysix26/Red-DiscordBot/wiki/General-tips)
+
+* [Command list](https://github.com/Twentysix26/Red-DiscordBot/wiki/Red-V2-Commands) (Work in progress!)
+
+* [Audio module](https://github.com/Twentysix26/Red-DiscordBot/wiki/Audio-module)
+
+## Common issues  
+For installation and general issues:
+* [Troubleshooting](https://github.com/Twentysix26/Red-DiscordBot/wiki/Troubleshooting)
+
+## Cogs  
+
+* [Publishing cogs](https://github.com/Twentysix26/Red-DiscordBot/wiki/Publishing-your-cog)
 
 
 
