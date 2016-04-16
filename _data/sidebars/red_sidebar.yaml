@@ -38,3 +38,15 @@ entries:
     - title: Autorestarting on Linux
       url: /red_linux_upstart/
       output: web
+
+  - title: How to use
+    output: web
+    folderitems:
+
+    - title: General tips
+      url: /red_general_tips/
+      output: web
+
+    - title: Red's commands
+      url: /red_commands/
+      output: web

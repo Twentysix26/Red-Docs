@@ -42,7 +42,7 @@ Red is in continuous development and new features get added all the time. Stay t
 
 ## How to use
 
-* [Some general tips](https://github.com/Twentysix26/Red-DiscordBot/wiki/General-tips)
+* [Some general tips](/Red-Docs/red_general-tips)
 
 * [Command list](https://github.com/Twentysix26/Red-DiscordBot/wiki/Red-V2-Commands) (Work in progress!)
 
