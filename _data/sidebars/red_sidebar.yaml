@@ -65,7 +65,7 @@ entries:
 
   - title: Guides
     output: web
-   folderitems:
+    folderitems:
     
     - title: Bot Accounts
       url: /red_guides_bot_accounts/
