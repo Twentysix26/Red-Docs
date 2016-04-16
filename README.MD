@@ -14,9 +14,8 @@
   ---
 ```
  * Write your doc in github's markdown syntax. There are a bit of jekyll-oriented exceptions, that you have to keep in mind:
-   * Code block should be separated from everything that comes after it by one newline.
+   * All the block elements: list lines, code blocks, titles, tables and images should be separated from everything before and after by newlines
    * Title should have one whitespace after `#` symbols. `### Like this`
-   * Table should be separated from everything before and after it by one newline
    * Internal links should start with `/Red-Docs/` and have a trailing `/` like this: `[Example](/Red-Docs/example/)`
  * After that you need to add your doc to the sidebar. You do this by oppening a `red_sidebar.yaml` which is located `_data/sidebars/`.
  * Choose a category your doc should belong to, or add a new one based off this template (indentation is important here):
