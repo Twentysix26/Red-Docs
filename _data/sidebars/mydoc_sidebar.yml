@@ -6,44 +6,31 @@ entries:
   version: 
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage/
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage/
-      output: pdf
-      type: frontmatter
-
   - title: Overview
-    output: web, pdf
+    output: web
     folderitems:
 
     - title: Get started
       url: /
       type: homepage
-      output: web, pdf
+      output: web
 
     - title: 5.0 Release notes
       url: /mydoc_release_notes_50/
-      output: web, pdf
+      output: web
 
     - title: Introduction
       url: /mydoc_introduction/
-      output: web, pdf
+      output: web
 
     - title: Supported features
       url: /mydoc_supported_features/
-      output: web, pdf
+      output: web
 
     - title: About the theme author
       url: /mydoc_about/
-      output: web, pdf
+      output: web
 
     - title: Support
       url: /mydoc_support/
-      output: web, pdf
+      output: web
