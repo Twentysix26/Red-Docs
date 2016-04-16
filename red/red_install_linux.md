@@ -1,10 +1,8 @@
 ---
-title: Installing on Linux
+title: Installing on Ubuntu/Debian
 sidebar: red_sidebar
 permalink: /red_install_linux/
 ---
-
-## General guide for Ubuntu 14.04
 
 ### Repositories
 ```
