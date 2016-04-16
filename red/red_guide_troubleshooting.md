@@ -74,7 +74,7 @@ It could be the streamer at fault or the Twitch API freaking out.
 
 >How do I submit my own cog?
 
-To submit your cogs you can follow [this guide](https://github.com/Twentysix26/Red-DiscordBot/wiki/Publishing-your-cog)
+To submit your cogs you can follow [this guide](/Red-Docs/red_cog_how_to_publish/)
 
 >Can I submit my own trivia list?
 

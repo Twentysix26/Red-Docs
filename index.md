@@ -4,22 +4,6 @@ sidebar: red_sidebar
 type: homepage
 ---
 
-## Music, admin, trivia, fun commands and much more!  
-[<img src="https://img.shields.io/badge/Support-me!-orange.svg">](https://www.patreon.com/Twentysix26) [<img src="https://discordapp.com/api/servers/133049272517001216/widget.png?style=banner5">](https://discord.gg/0k4npTwMvTpv9wrh)  
-
-Red has been completely rewritten. It is now fully modular and it comes with sets of features/commands that can be enabled/disabled to your liking, making it customizable exactly how you want.  
-You can turn Red into a trivia bot, an admin bot, a music bot (...) or all of these together.  
-
-The default set of modules includes and it's not limited to: 
-* admin commands 
-* trivia (lists included and you can make new ones!)
-* music features (playlists, youtube, soundcloud, queues...)
-* stream alerts (twitch/hitbox)
-* slot machines (yes, really!)
-* custom commands
-* imgur/gif search
-* and much much more
-
 Red is in continuous development and new features get added all the time. Stay tuned by [joining the official server](https://discord.gg/0k4npTwMvTpv9wrh)!
 
 ## Installation
@@ -50,11 +34,12 @@ Red is in continuous development and new features get added all the time. Stay t
 
 ## Common issues  
 For installation and general issues:
+
 * [Troubleshooting](/Red-Docs/red_guide_troubleshooting/)
 
 ## Cogs  
 
-* [Publishing cogs](/Red-Docs/red_how_to_publish)
+* [Publishing cogs](/Red-Docs/red_cog_how_to_publish/)
 
 
 
