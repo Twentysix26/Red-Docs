@@ -72,11 +72,11 @@ entries:
     folderitems:
     
     - title: Bot Accounts
-      url: /red_guides_bot_accounts/
+      url: /red_guide_bot_accounts/
       output: web
 
     - title: Aliases
-      url: /red_guides_aliases/
+      url: /red_guide_aliases/
       output: web
 
   - title: Custom cogs
@@ -84,7 +84,7 @@ entries:
     folderitems:
 
     - title: Make your own cog
-      url: /red_guides_make_cog/
+      url: /red_guide_make_cog/
       output: web
 
     - title: Publish your cog

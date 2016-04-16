@@ -54,7 +54,7 @@ For installation and general issues:
 
 ## Cogs  
 
-* [Publishing cogs](https://github.com/Twentysix26/Red-DiscordBot/wiki/Publishing-your-cog)
+* [Publishing cogs](/Red-Docs/red_how_to_publish)
 
 
 

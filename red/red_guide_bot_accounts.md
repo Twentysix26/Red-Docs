@@ -1,15 +1,10 @@
---- 
-title: Bot Accounts 
-sidebar: red_sidebar 
-permalink: /red_guides_bot_accounts/ 
---- 
+---
+title: Bot accounts
+sidebar: red_sidebar
+permalink: /red_guide_bot_accounts/
+---
 
-# Bot Accounts
 ![](https://img.shields.io/badge/Guide%20by-fishyfing-blue.svg)
-
-#### *What are they, and how do I get one?*
-
-Bot accounts. Recently, they've been springing up all over the place. "Great!" I hear you say, but there are a few things you need to know first.
 
 # What is a bot account?
 
@@ -66,6 +61,7 @@ Luckily for you, up until the ***1st of May 2016***, you can convert existing us
 
 ### Convert manually (for if the above script fails)
 ***This assumes you are using a Linux or Mac machine.***
+
 ##### Step 1: Get your authorization header
 1. Open Google Chrome and navigate to [discordapp.com](https://discordapp.com) and login with *your account*.  
 2. Right click, and press inspect.  
@@ -73,8 +69,10 @@ Luckily for you, up until the ***1st of May 2016***, you can convert existing us
 4. Double click, and copy the section after `token:` without the double speech marks `""` around it. **Note this down somewhere.**  
 
 If that was a bit complicated, here's a handy gif! ![get auth header](http://i.imgur.com/FyxSvpE.gif)
+
 ##### Step 2: Get your bot account's authorization header
 Follow the above stepes except this time, ***login to your bot's user account***. Copy that down too.
+
 ##### Step 3: Create a Discord application
 1. Navigate to https://discordapp.com/developers/applications/me and click 'New Application'. Enter a name and press create.
 2. Copy the `Client ID` This will be used to add your account to the application.

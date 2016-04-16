@@ -1,10 +1,9 @@
---- 
-title: Aliases 
-sidebar: red_sidebar 
-permalink: /red_guides_aliases/ 
---- 
+---
+title: Aliases
+sidebar: red_sidebar
+permalink: /red_guide_aliases/
+---
 
-##Aliases
 ![](https://img.shields.io/badge/Guide%20by-irdumb-aa00ff.svg)  
 
 Being able to add aliases is a useful function of the bot that is often overlooked.  
@@ -28,4 +27,3 @@ _flips a coin and... HEADS!_
 You can use the command inputs like normal  
 `!NO Kowlin`  
 (╯°□°）╯︵ uᴉlʍoʞ  
-
