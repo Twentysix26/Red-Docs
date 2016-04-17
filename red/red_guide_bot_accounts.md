@@ -20,6 +20,7 @@ This means that once you create a bot account, you cannot log into it. This is n
 
 This is saying that you cannot add a bot to your friends list (which is a lie!). ![proof](https://i.imgur.com/pagjorI.png)
 ![bs](http://i.imgur.com/0DSbAs4.gif)
+
 ## Bot Invites
 
 >Bots cannot accept invites.
@@ -28,17 +29,25 @@ This is the most important change. Bot accounts cannot accept invites normally, 
 
 `https://discordapp.com/oauth2/authorize?&client_id=168453097859973120&scope=bot`
 
+To get your own link, just replace `168453097859973120` with your own client ID from the [applicatons page](https://discordapp.com/developers/applications/me).  
 If you wish to add your bot to the [support server](https://discord.gg/0k4npTwMvTpv9wrh), use `?addbot <OAuth URL>`
+
+### Other Differences
+
 >Bots are not limited to a maximum of 100 guilds.
 
 As of the 14th April 2016, users are now restricted to joining 100 guilds. This means that if your bot needs to access more, it is recommended to upgrade.
+
 >Bots have a per-server rather than global rate limit.
 
 Standard users are restricted to sending a certain amount of messages per minutes *globally*. With a bot account, this is restricted to a certain amount of messages per *server*, or guild.
+
 >Bots can join more than one voice channel at a time.
 
 ***Note:*** *This is not implemented into Red* ***yet***.
+
 # Creating a new bot account
+
 1. Head over to https://discordapp.com/developers/applications/me
 2. Click "new application". Give it a name, picture and description.
 3. Click "Create Bot User" and click "Yes, Do It!" when the dialog pops up.
@@ -48,6 +57,7 @@ Here's a handy gif to explain the process. ![oauth new bot](http://i.imgur.com/Y
 
 
 ## Converting a user account
+
 >But what if my bot is already in *loads* of servers, and I don't want to re-add it?
 
 Luckily for you, up until the ***1st of May 2016***, you can convert existing user accounts to bot accounts. 
@@ -62,9 +72,11 @@ Luckily for you, up until the ***1st of May 2016***, you can convert existing us
 5. Profit  
 
 ### Convert manually (for if the above script fails)
+
 ***This assumes you are using a Linux or Mac machine.***
 
 #### Step 1: Get your authorization header
+
 1. Open Google Chrome and navigate to [discordapp.com](https://discordapp.com) and login with *your account*.  
 2. Right click, and press inspect.  
 3. Click console, and type `localStorage`  
@@ -73,13 +85,16 @@ Luckily for you, up until the ***1st of May 2016***, you can convert existing us
 If that was a bit complicated, here's a handy gif! ![get auth header](http://i.imgur.com/FyxSvpE.gif)
 
 #### Step 2: Get your bot account's authorization header
+
 Follow the above stepes except this time, ***login to your bot's user account***. Copy that down too.
 
 #### Step 3: Create a Discord application
+
 1. Navigate to https://discordapp.com/developers/applications/me and click 'New Application'. Enter a name and press create.
 2. Copy the `Client ID` This will be used to add your account to the application.
 
 #### Step 4: Convert the account
+
 **This process is _irreversible_. Only continue if you know what you are doing!**  
 1. Open your console.  For Mac, it can be found under Applications/Utilities/Terminal.app  
 2. Type `curl -H 'Authorization: YOUR TOKEN' \` Replace `YOUR TOKEN` with the token you grabbed earlier for *your account*. Press 'Enter'.  
@@ -93,7 +108,9 @@ You should get back something that looks like this:
 "discriminator": "1550", "id": "132254000253894656"}
 ```
 Copy down the `token` and the `id`. These will be what is used for OAuth requests and logging in to the bot. You can always access them again on the [applications page](https://discordapp.com/developers/applications/me). *Note that clicking "show token" will generate a new one, thus requiring you to reset `settings.json`*
+
 # Logging in with a token
+
 If your bot was previously a user account, delete `/data/red/settings.json`. This will reset the bot login details, and allow you to login using a token.
 
 Upon startup, you should receive a screen that looks like this: ![login](https://i.imgur.com/Y21YuDx.png)   
