@@ -31,7 +31,7 @@ Reference number: **{0.mention}**
 
 #### {author.id}
 
-Returns the ID of the author.
+Returns the ID of the author.  
 Reference number: **{0.id}**
 
 #### {server.name}
@@ -41,5 +41,5 @@ Reference number: **{1}** or **{1.name}**
 
 #### {channel.name}
 
-Gets the name of the channel where the command was executed.
+Gets the name of the channel where the command was executed.  
 Reference number: **{2}** or **{2.name}**
