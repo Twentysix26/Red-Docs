@@ -1,3 +1,11 @@
+## Before PR
+Please make sure that you've completed the following steps
+
+ - [ ] Added frontmatter header to your doc based on [this guide](/README.MD)
+ - [ ] Formatted the doc to fit jekyll requirements based on [this guide](/README.MD)
+ - [ ] Added link to a sidebar based on [this guide](/README.MD)
+
+
 ## Doc info
 Please provide a required info on your PR
 
