@@ -41,8 +41,7 @@ A guide by orels1
 	
   do not close the terminal afterwards
 
-* While in Red's folder, type
-Download [this script](https://drive.google.com/uc?export=download&id=0B_mR_iWue1vSVXlNSktnZkJuTUk) and place the file inside your Red-DiscordBot folder, the same folder where red.py is.
+* While in Red's folder, download [this script](https://drive.google.com/uc?export=download&id=0B_mR_iWue1vSVXlNSktnZkJuTUk) and place the file inside your Red-DiscordBot folder, the same folder where red.py is.
 
 * Run `export PATH=$PATH:/usr/local/Cellar/opus/1.1.2/lib/` in the terminal
   
