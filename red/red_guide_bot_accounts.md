@@ -21,7 +21,7 @@ This means that once you create a bot account, you cannot log into it. This is n
 This is saying that you cannot add a bot to your friends list (which is a lie!). ![proof](https://i.imgur.com/pagjorI.png)
 ![bs](http://i.imgur.com/0DSbAs4.gif)
 
-## Bot Invites
+### Bot Invites
 
 >Bots cannot accept invites.
 
