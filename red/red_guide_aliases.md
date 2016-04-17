@@ -45,18 +45,21 @@ You can use the command inputs like normal
 
 ### This will seriously break stuff
 
-***Only proceed if you know what you are doing, and how to undo things. This will void your support warranty.***
+***Only proceed if you know what you are doing, and how to undo things. This will void your support warranty.***  
+**This will probably also make it more difficult to update your bot**
 
 What this alias will do is allow you to install cogs from github links or discord attachments, but it requires some editing. **You _shouldn't really_ do this, but if you do, and it breaks, it isn't our fault. You read this disclaimer. Period.**  
 
-Here we will edit `red.py`. So y'know, dangerous and all.  
-What you want to do is at the top write:
+Here we will edit `red.py`. So y'know, dangerous and all.
 
-```py
-import subprocess
-```
+You can edit `red.py` two ways:  
+  1. open `red.py` and place `import subprocess` in with the other imports  
+  2. for the lazy:  
+    1. add the import to `red2.py`: **`!debug (lambda: open("red2.py", 'w'))().write("import subprocess\n"+"".join(list(open('red.py'))))`**  
+    2. overwrite `red.py` with `red2.py`: **`!debug (lambda: open("red.py", 'w'))().write("".join(list(open('red2.py'))))`**  
+    3. double check `import subprocess` is in `red.py`: **`!debug "".join(list(open('red.py')))[:500]`**  
 
-and that's it! Every time you update the bot, you will have to repeat this process.
+You may need to repeat this process when you update your bot, depending on how you update.
 
 Next, type 
 
