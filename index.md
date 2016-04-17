@@ -19,7 +19,7 @@ Red is in continuous development and new features get added all the time. Stay t
 
 * [How to install on Linux, general steps](/Red-Docs/red_install_linux/)
 
-* [Autorestarting (upstart)](/Red-Docs/red_linux_upstart/)
+* [Autorestarting (upstart)](/Red-Docs/red_guide_linux_upstart/)
 
 ### Mac
 
