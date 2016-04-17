@@ -72,6 +72,8 @@ Luckily for you, up until the ***1st of May 2016***, you can convert existing us
 5. ...
 6. Profit  
 
+You can access your new accounts token from the [applications page](https://discordapp.com/developers/applications/me) at any time. ***Be aware that clicking "Show token" will generate a new one, thus your login details will need to be updated.***
+
 ### Convert manually (for if the above script fails)
 
 ***This assumes you are using a Linux or Mac machine.***
