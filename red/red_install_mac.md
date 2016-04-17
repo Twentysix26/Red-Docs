@@ -41,7 +41,8 @@ A guide by orels1
 	
   do not close the terminal afterwards
 
-* Download <a href="https://gist.githubusercontent.com/Twentysix26/17ea542e0879a9da299a/raw/81e6fec77206200780808815dd67dc24e0b8106a/macRedLoop.sh">this script</a> and place the file inside your Red-DiscordBot folder, the same folder where red.py is.
+* While in Red's folder, type
+Download [this script](https://drive.google.com/uc?export=download&id=0B_mR_iWue1vSVXlNSktnZkJuTUk) and place the file inside your Red-DiscordBot folder, the same folder where red.py is.
 
 * Run `export PATH=$PATH:/usr/local/Cellar/opus/1.1.2/lib/` in the terminal
   
