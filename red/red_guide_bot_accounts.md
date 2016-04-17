@@ -46,7 +46,7 @@ Standard users are restricted to sending a certain amount of messages per minute
 
 ***Note:*** *This is not implemented into Red* ***yet***.
 
-# Creating a new bot account
+## Creating a new bot account
 
 1. Head over to https://discordapp.com/developers/applications/me
 2. Click "new application". Give it a name, picture and description.
@@ -109,7 +109,7 @@ You should get back something that looks like this:
 ```
 Copy down the `token` and the `id`. These will be what is used for OAuth requests and logging in to the bot. You can always access them again on the [applications page](https://discordapp.com/developers/applications/me). *Note that clicking "show token" will generate a new one, thus requiring you to reset `settings.json`*
 
-# Logging in with a token
+## Logging in with a token
 
 If your bot was previously a user account, delete `/data/red/settings.json`. This will reset the bot login details, and allow you to login using a token.
 
