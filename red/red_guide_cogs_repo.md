@@ -11,7 +11,7 @@ If any of these cogs are outdated or don't work, send `fishyfing` a PM, and he'l
 
 ## Installation  
 
-Download the file (CTRL + S or cmd + S) and copy to `/Red-DiscordBot/cogs/`
+Download the file and copy to `/Red-DiscordBot/cogs/`
 
 ## List of cogs  
 
