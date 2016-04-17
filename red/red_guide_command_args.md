@@ -11,11 +11,11 @@ Command arguments are shortcuts that pull data straight from the API wrapper. Th
 ## The arguments
 
 All arguments can be referenced by name, but also by number. The ones currently available in Red are:  
-* {author.name}
-* {author.mention}
-* {author.id}
-* {server.name}
-* {channel.name}
+* {author.name}  
+* {author.mention}  
+* {author.id}  
+* {server.name}  
+* {channel.name}  
 
 ### What do they do?
 
