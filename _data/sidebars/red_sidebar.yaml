@@ -79,6 +79,10 @@ entries:
       url: /red_guide_bot_accounts/
       output: web
 
+    - title: Command Arguments
+      url: /red_guide_command_args/
+      output: web
+
   - title: Custom cogs
     output: web
     folderitems:
