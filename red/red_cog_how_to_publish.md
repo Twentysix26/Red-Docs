@@ -29,10 +29,12 @@ Once you're sure that your cog meets the requirements, this is how you proceed:
  * No multiple *.py files in the root folder 
 
 Example:  
+```
 yourcog/testcog.py  
 yourcog/data/text.json  
 yourcog/data/text2.json  
 yourcog/data/moredata/text.json
+```
 
 When the user installs your cog, the installer will take care of taking your data files and put them in /data/yourcog/, so you can expect them to be there once your cog gets installed.  
 

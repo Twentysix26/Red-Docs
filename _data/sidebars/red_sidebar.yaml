@@ -92,5 +92,5 @@ entries:
       output: web
 
     - title: Unofficial cogs
-      url: /red_guide_cogs_repo/
+      url: /red_cog_unofficial_repo/
       output: web
