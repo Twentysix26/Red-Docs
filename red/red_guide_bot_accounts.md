@@ -65,7 +65,11 @@ Luckily for you, up until the ***1st of May 2016***, you can convert existing us
 ### Convert automatically
 
 1. Download [this script](https://gist.github.com/Twentysix26/c2e5f0e9c0120308122361566c2c997e). **This is not a cog.**
-2. Run it ***in the terminal***
+2. Open the script  
+Windows users:  
+  * Double click on it  
+Linux/Mac users:  
+  * Run it ***in the terminal***
   * To do this, open the terminal and type `cd /path/to/file/` then `python3 bot_conversion.py`
 3. Enter your own details
 4. Enter your bot account's details
