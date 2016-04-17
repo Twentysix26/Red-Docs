@@ -6,7 +6,9 @@ permalink: /red_install_win/
 
 > Disclaimer: if you modify tracked files (like .py) and then update with git, it might cause a conflict. I won't explain what to do in that case as this guide is mostly for normal users, but there are plenty of good git guides out there
 
-This miniguide is Windows oriented but you can do the same on Linux, through the console.
+**This miniguide is _Windows oriented_ but you can do the same on Linux, through the console.**
+
+## Install using git
 
 Assuming you have already installed the [requirements](https://github.com/Twentysix26/Red-DiscordBot/wiki/Requirements), it's now time to install Red.
 
@@ -21,11 +23,12 @@ Assuming you have already installed the [requirements](https://github.com/Twenty
 ```
 git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 ```
+
 Git should now start downloading the files and put everything into a folder called "Red-DiscordBot".  
 
 This is pretty much it. If you haven't already, [make a new account for the bot](https://discordapp.com/) and join your own server with it.  
 
-Enter the folder, run startRed.bat (or startRedLoop.bat for auto restart in case of error) and follow the instructions.
+Enter the folder, run startRed.bat *(or startRedLoop.bat for auto restart in case of error)* and follow the instructions for setup.
 
 And we're done. 
 

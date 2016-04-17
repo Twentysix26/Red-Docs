@@ -1,5 +1,5 @@
 ---
-title: Install of Fedora
+title: Install on Fedora
 sidebar: red_sidebar
 permalink: /red_install_fedora/
 ---
