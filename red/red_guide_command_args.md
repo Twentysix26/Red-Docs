@@ -43,3 +43,10 @@ Reference number: **{1}** or **{1.name}**
 
 Gets the name of the channel where the command was executed.  
 Reference number: **{2}** or **{2.name}**
+
+## Examples
+
+* `!addcom kickme :boot: {author.name}`
+* `!addcom greet hi {author.mention}! welcome to {server.name}!`
+* `!addcom whereami? you're in {channel.name}.. dumby`
+* `!addcom id {author.id}`
