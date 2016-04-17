@@ -90,3 +90,7 @@ entries:
     - title: Publish your cog
       url: /red_cog_how_to_publish/
       output: web
+
+    - title: Unofficial cogs
+      url: /red_guide_cogs_repo/
+      output: web
