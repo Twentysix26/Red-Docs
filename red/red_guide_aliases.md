@@ -32,16 +32,16 @@ You can use the command inputs like normal
 
 ### For the average user
 
-`!alias add volume audioset volume` - Volume control
-`!alias add q queue` - Saves typing
-`!alias add wiki wikipedia` - For the lazy
-`!alias add g google` - For the lazy... again.
-`!alias add nudes gifr penguins` - ( ͡° ͜ʖ ͡°)
+* `!alias add volume audioset volume` - Volume control
+* `!alias add q queue` - Saves typing
+* `!alias add wiki wikipedia` - For the lazy
+* `!alias add g google` - For the lazy... again.
+* `!alias add nudes gifr penguins` - ( ͡° ͜ʖ ͡°)
 
 ### For people who somewhat know what they are doing
 
-`!alias add coglist debug sorted(bot.cogs.keys())` - Displays all of your cogs
-`!alias add postcog debug (lambda fname, ctx=ctx: bot.send_file(ctx.message.channel,"cogs/"+fname+".py"))` - Posts a cog to chat. Format: `!postcog ('<cogname>')` **Use for debugging only.**
+* `!alias add coglist debug sorted(bot.cogs.keys())` - Displays all of your cogs
+* `!alias add postcog debug (lambda fname, ctx=ctx: bot.send_file(ctx.message.channel,"cogs/"+fname+".py"))` - Posts a cog to chat. Format: `!postcog ('<cogname>')` **Use for debugging only.**
 
 ### This will seriously break stuff
 
