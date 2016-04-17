@@ -14,7 +14,7 @@ topnav_dropdowns:
       folderitems:
         - title: Github Repo
           external_url: https://github.com/Twentysix26/Red-DiscordBot
-        -title: Support Server
+        - title: Support Server
           external_url: https://discord.gg/0k4npTwMvTpv9wrh
         - title: Unofficial Discord API documentation
           external_url: https://discordpy.readthedocs.org/en/async/
