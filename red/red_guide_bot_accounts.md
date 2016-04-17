@@ -14,7 +14,7 @@ Next, the differences between normal user accounts and bot accounts.
 
 >Bots within the Discord API are a separate type of users that are owned by applications (which are owned by users), and authenticate to the system using a token rather than a username and password. Anybody wishing to create a public bot **must** use a bot account and the OAuth2 API.
 
-This means that once you create a bot account, you cannot log into it. This is normally fine, unless you are [converting a user account](#converting-an-account). Basically, what the extract above says is that you ***cannot*** login to your bot account, as it doesn't have an email or password.
+This means that once you create a bot account, you cannot log into it. This is normally fine, unless you are [converting a user account](#converting-a-user-account). Basically, what the extract above says is that you ***cannot*** login to your bot account, as it doesn't have an email or password.
 
 >Bots cannot utilize the friends list feature.
 
@@ -72,7 +72,7 @@ Luckily for you, up until the ***1st of May 2016***, you can convert existing us
 5. ...
 6. Profit  
 
-You can access your new accounts token from the [applications page](https://discordapp.com/developers/applications/me) at any time. ***Be aware that clicking "Show token" will generate a new one, thus your login details will need to be updated.***
+You can now [login](#logging-in-with-a-token) using your new token. You can access your new bot account's token from the [applications page](https://discordapp.com/developers/applications/me) at any time. ***Be aware that clicking "Show token" will generate a new one, thus your login details will need to be updated.***
 
 ### Convert manually (for if the above script fails)
 
