@@ -4,7 +4,7 @@ sidebar: red_sidebar
 permalink: /red_guide_aliases/
 ---
 
-![](https://img.shields.io/badge/Guide%20by-irdumb-aa00ff.svg)  
+## What are aliases?
 
 Being able to add aliases is a useful function of the bot that is often overlooked.  
 
@@ -27,3 +27,37 @@ _flips a coin and... HEADS!_
 You can use the command inputs like normal  
 `!NO Kowlin`  
 (╯°□°）╯︵ uᴉlʍoʞ  
+
+## Some useful aliases
+
+### For the average user
+
+`!alias add volume audioset volume` - Volume control
+`!alias add q queue` - Saves typing
+`!alias add wiki wikipedia` - For the lazy
+`!alias add g google` - For the lazy... again.
+`!alias add nudes gifr penguins` - ( ͡° ͜ʖ ͡°)
+
+### For people who somewhat know what they are doing
+
+`!alias add coglist debug sorted(bot.cogs.keys())` - Displays all of your cogs
+`!alias add postcog debug (lambda fname, ctx=ctx: bot.send_file(ctx.message.channel,"cogs/"+fname+".py"))` - Posts a cog to chat. Format: `!postcog ('<cogname>')` **Use for debugging only.**
+
+### This will seriously break stuff
+
+***Only proceed if you know what you are doing, and how to undo things. This will void your support warranty.***
+
+What this alias will do is allow you to install cogs from github links or discord attachments, but it requires some editing. **You _shouldn't really_ do this, but if you do, and it breaks, it isn't our fault. You read this disclaimer. Period.**  
+
+Here we will edit `red.py`. So y'know, dangerous and all.  
+What you want to do is at the top write:
+
+```py
+import subprocess
+```
+
+and that's it! Every time you update the bot, you will have to repeat this process.
+
+Next, type `!alias add install debug (lambda fn_or_url, core_cog=0: 'Installed. Make sure to (re)load the cog.'*int(0==(lambda url: subprocess.call(['wget', '-P', 'cogs', '-N', url]))((lambda c=fn_or_url, co=core_cog: (c.replace('https://github.com/','https://raw.githubusercontent.com/')).replace('/blob','') if '.' in c or '/' in c else 'https://raw.githubusercontent.com/Twentysix26/Red-DiscordBot/develop/cogs/' +c+'.py' if bool(co) else 'https://raw.githubusercontent.com/Twentysix26/Red-Cogs/master/cogs'+('/'+c)*2+'.py')())))`
+
+To use this command, it's almost identical to `!postcog`. Type `!install ('<link>')`, and load the cog once done.
