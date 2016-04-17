@@ -58,6 +58,6 @@ import subprocess
 
 and that's it! Every time you update the bot, you will have to repeat this process.
 
-Next, type `!alias add install debug (lambda fn_or_url, core_cog=0: 'Installed. Make sure to (re)load the cog.'*int(0==(lambda url: subprocess.call(['wget', '-P', 'cogs', '-N', url]))((lambda c=fn_or_url, co=core_cog: (c.replace('https://github.com/','https://raw.githubusercontent.com/')).replace('/blob','') if '.' in c or '/' in c else 'https://raw.githubusercontent.com/Twentysix26/Red-DiscordBot/develop/cogs/' +c+'.py' if bool(co) else 'https://raw.githubusercontent.com/Twentysix26/Red-Cogs/master/cogs'+('/'+c)*2+'.py')())))`
+Next, type ```!alias add install debug (lambda fn_or_url, core_cog=0: 'Installed. Make sure to (re)load the cog.'*int(0==(lambda url: subprocess.call(['wget', '-P', 'cogs', '-N', url]))((lambda c=fn_or_url, co=core_cog: (c.replace('https://github.com/','https://raw.githubusercontent.com/')).replace('/blob','') if '.' in c or '/' in c else 'https://raw.githubusercontent.com/Twentysix26/Red-DiscordBot/develop/cogs/' +c+'.py' if bool(co) else 'https://raw.githubusercontent.com/Twentysix26/Red-Cogs/master/cogs'+('/'+c)*2+'.py')())))```
 
 To use this command, it's almost identical to `!postcog`. Type `!install ('<link>')`, and load the cog once done.
