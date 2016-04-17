@@ -67,9 +67,10 @@ Luckily for you, up until the ***1st of May 2016***, you can convert existing us
 1. Download [this script](https://gist.github.com/Twentysix26/c2e5f0e9c0120308122361566c2c997e).
 2. Run it ***in the terminal***
   * To do this, type `cd /path/to/file/` then `python3 bot_conversion.py`
-3. Enter your details
-4. ...
-5. Profit  
+3. Enter your own details
+4. Enter your bot account's details
+5. ...
+6. Profit  
 
 ### Convert manually (for if the above script fails)
 
