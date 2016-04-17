@@ -4,8 +4,9 @@ sidebar: red_sidebar
 permalink: /red_guide_cogs_repo/
 ---
 
+# Official Cogs can be downloaded from inside the bot. Do `!cog list` for official cogs.
 
-***Disclaimer: these have not been screened by the almighty overlord, Twentysix. It is your own fault if something goes wrong whilst installing/using these cogs, and we are not liable to help you fix it.***  
+***Disclaimer: these have not been screened by the almighty overlord, Twentysix. It is your own fault if something goes wrong whilst installing/using these cogs, and we are not liable to help you fix it.*** Despite this, they *should* be stable.
 
 If any of these cogs are outdated or don't work anymore, send `fishyfing` a PM, and he'll update the repo. For general help, ask the cog creator.  
 
