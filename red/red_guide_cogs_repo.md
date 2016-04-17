@@ -7,7 +7,7 @@ permalink: /red_guide_cogs_repo/
 
 ***Disclaimer: these have not been screened by the almighty overlord, Twentysix. It is your own fault if something goes wrong whilst installing/using these cogs, and we are not liable to help you fix it.***  
 
-If any of these cogs are outdated or don't work, send `fishyfing` a PM, and he'll update the repo.  
+If any of these cogs are outdated or don't work anymore, send `fishyfing` a PM, and he'll update the repo. For general help, ask the cog creator.  
 
 ## Installation  
 
