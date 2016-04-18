@@ -57,7 +57,8 @@ sudo pip3.5 install imgurpython
 git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 ```
 
-If all is done correctly, your main folder should look like this: ![mainfolderlinux](https://i.imgur.com/9pwxtYm.png)
+If all is done correctly, your main folder should look like this:  
+![mainfolderlinux](https://i.imgur.com/9pwxtYm.png)
 
 #### Running Red  
 ```
