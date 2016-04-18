@@ -39,7 +39,7 @@ A guide by orels1
 	  git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 	```
 	
-  do not close the terminal afterwards
+  Do not close the terminal afterwards. If this works, your main folder should look like this: ![mainfolderosx](https://i.imgur.com/M2qXWG3.png)
 
 * While in Red's folder, download [this script](https://drive.google.com/uc?export=download&id=0B_mR_iWue1vSVXlNSktnZkJuTUk) and place the file inside your Red-DiscordBot folder, the same folder where red.py is.
 
