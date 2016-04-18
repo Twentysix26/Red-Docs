@@ -31,7 +31,7 @@ This is the most important change. Bot accounts cannot accept invites normally, 
 
 To get your own link, just replace `168453097859973120` with your own client ID from the [applicatons page](https://discordapp.com/developers/applications/me).  
 If you wish to add your bot to the [support server](https://discord.gg/0k4npTwMvTpv9wrh), use `?addbot <OAuth URL>`.  
-If you want to add specific permissions (disabled in the support server - ***no tring to take over!***), then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x`, replacing x with the number given.
+If you want to add specific permissions (disabled in the support server - ***no trying to take over!***), then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x`, replacing x with the number given.
 
 ### Other Differences
 
