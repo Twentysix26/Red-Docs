@@ -99,6 +99,10 @@ entries:
       url: /red_cog_dota/
       output: web
 
+    - title: Subcommands
+      url: /red_guide_subcommands
+      output: web
+
     - title: Unofficial cogs
       url: /red_guide_cogs_repo/
       output: web
