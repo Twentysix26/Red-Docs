@@ -34,7 +34,7 @@ Well, with subcommands, you change it to this:
 async def mycommand()
 ```
 
-This tells Red that whenever `command` is triggered, it should look out for a subcommand.
+This tells Red that whenever `!mycommand` is triggered, it should look out for a subcommand.
 
 To add a subcommand, you would type:
 

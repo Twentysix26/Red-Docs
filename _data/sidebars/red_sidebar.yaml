@@ -95,12 +95,12 @@ entries:
       url: /red_cog_how_to_publish/
       output: web
 
-    - title: Dota 2
-      url: /red_cog_dota/
-      output: web
-
     - title: Subcommands
       url: /red_guide_subcommands
+      output: web
+
+    - title: Dota 2
+      url: /red_cog_dota/
       output: web
 
     - title: Unofficial cogs
