@@ -10,7 +10,7 @@ permalink: /red_install_win/
 
 ## Install using git
 
-Assuming you have already installed the [requirements](https://github.com/Twentysix26/Red-DiscordBot/wiki/Requirements), it's now time to install Red.
+Assuming you have already installed the [requirements](/Red-Docs/red_win_requirements), it's now time to install Red.
 
 * Go to the folder you want to install Red in. Right click. This is what you should see.  
 ![Git bash](http://i.imgur.com/32M4VPo.png)

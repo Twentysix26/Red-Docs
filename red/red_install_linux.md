@@ -61,6 +61,9 @@ If all is done correctly, your main folder should look like this:
 ![mainfolderlinux](https://i.imgur.com/9pwxtYm.png)
 
 #### Running Red  
+
+Want Red to autorestart whenever it crashes? Follow [this guide](/red_guide_linux_upstart)
+
 ```
 cd Red-DiscordBot
 python3.5 red.py
