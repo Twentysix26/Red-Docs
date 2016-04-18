@@ -12,7 +12,7 @@ If used right, aliases can add a lot to the bot and to your community with littl
 With a little creative thinking and maybe some coding here and there, aliases can add a lot of functionality that isn't inherent in the bot.
 
 
-This page will assume you have `!` as your prefix. If you have a different prefix, simple substitute `!` with yours.
+This page will assume you have `!` as your prefix. If you have a different prefix, simply substitute `!` with yours.
 
 First comes first. Do `!help Alias` and look through the commands a bit. Try making some of your own aliases.
 
@@ -53,11 +53,12 @@ What this alias will do is allow you to install cogs from github links or discor
 Here we will edit `red.py`. So y'know, dangerous and all.
 
 You can edit `red.py` two ways:  
-  1. open `red.py` and place `import subprocess` in with the other imports  
-  2. for the lazy:  
-    1. add the import to `red2.py`: **`!debug (lambda: open("red2.py", 'w'))().write("import subprocess\n"+"".join(list(open('red.py'))))`**  
-    2. overwrite `red.py` with `red2.py`: **`!debug (lambda: open("red.py", 'w'))().write("".join(list(open('red2.py'))))`**  
-    3. double check `import subprocess` is in `red.py`: **`!debug "".join(list(open('red.py')))[:500]`**  
+  1. **Manually** 
+     * Open `red.py` and place `import subprocess` in with the other imports  
+  2. For the lazy:  
+     1. Add the import to `red2.py`: `!debug (lambda: open("red2.py", 'w'))().write("import subprocess\n"+"".join(list(open('red.py'))))`  
+     2. Overwrite `red.py` with `red2.py`: `!debug (lambda: open("red.py", 'w'))().write("".join(list(open('red2.py'))))`  
+     3. Double check `import subprocess` is in `red.py`: `!debug "".join(list(open('red.py')))[:500]`  
 
 You may need to repeat this process when you update your bot, depending on how you update.
 

@@ -49,7 +49,7 @@ Standard users are restricted to sending a certain amount of messages per minute
 
 ## Creating a new bot account
 
-1. Head over to https://discordapp.com/developers/applications/me
+1. Head over to the [applicatons page](https://discordapp.com/developers/applications/me).
 2. Click "new application". Give it a name, picture and description.
 3. Click "Create Bot User" and click "Yes, Do It!" when the dialog pops up.
 4. Copy down the `token`. This is what is used to login to Red.
@@ -98,7 +98,7 @@ Follow the above stepes except this time, ***login to your bot's user account***
 
 #### Step 3: Create a Discord application
 
-1. Navigate to https://discordapp.com/developers/applications/me and click 'New Application'. Enter a name and press create.
+1. Navigate to [the applications page](https://discordapp.com/developers/applications/me) and click 'New Application'. Enter a name and press create.
 2. Copy the `Client ID` This will be used to add your account to the application.
 
 #### Step 4: Convert the account
@@ -111,7 +111,7 @@ Follow the above stepes except this time, ***login to your bot's user account***
 5. Type `https://discordapp.com/api/oauth2/applications/APPLICATION_ID/bot` Replace `APPLICATION_ID` with the `Client ID` we grabbed earlier.  
 
 You should get back something that looks like this: 
-```python
+```py
 {"username": "RED", "bot": true, "token": "YOUR BOTS NEW TOKEN", "avatar": "338f4d9d97056ae22c4a3feab5f0da07",
 "discriminator": "1550", "id": "132254000253894656"}
 ```
