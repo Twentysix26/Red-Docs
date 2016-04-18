@@ -27,7 +27,7 @@ Red is in continuous development and new features get added all the time. Stay t
 
 ## How to use
 
-* [Some general tips](/Red-Docs/red_general-tips)
+* [Some general tips](/Red-Docs/red_general_tips)
 
 * [Command list](/Red-Docs/red_commands/)
 
