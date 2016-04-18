@@ -111,7 +111,7 @@ Follow the above stepes except this time, ***login to your bot's user account***
 5. Type `https://discordapp.com/api/oauth2/applications/APPLICATION_ID/bot` Replace `APPLICATION_ID` with the `Client ID` we grabbed earlier.  
 
 You should get back something that looks like this: 
-```py
+```
 {"username": "RED", "bot": true, "token": "YOUR BOTS NEW TOKEN", "avatar": "338f4d9d97056ae22c4a3feab5f0da07",
 "discriminator": "1550", "id": "132254000253894656"}
 ```
