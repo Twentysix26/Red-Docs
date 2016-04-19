@@ -19,7 +19,7 @@ Download the file and copy to `/Red-DiscordBot/cogs/`
 ### Emotes  
 
 This cog adds a listener that detects when Twitch emotes are said in chat. It will then post an image of that emote.  
-[Download](https://cdn.discordapp.com/attachments/133251234164375552/171209731812229122/emotes.py)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot)  
 Author: Will
 
 ### Sadface  
@@ -37,37 +37,37 @@ Author: irdumb
 ### Mention Tracker  
 
 Logs all of your mentions while you are offline, and PMs you them.  
-[Download](https://cdn.discordapp.com/attachments/133251234164375552/171209830902661120/mentiontracker.py)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot)  
 Author: Will
 
 ### Bot Info  
 
 Displays a customizable welcome message when the bot joins a server. Only neccessary for public bots. Not that we're gonna stop you...  
 **Make sure to edit the welcome message by opening the file in your preferred text editor.**  
-[Download](https://cdn.discordapp.com/attachments/133251234164375552/171209888813416449/botinfo.py)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot)  
 Author: Will
 
 ### Nickometer
 
 Rates a user's nickname based on lameness.  
-[Download](https://cdn.discordapp.com/attachments/133251234164375552/171210269479927809/nickometer.py)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot)  
 Author: Will
 
 ### RSS
 
 Gets RSS feeds and posts them to chat.  
-[Download](https://cdn.discordapp.com/attachments/133251234164375552/171210487571283969/rss.py)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot)  
 Author: Will
 
 ### ASCII
 
 Takes the user's text and turns it into simple ASCII art.  
 **Requires you to install `sudo pip3 install pyfiglet`**  
-[Download](https://cdn.discordapp.com/attachments/133251234164375552/171211952113057793/ascii.py)
+[Repo](https://github.com/tekulvw/Red-DiscordBot)
 Author: Will
 
 ### Logger
 
 Logs original messages in channels, so you can see who edited them. Log is stored in `/data/logger`, and is channel specific.  
-[Download](https://cdn.discordapp.com/attachments/133251234164375552/171213855857311745/logger.py)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot)  
 Author: Will
