@@ -24,7 +24,8 @@ Author: Will
 
 ### Sadface  
 
-Similar to the emotes cog, this posts the BTTV sadface whenever `D:` is typed in chat.  
+Displays BTTV sadface when `D:` is typed in chat.  
+Made per request, this cog is now used as an example for people that want to create cogs like Emotes or Saltbot's salt.  
 [Download](https://cdn.discordapp.com/attachments/133251234164375552/171209522692489218/sadface.py)  
 Author: irdumb
 
