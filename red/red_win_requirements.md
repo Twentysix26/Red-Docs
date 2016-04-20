@@ -3,11 +3,15 @@ title: Windows requirements
 sidebar: red_sidebar
 permalink: /red_win_requirements/
 ---
- 
-### Software
-- [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior. Remember to check ["Add python to path"](http://i.imgur.com/dfsaVLx.png).  
 
-- [Install Git](https://git-scm.com/download/win), don't forget to check ["Use Git from the Windows Command Prompt"](http://i.imgur.com/guis7EE.png)  
+### Software
+- [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior. Remember to check ```Add Python to Path```
+
+<img src="http://i.imgur.com/dfsaVLx.png" alt="Drawing" style="width: 300px;"/>
+
+- [Install Git](https://git-scm.com/download/win), don't forget to check ```Run git from the Windows Command Prompt```
+
+<img src="http://i.imgur.com/guis7EE.png" alt="Drawing" style="width: 300px;"/>
 
 ### Python libraries
 
@@ -45,4 +49,3 @@ If you're on Windows, it's time to install Red herself.
 [Proceed here](/Red-Docs/red_install_win).  
 
 On Linux, your requirements are not yet fully installed. Proceed with [this guide](/Red-Docs/red_install_linux).
-
