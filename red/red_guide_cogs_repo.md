@@ -19,7 +19,7 @@ Download the file and copy to `/Red-DiscordBot/cogs/`
 ### Emotes  
 
 This cog adds a listener that detects when Twitch emotes are said in chat. It will then post an image of that emote.  
-[Repo](https://github.com/tekulvw/Red-DiscordBot)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot/blob/develop/cogs/emotes.py)  
 Author: Will
 
 ### Sadface  
@@ -29,46 +29,40 @@ Made per request, this cog is now used as an example for people that want to cre
 [Download](https://cdn.discordapp.com/attachments/133251234164375552/171209522692489218/sadface.py)  
 Author: irdumb
 
-### Prefixes - Currently broken  
-
-Checks the availability of prefixes.  
-[Download](https://cdn.discordapp.com/attachments/133251234164375552/171209593773490177/prefixes.py)  
-Author: irdumb
-
 ### Mention Tracker  
 
 Logs all of your mentions while you are offline, and PMs you them.  
-[Repo](https://github.com/tekulvw/Red-DiscordBot)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot/blob/develop/cogs/mentiontracker.py)  
 Author: Will
 
 ### Bot Info  
 
 Displays a customizable welcome message when the bot joins a server. Only neccessary for public bots. Not that we're gonna stop you...  
 **Make sure to edit the welcome message by opening the file in your preferred text editor.**  
-[Repo](https://github.com/tekulvw/Red-DiscordBot)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot/blob/develop/cogs/botinfo.py)  
 Author: Will
 
 ### Nickometer
 
 Rates a user's nickname based on lameness.  
-[Repo](https://github.com/tekulvw/Red-DiscordBot)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot/blob/develop/cogs/nickometer.py)  
 Author: Will
 
 ### RSS
 
 Gets RSS feeds and posts them to chat.  
-[Repo](https://github.com/tekulvw/Red-DiscordBot)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot/blob/develop/cogs/rss.py)  
 Author: Will
 
 ### ASCII
 
 Takes the user's text and turns it into simple ASCII art.  
 **Requires you to install `sudo pip3 install pyfiglet`**  
-[Repo](https://github.com/tekulvw/Red-DiscordBot)
+[Repo](https://github.com/tekulvw/Red-DiscordBot/blob/develop/cogs/ascii.py)
 Author: Will
 
 ### Logger
 
 Logs original messages in channels, so you can see who edited them. Log is stored in `/data/logger`, and is channel specific.  
-[Repo](https://github.com/tekulvw/Red-DiscordBot)  
+[Repo](https://github.com/tekulvw/Red-DiscordBot/blob/develop/cogs/logger.py)  
 Author: Will
