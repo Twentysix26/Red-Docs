@@ -8,7 +8,7 @@ permalink: /red_guide_bot_accounts/
 
 ## What is a bot account?
 
-A bot account is different to a normal account. Any public bot account will have this ![Bot tag](https://i.imgur.com/OQufliA.png "Bot Tag") next to them, and this is a *must* for all public bot accounts (aka a bot that is on a server you aren't on). If you don't have one of these by the **1st May 2016**, your account will be forcibly converted.
+A bot account is different to a normal account. Any public bot account will have this ![Bot tag](https://i.imgur.com/OQufliA.png "Bot Tag") next to them, and this is a *must* for all public bot accounts (aka a bot which you can publically get an invite link for). If you don't have one of these by the **1st May 2016** and you have a public bot account, your account will be forcibly converted.
 
 Next, the differences between normal user accounts and bot accounts.
 
