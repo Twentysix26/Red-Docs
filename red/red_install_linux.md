@@ -2,6 +2,7 @@
 title: Installing on Ubuntu/Debian
 sidebar: red_sidebar
 permalink: /red_install_linux/
+last_updated: April 21, 2016
 ---
 
 ### Repositories

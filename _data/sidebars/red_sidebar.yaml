@@ -79,6 +79,10 @@ entries:
       url: /red_guide_bot_accounts/
       output: web
 
+    - title: Converting Accounts
+      url: /red_guide_convert_account/
+      output: web
+
     - title: Command Arguments
       url: /red_guide_command_args/
       output: web

@@ -2,6 +2,7 @@
 title: Windows requirements
 sidebar: red_sidebar
 permalink: /red_win_requirements/
+last_updated: April 21, 2016
 ---
 
 ### Software
