@@ -2,6 +2,7 @@
 title: Bot accounts
 sidebar: red_sidebar
 permalink: /red_guide_bot_accounts/
+last_edited: 21 April, 2016
 ---
 
 ![](https://img.shields.io/badge/Guide%20by-fishyfing-blue.svg)
