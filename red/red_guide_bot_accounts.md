@@ -79,7 +79,7 @@ Linux/Mac users:
 
 You can now [login](#logging-in-with-a-token) using your new token. You can access your new bot account's token from the [applications page](https://discordapp.com/developers/applications/me) at any time. ***Be aware that clicking "Show token" will generate a new one, thus your login details will need to be updated.***
 
-### Convert manually (for if the above script fails)
+### Convert manually
 
 ***This assumes you are using a Linux or Mac machine.***
 
