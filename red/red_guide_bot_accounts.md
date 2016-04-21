@@ -32,7 +32,7 @@ This is the most important change. Bot accounts cannot accept invites normally, 
 
 To get your own link, just replace `168453097859973120` with your own client ID from the [applicatons page](https://discordapp.com/developers/applications/me).  
 If you wish to add your bot to the [support server](https://discord.gg/0k4npTwMvTpv9wrh), use `?addbot <OAuth URL>`.  
-If you want to add specific permissions (disabled in the support server - ***no trying to take over!***), then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x`, replacing x with the number given.
+If you want to add specific permissions, then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x`, replacing x with the number given.
 
 ### Other Differences
 
@@ -46,7 +46,7 @@ Standard users are restricted to sending a certain amount of messages per minute
 
 >Bots can join more than one voice channel at a time.
 
-***Note:*** *This is not implemented into Red* ***yet***.
+{{site.data.alerts.note}}This is not implemented into Red *yet*.{{site.data.alerts.end}}
 
 ## Creating a new bot account
 
@@ -56,3 +56,12 @@ Standard users are restricted to sending a certain amount of messages per minute
 4. Copy down the `token`. This is what is used to login to Red.
 
 Here's a handy gif to explain the process. ![oauth new bot](http://i.imgur.com/Y2ouW7I.gif)
+
+## Logging in with a token
+
+First things first, update discord.py `pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async`, then update Red by starting a terminal in Red's main folder, and typing `git pull`.
+
+If your bot was previously a user account, delete `/data/red/settings.json`. This will reset the bot login details, and allow you to login using a token.
+
+Upon startup, you should receive a screen that looks like this: ![login](https://i.imgur.com/Y21YuDx.png)   
+Enter your token and press 'Enter'. You can now set up the bot normally.
