@@ -48,7 +48,7 @@ sudo pip3.5 install youtube_dl
 sudo pip3.5 install imgurpython
 ```   
 
-{{site.data.alerts.important}}  If you're getting the `Command "python setup.py egg_info"` error when installing discord.py, you'll have to do this firt: ```sudo apt-get install python3.5-dev build-essential libssl-dev libffi-dev```
+{{site.data.alerts.important}} If you're getting the `Command "python setup.py egg_info"` error when installing discord.py, you'll have to do this firt: ```sudo apt-get install python3.5-dev build-essential libssl-dev libffi-dev```{{site.data.alerts.end}}
 
 ### Red  
 ```
