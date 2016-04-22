@@ -37,7 +37,7 @@ pip3 install youtube_dl
 Of course .exe and .dll are only for Windows. [Linux users may refer to this](/Red-Docs/red_install_linux).
 
 {{site.data.alerts.warning}}The opus library bitness MUST match your python's installation bitness. For example, if you installed python 32bit your opus library MUST be 32bit too{{site.data.alerts.end}}  
-{{site.data.alerts.warning}}ffmpeg's bitness, however, MUST match your system's bitness. If you are on a 64bit system your ffmpeg MUST be 64bit too{{site.data.alerts.end}}
+ffmpeg's bitness, however, MUST match your system's bitness. If you are on a 64bit system your ffmpeg MUST be 64bit too{{site.data.alerts.end}}
 
 **cogs.image requirements:**
 
