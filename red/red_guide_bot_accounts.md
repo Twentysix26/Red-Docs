@@ -65,3 +65,13 @@ If your bot was previously a user account, delete `/data/red/settings.json`. Thi
 
 Upon startup, you should receive a screen that looks like this: ![login](https://i.imgur.com/Y21YuDx.png)   
 Enter your token and press 'Enter'. You can now set up the bot normally.
+
+## Adding the bot account to your server
+
+To add the bot to your server, you need 2 things. The ``Client ID`` from your [application page](https://discordapp.com/developers/applications/me) and the following link.
+```
+https://discordapp.com/oauth2/authorize?&client_id=<CLIENTID>&scope=bot
+```
+Insert the ``<CLIENTID`` part with your own client ID from the applications page, and visit that link in your browser. And select the server you want the bot to be in.
+
+![](http://i.imgur.com/OSZkU1k.gif)
