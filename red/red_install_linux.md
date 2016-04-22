@@ -55,7 +55,7 @@ sudo apt-get install python3.5-dev build-essential libssl-dev libffi-dev
 ```
 
 ### Red  
-{{site.data.alerts.note}} _Do *not*_ use sudo from now on! This will affect the permissions of the bot folder and will cause a failed installation!{{site.data.alerts.end}}
+{{site.data.alerts.note}}Do not use sudo from now on! This will affect the permissions of the bot folder and will cause a failed installation!{{site.data.alerts.end}}
 ```
 git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 ```
