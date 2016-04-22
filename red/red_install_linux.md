@@ -2,7 +2,7 @@
 title: Installing on Ubuntu/Debian
 sidebar: red_sidebar
 permalink: /red_install_linux/
-last_updated: April 21, 2016
+last_updated: April 22, 2016
 ---
 
 ### Repositories
@@ -55,6 +55,7 @@ sudo apt-get install python3.5-dev build-essential libssl-dev libffi-dev
 ```
 
 ### Red  
+{{site.data.alerts.note}} _Do *not*_ use sudo from now on! This will affect the permissions of the bot folder and will cause a failed installation!{{site.data.alerts.end}}
 ```
 git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 ```
@@ -64,7 +65,7 @@ If all is done correctly, your main folder should look like this:
 
 #### Running Red  
 
-Want Red to autorestart whenever it crashes? Follow [this guide](/Red-Docs/red_guide_linux_upstart)
+Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_guide_linux_upstart)
 
 ```
 cd Red-DiscordBot
@@ -72,6 +73,7 @@ python3.5 red.py
 ```
 
 #### Updating Red
+
 ```
 cd Red-DiscordBot
 git pull
