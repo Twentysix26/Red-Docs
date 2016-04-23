@@ -2,17 +2,17 @@
 title: Windows requirements
 sidebar: red_sidebar
 permalink: /red_win_requirements/
-last_updated: April 21, 2016
+last_updated: April 23, 2016
 ---
-
+ 
 ### Software
-- [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior. Remember to check ```Add Python to Path```
+- [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior.  
+{{site.data.alerts.important}}Remember to check "Add python to path"!{{site.data.alerts.end}}
+![]((http://i.imgur.com/dfsaVLx.png))  
 
-<img src="http://i.imgur.com/dfsaVLx.png" alt="Drawing" style="width: 300px;"/>
-
-- [Install Git](https://git-scm.com/download/win), don't forget to check ```Run git from the Windows Command Prompt```
-
-<img src="http://i.imgur.com/guis7EE.png" alt="Drawing" style="width: 300px;"/>
+- [Install Git](https://git-scm.com/download/win)  
+{{site.data.alerts.important}}Don't forget to check "Use Git from the Windows Command Prompt"{{site.data.alerts.end}}  
+![](http://i.imgur.com/guis7EE.png)  
 
 ### Python libraries
 
@@ -36,7 +36,7 @@ pip3 install youtube_dl
 [ffmpeg](https://www.ffmpeg.org/download.html) ([ffmpeg.exe](https://github.com/Twentysix26/Red-DiscordBot/raw/master/ffmpeg.exe), [ffplay.exe](https://github.com/Twentysix26/Red-DiscordBot/raw/master/ffplay.exe), [ffprobe.exe](https://github.com/Twentysix26/Red-DiscordBot/raw/master/ffprobe.exe)) and [libopus](https://www.opus-codec.org/downloads/) ([32bit](https://github.com/Twentysix26/Red-DiscordBot/raw/master/libopus-0.dll)/[64bit](https://cdn.discordapp.com/attachments/133049553984159745/155762132179222529/libopus-0.dll)) must be installed too. Either install them from their original source or download the linked files and put them in Red's main folder (when you  install it, as explained in [the next guide](/Red-Docs/red_install_win)).  
 Of course .exe and .dll are only for Windows. [Linux users may refer to this](/Red-Docs/red_install_linux).
 
-{{site.data.alerts.warning}}The opus library bitness MUST match your python's installation bitness. For example, if you installed python 32bit your opus library MUST be 32bit too. FFmpeg's bitness, however, MUST match your system's bitness. If you are on a 64bit system your ffmpeg MUST be 64bit too{{site.data.alerts.end}}
+_**NOTE: The opus library bitness MUST match your python's installation bitness, whereas your ffmpeg bitness much match your system's bitness. For example, if you installed python 32bit on a 64but system, your opus library MUST be 32bit and your ffmpeg must be 64bit**_
 
 **cogs.image requirements:**
 
@@ -50,3 +50,4 @@ If you're on Windows, it's time to install Red herself.
 [Proceed here](/Red-Docs/red_install_win).  
 
 On Linux, your requirements are not yet fully installed. Proceed with [this guide](/Red-Docs/red_install_linux).
+
