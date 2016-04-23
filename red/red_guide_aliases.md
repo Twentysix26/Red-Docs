@@ -35,7 +35,7 @@ You can use the command inputs like normal
 * `!alias add q queue` - Now just use `!q url` to queue a song or `!q` to list them!
 * `!alias add wiki wikipedia` - For the lazy
 * `!alias add g google` - Nobody's got time to write out google!
-* `!alias add volume audioset volume` - Now you only need to type `!volume` to set the volume
+* `!alias add volume audioset volume` - Now you only need to type `!volume` to set the volume.
 * `!alias add will 8` - Ask the 8 ball just by asking the question.
 * `!alias add nudes gifr penguins` - ( ͡° ͜ʖ ͡°)
 * `!alias add "🔪🖐" "" "" "" "" "" "" "‼😵🔴"` - Knife game.
