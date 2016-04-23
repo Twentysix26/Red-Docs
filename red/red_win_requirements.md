@@ -7,8 +7,8 @@ last_updated: April 23, 2016
  
 ### Software
 - [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior.  
-{{site.data.alerts.important}}Remember to check "Add python to path"!{{site.data.alerts.end}}
-![]((http://i.imgur.com/dfsaVLx.png))  
+{{site.data.alerts.important}}Remember to check "Add python to path"!{{site.data.alerts.end}}  
+![](http://i.imgur.com/dfsaVLx.png)  
 
 - [Install Git](https://git-scm.com/download/win)  
 {{site.data.alerts.important}}Don't forget to check "Use Git from the Windows Command Prompt"{{site.data.alerts.end}}  
