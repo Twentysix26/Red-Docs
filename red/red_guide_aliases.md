@@ -32,11 +32,36 @@ You can use the command inputs like normal
 
 ### For the average user
 
-* `!alias add volume audioset volume` - Volume control
-* `!alias add q queue` - Saves typing
+* `!alias add q queue` - Now just use `!q url` to queue a song or `!q` to list them!
 * `!alias add wiki wikipedia` - For the lazy
-* `!alias add g google` - For the lazy... again.
+* `!alias add g google` - Nobody's got time to write out google!
+* `!alias add volume audioset volume` - Now you only need to type `!volume` to set the volume
+* `!alias add will 8` - Ask the 8 ball just by asking the question.
 * `!alias add nudes gifr penguins` - ( ͡° ͜ʖ ͡°)
+* `!alias add "🔪🖐" "" "" "" "" "" "" "‼😵🔴"` - Knife game.
+    * Chooses a random response (most of which are empty) 
+    * Notice, the emotes have no space. Aliases must be single words: `!alias add ":knife::hand_splayed:" choose "" "" "" "" "" "" ":bangbang::dizzy_face::red_circle:"`
+* `!alias add 😬🔫 choose 😅🎈🔫  😅🔅🔫 😅🎊🔫 😅🎉🔫 😅❣🔫 ❗💥☠🔫` - Russian Roulette. Same as the Knife game.
+
+### Tools for making *advanced* aliases
+<sub>adding examples for each later<sub>
+
+* **debug** - aliasing the debug command allows you to evaluate arbitrary python code
+    - only the bot owner can use aliases with this 
+* **List Comprehensions**
+    - looping
+    - assignment within an expression - `[None for my_var in ["value to put in my_var"]]``
+    - filtering with if
+* **Conditional Expressions** (Ternery Operators) - if/else within expressions
+* **lambdas** 
+    - altering scopes
+    - awaiting function calls
+    - user input - `!alias add cmd debug (lambda input: #code)` user does `!cmd (input)`
+    - default arguments - `(lambda search, page=0, url='www.github.com')` users can specifiy different values if they would like
+* **open** - open files to read/write from/to
+* **subprocess** - running anything you would in cmd/terminal! (more difficult to use on windows)
+    - can even get terminal output by writing stdout to a file then reading in the same expression
+* **create_task** - running multiple awaited function calls in one expression
 
 ### For people who somewhat know what they are doing
 
@@ -53,12 +78,11 @@ What this alias will do is allow you to install cogs from github links or discor
 Here we will edit `red.py`. So y'know, dangerous and all.
 
 You can edit `red.py` two ways:  
-  1. **Manually** 
-     * Open `red.py` and place `import subprocess` in with the other imports  
-  2. For the lazy:  
-     1. Add the import to `red2.py`: `!debug (lambda: open("red2.py", 'w'))().write("import subprocess\n"+"".join(list(open('red.py'))))`  
-     2. Overwrite `red.py` with `red2.py`: `!debug (lambda: open("red.py", 'w'))().write("".join(list(open('red2.py'))))`  
-     3. Double check `import subprocess` is in `red.py`: `!debug "".join(list(open('red.py')))[:500]`  
+  1. open `red.py` and place `import subprocess` in with the other imports  
+  2. for the lazy:  
+    1. add the import to `red2.py`: **`!debug (lambda: open("red2.py", 'w'))().write("import subprocess\n"+"".join(list(open('red.py'))))`**  
+    2. overwrite `red.py` with `red2.py`: **`!debug (lambda: open("red.py", 'w'))().write("".join(list(open('red2.py'))))`**  
+    3. double check `import subprocess` is in `red.py`: **`!debug "".join(list(open('red.py')))[:500]`**  
 
 You may need to repeat this process when you update your bot, depending on how you update.
 
