@@ -63,7 +63,7 @@ entries:
       url: /red_guide_troubleshooting/
       output: web
 
-  - title: General Guides
+  - title: Guides
     output: web
     folderitems:
 
@@ -79,20 +79,8 @@ entries:
       url: /red_guide_bot_accounts/
       output: web
 
-    - title: Converting Accounts
-      url: /red_guide_convert_account/
-      output: web
-
     - title: Command Arguments
       url: /red_guide_command_args/
-      output: web
-
-  - title: Developer Guides
-    output: web
-    folderitems:
-
-    - title: Subcommands
-      url: /red_guide_subcommands
       output: web
 
   - title: Custom cogs
@@ -110,6 +98,10 @@ entries:
     - title: Dota 2
       url: /red_cog_dota/
       output: web
+
+    # - title: Timezone
+    #   url: /red_cog_timezone/
+    #   output: web
 
     - title: Unofficial cogs
       url: /red_guide_cogs_repo/
