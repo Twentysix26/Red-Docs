@@ -24,18 +24,18 @@ This is a cog that was highly requested on the support server, so it was made! B
 
 ### !time me
 
-Saves your timezone to a file.
+Saves your timezone to a file.  
 + Has the same format as `!time tz`
 + When used with no arguments, displays your timezone.
 
 ### !time user
 
-Looks up a user's current time.
+Looks up a user's current time.  
 + Used like `!bank balance`
 + e.g. `!time user @fishyfing`
 
 ### !time iso
 
-Gets a supported timezone from an ISO3166 code.
+Gets a supported timezone from an ISO3166 code.  
 + `!time iso code`
 + e.g. `!time iso GB`
