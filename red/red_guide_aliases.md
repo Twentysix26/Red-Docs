@@ -40,7 +40,7 @@ You can use the command inputs like normal
 * `!alias add nudes gifr penguins` - ( ͡° ͜ʖ ͡°)
 * `!alias add "🔪🖐" "" "" "" "" "" "" "‼😵🔴"` - Knife game.
     * Chooses a random response (most of which are empty) 
-    * Notice, the emotes have no space. Aliases must be single words: `!alias add ":knife::hand_splayed:" choose "" "" "" "" "" "" ":bangbang::dizzy_face::red_circle:"`
+    * Notice, the emotes have no space. Alias names must be single words: `!alias add ":knife::hand_splayed:" choose "" "" "" "" "" "" ":bangbang::dizzy_face::red_circle:"`
 * `!alias add 😬🔫 choose 😅🎈🔫  😅🔅🔫 😅🎊🔫 😅🎉🔫 😅❣🔫 ❗💥☠🔫` - Russian Roulette. Same as the Knife game.
 
 ### Tools for making *advanced* aliases
