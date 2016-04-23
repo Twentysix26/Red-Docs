@@ -26,7 +26,8 @@ git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordB
 
 Git should now start downloading the files and put everything into a folder called "Red-DiscordBot". If everything works correctly, your folder should look like this: ![mainfolderwin](https://cdn.discordapp.com/attachments/136940007024885760/171060560450813954/Screenshot_2016-04-16_20.52.05.png)  
 
-This is pretty much it. If you haven't already, [make a new account for the bot](https://discordapp.com/) and join your own server with it.  
+This is pretty much it. If you haven't already, [make a new account for the bot](https://discordapp.com/) and ***join your own server with it.***  
+{{site.data.alerts.important}}This should be the only time you login to the bot's account.{{site.data.alerts.end}}
 
 Enter the folder, run startRed.bat *(or startRedLoop.bat for auto restart in case of error)* and follow the instructions for setup.
 
