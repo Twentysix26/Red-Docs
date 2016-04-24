@@ -13,7 +13,8 @@ permalink: /red_guide_command_args/
 [comment]: # (remind irdumb to put a 5th arg, (6th arg for target - 1st mention or author if not given). content without the prefix and command.)
 
 1. you can do stuff like mention the user of the command or print the name of the channel the command was used in.  
-2. If you want to use actual brackets you must escape them. :-{o becomes :-{{o and ヽ{o.o}/ becomes ヽ{{o.o}}/  
+2. If you want to use actual brackets you must escape them: ```-{o becomes :-{{o and ヽ{o.o}/ becomes ヽ{{o.o}}/
+```
 3. all your custom commands that had brackets before the update will be automatically escaped. You won't notice a difference!  
 
 
