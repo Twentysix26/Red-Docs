@@ -2,19 +2,16 @@
 title: Format Strings
 sidebar: red_sidebar
 permalink: /red_guide_command_args/
+last_updated: April 25, 2016
 ---
 
-*(not yet implemented)*
-
-#### Custom commands can now use format strings!
+*(not yet implemented)*  
+# Custom commands can now use format strings!
 
 ## What does that mean for me?
 
-[comment]: # (remind irdumb to put a 5th arg, (6th arg for target - 1st mention or author if not given). content without the prefix and command.)
-
 1. you can do stuff like mention the user of the command or print the name of the channel the command was used in.  
-2. If you want to use actual brackets you must escape them: {% raw %}-{o becomes :-{{o and ヽ{o.o}/ becomes ヽ{{o.o}}/{% endraw %}
-
+2. If you want to use actual brackets you must escape them. {% raw %}:-{o becomes :-{{o and ヽ{o.o}/ becomes ヽ{{o.o}}/{% endraw %}  
 3. all your custom commands that had brackets before the update will be automatically escaped. You won't notice a difference!  
 
 
@@ -24,15 +21,14 @@ You'll need to learn how to use format strings. Here's some info. Read it? Skip 
 
 ## What are format strings?
 
-> Format strings contain "replacement fields" surrounded by curly braces `{}`. Anything not put in braces is considered literal text, which is unchanged in the output If you need to contain a brace character in the field,  escape it by using double braces `{{` and `}}`.  
-[Source](https://docs.python.org/3/library/string.html#format-string-syntax)  
-More information about format strings at the source. [comment]: # (can you include this somewhere?)
+> Format strings contain "replacement fields" surrounded by curly braces `{}`. Anything not put in braces is considered literal text, which is unchanged in the output If you need to contain a brace character in the field,  escape it by using double braces `{{` and `}}`. ([source](https://docs.python.org/3/library/string.html#format-string-syntax))  
+More information about format strings at the source.
 
 Effectively, they are shortcuts that pull data straight from the context of the message. This can include user ids, user mentions, usernames, server/channel names and message content. This adds functionality that was previously only available via writing your own cog/commands. Instead, due to some clever wizardry from **irdumb**, you can now use some of these parameters in your custom commands.
 
-### How do.
+## K, but how do?!
 
-## The arguments
+### The arguments
 
 All arguments can be referenced by name, but also by number. The ones currently available in Red are:  
 
@@ -42,74 +38,87 @@ All arguments can be referenced by name, but also by number. The ones currently 
 * {message} or {3}  
 * {input} or {4} *not implemented yet*  
 * {target} or {5} *not implemented yet*  
+* {target_channel} or {6} *not implemented yet*
 
 ### How do I use these?
 
-You can get a ton of info from these arguments! All you need to do to get the info is reference an argument's attributes with a period like so: {argument.attribute}  
-ex. {author.mention} or {channel.name} [what is this? currently adding.]
+All you need to do to get the info is reference an argument's attributes with a period like so: {argument.attribute}  
+ex. {author.mention} or {channel.name}
+Note: all timestamps are in UTC time
 
 ### What info can I get from these?
 
-#### author
+You can get a ton of info from these arguments!  
+For your convenience, below is a list of the most useful attributes.
 
-if no attribute is given, name#discriminator is give. ex. {0} becomes frank#1234  
-* name  
-* mention  
-* id  
-* discriminator - the user's #1234 number  
-* game  
-* status - online/offline/away  
-* joined_at - the date the user joined the server  
-* created_at - the date the user's account was created  
-* avatar_url - the url for the user's profile picture  
-* voice_channel - the voice channel the user is in. None if the user isn't in one  
+If that's not enough for you, you can find the contents of most of these objects by using  
+`[p]debug dir(ctx.message.author)`  
+`[p]debug dir(ctx.message.server)`  
+`[p]debug dir(ctx.message)`  
+etc.  
+Note: not all of the attributes given by those commands are usable. Experiment.
 
-#### server
+### Attributes
 
-* name  
-* id  
-* member_count  
-* afk_channel  
-* afk_timeout  
-* created_at  
-* default_channel  
-* region  
-* icon_url  
-* owner - the server owner's member object. Has the same attributes as author does.  
-* me - the bot's member object... Not sure why you'd want it, but it has the same attributes as author does.  
+#### author  
+if no attribute is given, name#discriminator is shown. ex. {0} becomes frank#1234  
 
-#### mention
+* `name`  
+* `mention`  
+* `id`  
+* `discriminator` - the user's #1234 number  
+* `game`  
+* `status` - online/offline/away  
+* `joined_at` - the date the user joined the server  
+* `created_at` - the date the user's account was created  
+* `avatar_url` - the url for the user's profile picture  
+* `voice_channel` - the voice channel the user is in. None if the user isn't in one  
 
-available for author/channel
+#### server  
+no attribute just shows the name. ex. {1} becomes Red - Discord Bot
 
-This will mention the @user or #channel of the command.  
-example: {author.mention} is in {2.mention}
+* `name`  
+* `id`  
+* `member_count`  
+* `afk_channel`  
+* `afk_timeout`  
+* `created_at`  
+* `default_channel`  
+* `region`  
+* `icon_url`  
+* `owner` - the server owner's member object. Has the same attributes as author does.  
+* `me` - the bot's member object... Not sure why you'd want it, but it has the same attributes as author does.  
 
-#### id
+#### channel  
+no attribute just shows the name. ex. {2} becomes general-chat
 
-available for author/server/channel
-
-Returns the ID of the author.  
-Reference number: **{0.id}**
-
-#### server.name
-
-Gets the name of the server.  
-Reference number: **{1}** or **{1.name}**
-
-#### channel.name
-
-Gets the name of the channel where the command was executed.  
-Reference number: **{2}** or **{2.name}**
+* `name`
+* `id`
+* `mention`
+* `topic` - the channel's description
+* `position` - the position the channel is in [comment]: # (please help me explain this better. or put an image to explain. #testing in Red is position 8. it's the 8th channel on the list.)
+* `created_at` - the date that the channel was created
 
 #### message
 
-If the previous arguments aren't enough, you can use this.  
-This should only be used by people that know what they're doing. You'll need to use `debug dir(ctx.message)` and figure out which attributes work yourself.
+* `timestamp` - the time the message was sent.
+* `content` - the literal message. ex. `!announce` would be `!announce`
 
-#### input
+#### input *not implemented yet*
 
-#### mention
+* `content` - the literal message minus the prefix and command. ex. the input.content of `!announce The stream will be late today` would be `The stream will be late today`
+* `mentions` - string of mentions. ex. input.mentions for `!announce @Kowlin and @Will suck` would be `@Kowlin @Will`
+* `channel_mentions` - string of channel mentions. ex. `!announce @Kowlin come to #general` would give `#general`
+
+#### target *not implemented yet*
+
+The member object of the 1st mentioned person. ex. `!display_help @Kowlin` would give the member object for Kowlin. This has the same attributes as **author** would.
+
+#### target_channel *not implemented yet*
+
+The channel object of the 1st mentioned channel. ex. `!topic #spam-a-lot` would give the channel object for the spam-a-lot channel. This has the same attributes as **channel** would.
+
+
 
 ## Examples
 
