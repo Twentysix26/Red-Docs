@@ -62,7 +62,7 @@ Note: not all of the attributes given by those commands are usable. Experiment.
 ### Attributes
 
 #### author  
-if no attribute is given, name#discriminator is shown. ex. {0} becomes frank#1234  
+if no attribute specified, name#discriminator is shown. ex. {0} becomes frank#1234  
 
 * `name`  
 * `mention`  
@@ -76,7 +76,7 @@ if no attribute is given, name#discriminator is shown. ex. {0} becomes frank#123
 * `voice_channel` - the voice channel the user is in. None if the user isn't in one  
 
 #### server  
-no attribute just shows the name. ex. {1} becomes Red - Discord Bot
+if no attribute specified, just shows the name. ex. {1} becomes Red - Discord Bot
 
 * `name`  
 * `id`  
@@ -91,7 +91,7 @@ no attribute just shows the name. ex. {1} becomes Red - Discord Bot
 * `me` - the bot's member object... Not sure why you'd want it, but it has the same attributes as author does.  
 
 #### channel  
-no attribute just shows the name. ex. {2} becomes general-chat
+if no attribute specified, just shows the name. ex. {2} becomes general-chat
 
 * `name`
 * `id`
@@ -101,23 +101,29 @@ no attribute just shows the name. ex. {2} becomes general-chat
 * `created_at` - the date that the channel was created
 
 #### message
+an attribute must be specified
 
 * `timestamp` - the time the message was sent.
 * `content` - the literal message. ex. `!announce` would be `!announce`
 
-#### input *not implemented yet*
+#### input *not implemented yet*  
+if no attribute specified, just shows the content
 
 * `content` - the literal message minus the prefix and command. ex. the input.content of `!announce The stream will be late today` would be `The stream will be late today`
 * `mentions` - string of mentions. ex. input.mentions for `!announce @Kowlin and @Will suck` would be `@Kowlin @Will`
 * `channel_mentions` - string of channel mentions. ex. `!announce @Kowlin come to #general` would give `#general`
 
-#### target *not implemented yet*
+#### target *not implemented yet*  
+has no attributes
 
-The member object of the 1st mentioned person. ex. `!display_help @Kowlin` would give the member object for Kowlin. This has the same attributes as **author** would.
+The member object of the 1st mentioned person. ex. `!display_help @Kowlin` would give the member object for Kowlin. This has the same attributes as **author** would.  
+target is author if nobody is mentioned.
 
-#### target_channel *not implemented yet*
+#### target_channel *not implemented yet*  
+has no attributes
 
-The channel object of the 1st mentioned channel. ex. `!topic #spam-a-lot` would give the channel object for the spam-a-lot channel. This has the same attributes as **channel** would.
+The channel object of the 1st mentioned channel. ex. `!topic #spam-a-lot` would give the channel object for the spam-a-lot channel. This has the same attributes as **channel** would.  
+target_channel is channel if no channel is mentioned.
 
 
 
