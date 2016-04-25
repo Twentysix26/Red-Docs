@@ -2,6 +2,7 @@
 title: Installing on Mac OS X
 sidebar: red_sidebar
 permalink: /red_install_mac/
+last_updated: April 25, 2016
 ---
 
 A guide by orels1
@@ -42,13 +43,12 @@ A guide by orels1
   Do not close the terminal afterwards. If this works, your main folder should look like this:  
   ![mainfolderosx](https://i.imgur.com/M2qXWG3.png)
 
-* While in Red's folder, download [this script](https://drive.google.com/uc?export=download&id=0B_mR_iWue1vSVXlNSktnZkJuTUk) and place the file inside your Red-DiscordBot folder, the same folder where red.py is.
-
 * Run `export PATH=$PATH:/usr/local/Cellar/opus/1.1.2/lib/` in the terminal
+
+* While in Red's folder, download [this script](https://cdn.discordapp.com/attachments/160386989819035648/174137122465251330/macRedLoop.command) and place the file inside your Red-DiscordBot folder, the same folder where red.py is.
   
-* In Terminal, inside the Red-DiscordBot folder, paste this command and press enter:
-  `sh macRedLoop.sh`
-You may need to set it as executable first.
+* Double-click the `macRedLoop.command` file you place into the Red-DiscordBot folder.  
+You may need to set it as executable first: `chmod u+x macRedLoop.command` in Terminal, inside the Red-DiscordBot folder.
 
 * Complete the initial setup as the bot requires (email, password, etc.), remember to sign into the bot's account once and join your main server. This is the only time you will need to sign into the bot's account.
 
