@@ -79,6 +79,10 @@ entries:
       url: /red_guide_bot_accounts/
       output: web
 
+    - title: Convert User Account
+      url: /red_guide_convert_account/
+      output: web
+
     - title: Format Strings
       url: /red_guide_command_args/
       output: web
@@ -103,6 +107,6 @@ entries:
     #   url: /red_cog_timezone/
     #   output: web
 
-    - title: Unofficial cogs
-      url: /red_guide_cogs_repo/
+    - title: Approved Repository's
+      url: /red_cog_approved_repos/
       output: web

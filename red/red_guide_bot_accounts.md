@@ -72,6 +72,6 @@ To add the bot to your server, you need 2 things. The ``Client ID`` from your [a
 ```
 https://discordapp.com/oauth2/authorize?&client_id=<CLIENTID>&scope=bot
 ```
-Insert the ``<CLIENTID`` part with your own client ID from the applications page, and visit that link in your browser. And select the server you want the bot to be in.
+Insert the ``<CLIENTID>`` part with your own client ID from the applications page, and visit that link in your browser, with your **main account**. And select the server you want the bot to be in.
 
 ![](http://i.imgur.com/OSZkU1k.gif)
