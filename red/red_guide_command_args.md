@@ -5,8 +5,6 @@ permalink: /red_guide_command_args/
 last_updated: April 25, 2016
 ---
 
-*(not yet implemented)*  
-
 # Custom commands can now use format strings!
 
 ## What does that mean for me?
