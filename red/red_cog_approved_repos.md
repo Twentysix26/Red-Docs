@@ -1,5 +1,5 @@
 ---
-title: Approved repository's
+title: Approved repositories
 sidebar: red_sidebar
 permalink: /red_cog_approved_repos/
 last_updated: April 24, 2016

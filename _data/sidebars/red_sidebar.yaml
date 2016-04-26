@@ -107,6 +107,6 @@ entries:
     #   url: /red_cog_timezone/
     #   output: web
 
-    - title: Approved Repository's
+    - title: Approved repositories
       url: /red_cog_approved_repos/
       output: web
