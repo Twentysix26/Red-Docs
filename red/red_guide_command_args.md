@@ -112,15 +112,15 @@ if no attribute specified, just shows the content
 * `channel_mentions` - string of channel mentions. ex. `!announce @Kowlin come to #general` would give `#general`
 
 #### target *not implemented yet*  
-has no attributes
+This has the same attributes as **author** would but for the targeted user
 
-The member object of the 1st mentioned person. ex. `!display_help @Kowlin` would give the member object for Kowlin. This has the same attributes as **author** would.  
+The member object of the 1st mentioned person. ex. `!display_help @Kowlin` would give the member object for Kowlin.
 target is author if nobody is mentioned.
 
 #### target_channel *not implemented yet*  
-has no attributes
+This has the same attributes as **channel** would but for the targeted channel
 
-The channel object of the 1st mentioned channel. ex. `!topic #spam-a-lot` would give the channel object for the spam-a-lot channel. This has the same attributes as **channel** would.  
+The channel object of the 1st mentioned channel. ex. `!topic #spam-a-lot` would give the channel object for the spam-a-lot channel.  
 target_channel is channel if no channel is mentioned.
 
 
