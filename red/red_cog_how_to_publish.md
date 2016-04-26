@@ -1,5 +1,5 @@
 ---
-title: Publish your cog
+title: Publish your cog repo
 sidebar: red_sidebar
 permalink: /red_cog_how_to_publish/
 ---
@@ -24,4 +24,10 @@ The following list is good practice but isn't required:
     * Avoid library's such as requests & urllib since they are blocking
 
 
-Once you pass **all** requirements, you can open a [GitHub issue](https://github.com/Twentysix26/Red-Docs/issues). From there the collaborators whether to approve or decline
+Once you pass **all** requirements, you can open a [GitHub issue](https://github.com/Twentysix26/Red-Docs/issues). From there the collaborators whether to approve or decline. Please include the following template.
+
+```
+Repository name:
+Author:
+Description:
+```
