@@ -51,9 +51,9 @@ You can get a ton of info from these arguments!
 For your convenience, below is a list of the most useful attributes.
 
 If that's not enough for you, you can find the contents of most of these objects by using  
-`[p]debug dir(ctx.message.author)`  
-`[p]debug dir(ctx.message.server)`  
-`[p]debug dir(ctx.message)`  
+`!debug dir(ctx.message.author)`  
+`!debug dir(ctx.message.server)`  
+`!debug dir(ctx.message)`  
 etc.  
 Note: not all of the attributes given by those commands are usable. Experiment.
 
