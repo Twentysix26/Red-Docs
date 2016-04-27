@@ -20,7 +20,11 @@ pip3 install tabulate
 
 Dota 2 api requires a key to get data from it. You can [**get one here**](http://steamcommunity.com/dev/apikey)
 
-When you got your key, you need to set an ENV variable named `DOTA2_API_KEY` with your key. That is done to prevent key storage in text-based files and accidential deletions.
+When you got your key, you need to set it using a `[p]dota setkey` command. It **only** works in PM, don't use it in a public channel.
+
+Example: `[p]dota setkey 8213fsdf2dsf2fs`
+
+*Optional:* You can use an ENV variable named `DOTA2_API_KEY` to store your key. That is done to prevent key storage in text-based files and accidential deletions.
 [*If you don't know how to set ENV variable, follow this guide*](https://github.com/orels1/docs/blob/master/Misc/setting-env-variables.md )
 
 ### Loading your cog
@@ -34,6 +38,26 @@ After installing all the requirements and setting your api key, you need to type
 When enabled, Dota 2 cog provides a set of commands, all of which should follow parent `dota` command.
 
 Example: `[p]dota online` to get the amount of players in Dota 2 at the moment.
+
+#### setkey
+
+**Description:**
+
+Sets the Dota 2 API key, works **only** in PM
+
+**Arguments:** 
+
+ * key
+
+**Example usage:** 
+
+`[p]dota setkey 88dfsdf23fsdf243efd`
+
+**Example result:**
+
+```
+Key set and applied
+```
 
 #### online
 **Description:**
