@@ -2,6 +2,7 @@
 title: Install on Fedora
 sidebar: red_sidebar
 permalink: /red_install_fedora/
+last_updated: April 27, 2016
 ---
 
 Fedora 23:  **Run these commands as root.**  I had a very minimal system, so I had to install multiple
@@ -57,3 +58,5 @@ git clone https://github.com/Twentysix26/Red-DiscordBot/archive/develop.zip Red-
 cd Red-DiscordBot-develop/
 python3.5 ./red.py
 ```
+
+Full credit goes to Tex#2170!
