@@ -28,8 +28,14 @@ Author: Kowlin<br>
 Description: General cogs with a slight sniff of moderation tools!<br>
 Command: ``cog repo add refactored-cogs https://github.com/Kowlin/refactored-cogs``
 
-### Dumb-Cogs
+#### Dumb-Cogs
 Repository Link: [https://github.com/irdumbs/Dumb-Cogs](https://github.com/irdumbs/Dumb-Cogs) <br>
 Author: irdumb<br>
 Description: Example cogs as well as various silly, QOL, and community-based cogs<br>
 Command: ``cog repo add dumb-cogs https://github.com/irdumbs/Dumb-Cogs``
+
+#### Booru-Cogs
+Repository Link: [https://github.com/Alzarath/Booru-Cogs](https://github.com/Alzarath/Booru-Cogs) <br>
+Author: Alzarath
+Description: Image booru fetching cogs
+Command: ``cog repo add booru-cogs https://github.com/Alzarath/Booru-Cogs``
