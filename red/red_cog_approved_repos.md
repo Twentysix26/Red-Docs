@@ -2,7 +2,7 @@
 title: Approved repositories
 sidebar: red_sidebar
 permalink: /red_cog_approved_repos/
-last_updated: April 24, 2016
+last_updated: April 27, 2016
 toc: false
 ---
 This page will list all approved repository.
@@ -26,4 +26,10 @@ Command: ``cog repo add squid-plugins https://github.com/tekulvw/Squid-Plugins``
 Repository Link: [https://github.com/Kowlin/refactored-cogs](https://github.com/Kowlin/refactored-cogs) <br>
 Author: Kowlin<br>
 Description: General cogs with a slight sniff of moderation tools!<br>
-Command: ``cog repo add refactored-cogs https://github.com/Kowlin/refactored-cogs``<br>
+Command: ``cog repo add refactored-cogs https://github.com/Kowlin/refactored-cogs``
+
+### Dumb-Cogs
+Repository Link: [https://github.com/irdumbs/Dumb-Cogs](https://github.com/irdumbs/Dumb-Cogs) <br>
+Author: irdumb<br>
+Description: Example cogs as well as various silly, QOL, and community-based cogs<br>
+Command: ``cog repo add dumb-cogs https://github.com/irdumbs/Dumb-Cogs``
