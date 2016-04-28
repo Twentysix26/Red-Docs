@@ -15,13 +15,6 @@ After that you can use ``cog list reponame`` to check on what cogs you can insta
 
 ## Repository list
 
-#### Squid-Plugins
-Repository Link: [https://github.com/tekulvw/Squid-Plugins](https://github.com/tekulvw/Squid-Plugins)  
-Author: Will / tekulvw  
-Description: Pff, ![Will's middle finger](http://i.imgur.com/khtTIBj.png)  
-Command: ``cog repo add squid-plugins https://github.com/tekulvw/Squid-Plugins``
-
-
 #### Refactored-Cogs
 Repository Link: [https://github.com/Kowlin/refactored-cogs](https://github.com/Kowlin/refactored-cogs)   
 Author: Kowlin  
