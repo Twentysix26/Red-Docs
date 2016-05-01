@@ -2,7 +2,7 @@
 title: Bot accounts
 sidebar: red_sidebar
 permalink: /red_guide_bot_accounts/
-last_updated: April 21, 2016
+last_updated: May 1, 2016
 ---
 
 ![](https://img.shields.io/badge/Guide%20by-fishyfing-blue.svg)
@@ -63,7 +63,7 @@ To add the bot to your server, you need 2 things. The ``Client ID`` from your [a
 https://discordapp.com/oauth2/authorize?&client_id=<CLIENTID>&scope=bot
 ```
 Insert the ``<CLIENTID>`` part with your own client ID from the applications page, and visit that link in your browser, with your **main account**. And select the server you want the bot to be in.  
-If you wish to add your bot to the [support server](https://discord.gg/0k4npTwMvTpv9wrh), use `?addbot <OAuth URL>`.  
+If you wish to add your bot to the [support server](https://discord.gg/0k4npTwMvTpv9wrh), use `?addbot <OAuth URL>` on the server.  
 If you want to add specific permissions, then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x`, replacing x with the number given.  
 
 ![](http://i.imgur.com/OSZkU1k.gif)
