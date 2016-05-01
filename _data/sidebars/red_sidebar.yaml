@@ -79,10 +79,6 @@ entries:
       url: /red_guide_bot_accounts/
       output: web
 
-    - title: Convert User Account
-      url: /red_guide_convert_account/
-      output: web
-
     - title: Format Strings
       url: /red_guide_command_args/
       output: web
