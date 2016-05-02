@@ -43,7 +43,7 @@ yum install opus-devel
 pip3.5 install youtube_dl
 pip3.5 install imgurpython
 pip3.5 install discord.py
-pip3.5 install git+https://github.com/Rapptz/discord.py@async
+pip3.5 install git+https://github.com/Rapptz/discord.py@5fa715c35033c4fd5438649a03f4d2835e7a7f06
 ```
 
 ## Install Red (You can use git here instead)
