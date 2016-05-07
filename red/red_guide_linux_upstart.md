@@ -10,7 +10,7 @@ How to make it auto restart in case of crash, using Upstart. This guide assumes 
 
 `sudo nano /etc/init/red.conf`
 
-Paste this script, replace `username` with your account name.
+Paste this script, replace `username` with your account name and `usergroup` with your user's group (usually the same as the username, but you can check with `groups username`)
 
 ```
 start on runlevel [2345]
@@ -19,7 +19,7 @@ stop on runlevel [016]
 respawn
 chdir /home/username/Red-DiscordBot
 setuid username
-setgid username
+setgid usergroup
 exec python3.5 red.py --no-prompt
 ```
 
