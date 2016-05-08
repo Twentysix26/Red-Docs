@@ -4,7 +4,7 @@ sidebar: red_sidebar
 permalink: /red_guide_linux_upstart/
 ---
 
-{{site.data.alerts.important}}Before doing this, start it at least once and do the configuration process.{{site.data.alerts.end}  
+**NOTE: Before doing this, start it at least once and do the configuration process.**  
 
 How to make it auto restart in case of crash, using Upstart. This guide assumes you used the Linux guide to install Red.
 
