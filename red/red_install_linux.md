@@ -4,6 +4,8 @@ sidebar: red_sidebar
 permalink: /red_install_linux/
 last_updated: April 22, 2016
 ---
+{{site.data.alerts.important}}For saftey considerations, DO NOT install Red onto the root user.{{site.data.alerts.end}}  
+Instead, make a new one, following [this guide](https://help.ubuntu.com/14.04/ubuntu-help/user-add.html).
 
 ### Repositories
 ```
