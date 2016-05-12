@@ -5,8 +5,6 @@ permalink: /red_guide_bot_accounts/
 last_updated: May 1, 2016
 ---
 
-![](https://img.shields.io/badge/Guide%20by-fishyfing-blue.svg)
-
 ## What is a bot account?
 
 A bot account is different to a normal account. Any public bot account will have this ![Bot tag](https://i.imgur.com/OQufliA.png "Bot Tag") next to them, and this is a *must* for all public bot accounts (aka a bot which you can publically get an OAuth invite link for).  
