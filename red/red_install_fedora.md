@@ -31,6 +31,7 @@ python3.5 get-pip.py
 
 ## Install rpmfusion repo:
 
+{{site.data.alerts.note}}On newer versions of discord.py (6th May 2016 and later), opus comes preinstalled.{{site.data.alerts.end}}  
 ```
 yum install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-23.noarch.rpm
 yum install ffmpeg

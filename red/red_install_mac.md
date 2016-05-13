@@ -18,6 +18,7 @@ A guide by orels1
    And press enter.
 
 *  After the installation, install the required packages by pasting commands below and pressing enter, one-by-one:
+{{site.data.alerts.note}}On newer versions of discord.py (6th May 2016 and later), opus comes preinstalled.{{site.data.alerts.end}}  
 
 	  `brew install python3`  
 	  `brew install git`  

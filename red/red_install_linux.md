@@ -33,12 +33,14 @@ wget https://bootstrap.pypa.io/get-pip.py
 sudo python3.5 get-pip.py
 ```
 
+
 #### ffmpeg
 ```
 sudo apt-get install ffmpeg -y
 ```
 
 #### Opus
+{{site.data.alerts.note}}On newer versions of discord.py (6th May 2016 and later), opus comes preinstalled.{{site.data.alerts.end}}  
 ```
 sudo apt-get install libopus-dev -y
 ```
