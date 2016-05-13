@@ -24,7 +24,7 @@ A guide by orels1
 	  `brew install git`  
 	  `brew install ffmpeg`  
 	  `brew install opus`  
-	  `pip3 install git+https://github.com/Rapptz/discord.py@5fa715c35033c4fd5438649a03f4d2835e7a7f06`  
+	  `pip3 install git+https://github.com/Rapptz/discord.py@async`  
 	  `pip3 install youtube_dl`  
 	  `pip3 install imgurpython`  
   

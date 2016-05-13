@@ -47,7 +47,7 @@ Here's a handy gif to explain the process. ![oauth new bot](http://i.imgur.com/Y
 
 ## Logging in with a token
 
-First things first, update discord.py `pip3 install --upgrade git+https://github.com/Rapptz/discord.py@5fa715c35033c4fd5438649a03f4d2835e7a7f06`, then update Red by starting a terminal in Red's main folder, and typing `git pull`.
+First things first, update discord.py `pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async`, then update Red by starting a terminal in Red's main folder, and typing `git pull`.
 
 If your bot was previously a user account, delete `/data/red/settings.json`. This will reset the bot login details, and allow you to login using a token.
 

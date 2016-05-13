@@ -24,7 +24,7 @@ With Red being modular, there's only one requirement that's necessary to run her
 **Red's requirement (_must_ install this):**
 
 ```
-pip3 install git+https://github.com/Rapptz/discord.py@5fa715c35033c4fd5438649a03f4d2835e7a7f06
+pip3 install git+https://github.com/Rapptz/discord.py@async
 ```
 
 **cogs.audio requirement:**

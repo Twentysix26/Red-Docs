@@ -12,7 +12,7 @@ Take a moment to read the error you're getting and see if the solution is alread
 Upgrade discord.py using:
 
 ```
-pip3 install --upgrade git+https://github.com/Rapptz/discord.py@5fa715c35033c4fd5438649a03f4d2835e7a7f06
+pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async
 ```
 
 ![](https://cdn.discordapp.com/attachments/133049553984159745/159323163157594113/20160315153125288.png)
@@ -20,7 +20,7 @@ pip3 install --upgrade git+https://github.com/Rapptz/discord.py@5fa715c35033c4fd
 Upgrade discord.py using:
 
 ```
-pip3 install --upgrade git+https://github.com/Rapptz/discord.py@5fa715c35033c4fd5438649a03f4d2835e7a7f06
+pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async
 ```
 
 _If upgrading does not work, `pip or pip3 uninstall discord.py` and try again._
@@ -62,7 +62,7 @@ It's most likely the connection on your end. Get a stable connection (not wifi) 
 Upgrade discord.py using:
 
 ```
-pip3 install --upgrade git+https://github.com/Rapptz/discord.py@5fa715c35033c4fd5438649a03f4d2835e7a7f06
+pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async
 ```
 
 _If upgrading does not work, `pip or pip3 uninstall discord.py` and try again._
