@@ -50,3 +50,9 @@ Repository Link: [https://github.com/FishyFing/FishyCogs](https://github.com/Fis
 Author: FishyFing  
 Description: Some coding practice that may have created useful cogs.  
 Command: ``cog repo add fishycogs https://github.com/FishyFing/FishyCogs``
+
+#### Mash-Cogs  
+Repository Link: [https://github.com/Canule/Mash-Cogs](https://github.com/Canule/Mash-Cogs)  
+Author: Mash/Canule  
+Description: General cogs. *Oboobs = NSFW*  
+Command: ``cog repo add mash-cogs https://github.com/Canule/Mash-Cogs``
