@@ -2,7 +2,7 @@
 title: Installing on Ubuntu/Debian
 sidebar: red_sidebar
 permalink: /red_install_linux/
-last_updated: April 22, 2016
+last_updated: May 19, 2016
 ---
 
 {{site.data.alerts.important}} For saftey considerations, DO NOT install Red onto the root user. {{site.data.alerts.end}}  
@@ -39,12 +39,6 @@ sudo python3.5 get-pip.py
 sudo apt-get install ffmpeg -y
 ```
 
-#### Opus
-{{site.data.alerts.note}}On newer versions of discord.py (6th May 2016 and later), opus comes preinstalled.{{site.data.alerts.end}}  
-```
-sudo apt-get install libopus-dev -y
-```
-
 ### Requirements
 Not *all* of these are required, refer to [this](/Red-Docs/red_win_requirements/) for further explanations.
 
@@ -76,6 +70,9 @@ Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_
 cd Red-DiscordBot
 python3.5 red.py
 ```
+
+On the initial setup, you will be required to enter a token. Get one [here](https://discordapp.com/developers/applications/me). If you get stuck, follow the [bot accounts](/Red-Docs/red_guide_bot_accounts) guide.  
+To invite your bot, use the link given to you in Terminal when booting the bot up.  
 
 #### Updating Red
 

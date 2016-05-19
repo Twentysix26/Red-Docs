@@ -2,7 +2,7 @@
 title: Installing on Mac OS X
 sidebar: red_sidebar
 permalink: /red_install_mac/
-last_updated: April 25, 2016
+last_updated: May 19, 2016
 ---
 
 A guide by orels1
@@ -18,12 +18,10 @@ A guide by orels1
    And press enter.
 
 *  After the installation, install the required packages by pasting commands below and pressing enter, one-by-one:
-{{site.data.alerts.note}}On newer versions of discord.py (6th May 2016 and later), opus comes preinstalled.{{site.data.alerts.end}}  
 
 	  `brew install python3`  
 	  `brew install git`  
 	  `brew install ffmpeg`  
-	  `brew install opus`  
 	  `pip3 install git+https://github.com/Rapptz/discord.py@async`  
 	  `pip3 install youtube_dl`  
 	  `pip3 install imgurpython`  
@@ -41,16 +39,16 @@ A guide by orels1
 	  git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 	```
 	
-  Do not close the terminal afterwards. If this works, your main folder should look like this:  
+  If this works, your main folder should look like this:  
   ![mainfolderosx](https://i.imgur.com/M2qXWG3.png)
-
-* Run `export PATH=$PATH:/usr/local/Cellar/opus/1.1.2/lib/` in the terminal
 
 * While in Red's folder, download [this script](https://cdn.discordapp.com/attachments/160386989819035648/174137122465251330/macRedLoop.command) and place the file inside your Red-DiscordBot folder, the same folder where red.py is.
   
 * Double-click the `macRedLoop.command` file you place into the Red-DiscordBot folder.  
 You may need to set it as executable first: `chmod u+x macRedLoop.command` in Terminal, inside the Red-DiscordBot folder.
 
-* Complete the initial setup as the bot requires (email, password, etc.), remember to sign into the bot's account once and join your main server. This is the only time you will need to sign into the bot's account.
+* Complete the initial setup. On the setup, you will be required to enter a token. Get one [here](https://discordapp.com/developers/applications/me). If you get stuck, follow the [bot accounts](/Red-Docs/red_guide_bot_accounts) guide.
+
+* To invite your bot, use the link given to you in Terminal when booting the bot up.
 
 * To verify that the bot works, do `[your_prefix_here]ping` on your server (in any chat Red can read and write messages). It should respond "pong".

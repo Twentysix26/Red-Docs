@@ -2,7 +2,7 @@
 title: Install on Fedora
 sidebar: red_sidebar
 permalink: /red_install_fedora/
-last_updated: April 27, 2016
+last_updated: May 19, 2016
 ---
 
 Fedora 23:  **Run these commands as root.**  I had a very minimal system, so I had to install multiple
@@ -31,11 +31,9 @@ python3.5 get-pip.py
 
 ## Install rpmfusion repo:
 
-{{site.data.alerts.note}}On newer versions of discord.py (6th May 2016 and later), opus comes preinstalled.{{site.data.alerts.end}}  
 ```
 yum install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-23.noarch.rpm
 yum install ffmpeg
-yum install opus-devel
 ```
 
 ## Pip some good stuff:
@@ -60,5 +58,8 @@ Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_
 cd Red-DiscordBot-develop/
 python3.5 ./red.py
 ```
+
+On the initial setup, you will be required to enter a token. Get one [here](https://discordapp.com/developers/applications/me). If you get stuck, follow the [bot accounts](/Red-Docs/red_guide_bot_accounts) guide.  
+To invite your bot, use the link given to you in Terminal when booting the bot up.
 
 Full credit goes to Tex#2170!

@@ -2,6 +2,7 @@
 title: Installing on Windows
 sidebar: red_sidebar
 permalink: /red_install_win/
+last_updated: May 19, 2016
 ---
 
 > Disclaimer: if you modify tracked files (like .py) and then update with git, it might cause a conflict. I won't explain what to do in that case as this guide is mostly for normal users, but there are plenty of good git guides out there
@@ -24,9 +25,9 @@ Assuming you have already installed the [requirements](/Red-Docs/red_win_require
 git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 ```
 
-Git should now start downloading the files and put everything into a folder called "Red-DiscordBot". If everything works correctly, your folder should look like this: ![mainfolderwin](https://cdn.discordapp.com/attachments/136940007024885760/171060560450813954/Screenshot_2016-04-16_20.52.05.png)  
+Git should now start downloading the files and put everything into a folder called "Red-DiscordBot". If everything works correctly, your folder should look like this: ![mainfolderwin](http://i.imgur.com/pA8UlKc.png)  
 
-This is pretty much it. Now, [make a new account for the bot by following the "Creating a new bot account" section.](https://twentysix26.github.io/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-account)  
+This is pretty much it. Now, [make a new account for the bot by following the "Creating a new bot account" section.](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-account)  
 
 Enter the folder, run startRed.bat *(or startRedLoop.bat for auto restart in case of error)* and follow the instructions for setup.
 
