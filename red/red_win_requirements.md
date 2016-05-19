@@ -33,7 +33,7 @@ pip3 install git+https://github.com/Rapptz/discord.py@async
 pip3 install youtube_dl
 ```
 
-{{site.data.alerts.note}}On newer versions of discord.py (6th May 2016 and later), opus comes preinstalled.{{site.data.alerts.end}}  
+{{site.data.alerts.note}}On newer versions of discord.py (6th May 2016 and later), opus comes preinstalled. YOU STILL NEED FFMPEG!{{site.data.alerts.end}}  
 [ffmpeg](https://www.ffmpeg.org/download.html) ([ffmpeg.exe](https://github.com/Twentysix26/Red-DiscordBot/raw/master/ffmpeg.exe), [ffplay.exe](https://github.com/Twentysix26/Red-DiscordBot/raw/master/ffplay.exe), [ffprobe.exe](https://github.com/Twentysix26/Red-DiscordBot/raw/master/ffprobe.exe)) and [libopus](https://www.opus-codec.org/downloads/) ([32bit](https://github.com/Twentysix26/Red-DiscordBot/raw/master/libopus-0.dll)/[64bit](https://cdn.discordapp.com/attachments/133049553984159745/155762132179222529/libopus-0.dll)) must be installed too. Either install them from their original source or download the linked files and put them in Red's main folder (when you  install it, as explained in [the next guide](/Red-Docs/red_install_win)).  
 Of course .exe and .dll are only for Windows. [Linux users may refer to this](/Red-Docs/red_install_linux).
 
