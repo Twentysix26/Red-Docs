@@ -8,14 +8,14 @@ Take a moment to read the error you're getting and see if the solution is alread
 
 ## Installation issues  
 
-![](https://cdn.discordapp.com/attachments/133049553984159745/146030943642058752/unknown.png)  
+![](http://i.imgur.com/GJY73ID.png)  
 Upgrade discord.py using:
 
 ```
 pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async
 ```
 
-![](https://cdn.discordapp.com/attachments/133049553984159745/159323163157594113/20160315153125288.png)
+![](http://i.imgur.com/YKWDg2J.png)
 
 Upgrade discord.py using:
 
@@ -25,9 +25,9 @@ pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async
 
 _If upgrading does not work, `pip or pip3 uninstall discord.py` and try again._
 
-![](https://cdn.discordapp.com/attachments/133049553984159745/146034256890691584/unknown.png)  
+![](http://i.imgur.com/kUmiyxc.png)  
 You're missing some files. [Read and follow the instructions for cogs.audio](/Red-Docs/red_win_requirements/#python-libraries). These files need to be in the main Red-DiscordBot folder:  
-![](https://cdn.discordapp.com/attachments/133049553984159745/146068865208680458/unknown.png)  
+![](http://i.imgur.com/cZPEhq9.png?1)  
 
 `Red is working but there are 0 cogs loaded`
 
@@ -52,7 +52,8 @@ For Linux users: `sudo apt-get purge ffmpeg && sudo apt-get install ffmpeg`
 
 Red needs a separate account. Create a new one, don't use yours.
 
-##Other issues
+## Other issues
+
 `BlockingIOError: [WinError10035] A non-blocking socket operation could not be completed immediately`
 
 It's most likely the connection on your end. Get a stable connection (not wifi) and restart the bot. It fixes this problem 99% of the time.
@@ -68,15 +69,15 @@ pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async
 _If upgrading does not work, `pip or pip3 uninstall discord.py` and try again._
 
 
->Why is Red spamming streamalerts?
+> Why is Red spamming streamalerts?
 
 It could be the streamer at fault or the Twitch API freaking out.
 
->How do I submit my own cog?
+> How do I submit my own cog?
 
 To submit your cogs you can follow [this guide](/Red-Docs/red_cog_how_to_publish/)
 
->Can I submit my own trivia list?
+> Can I submit my own trivia list?
 
 Of course! Feel free to send it to us or the Trivia "issue" on our github.
 
