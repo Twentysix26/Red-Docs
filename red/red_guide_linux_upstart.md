@@ -2,13 +2,16 @@
 title: Autorestarting on Linux
 sidebar: red_sidebar
 permalink: /red_guide_linux_upstart/
+last_updated: May 20, 2016
 ---
 
-{{site.data.alerts.important}} Before doing this, start it at least once and do the configuration process. {{site.data.alerts.end}}  
-
-How to make it auto restart in case of crash, using Upstart. This guide assumes you used the Linux guide to install Red.
 {{site.data.alerts.note}} Newer Ubuntu versions (15 and above) do not have upstart built in.{{site.data.alerts.end}}  
-To enable upstart on these systems, follow [this guide](https://www.maketecheasier.com/re-enable-upstart-ubuntu/). ***Please note this isn't guaranteed to work, and we are not liable for any broken machines.***
+To enable upstart on these systems, follow [this guide](https://www.maketecheasier.com/re-enable-upstart-ubuntu/). ***Please note this isn't guaranteed to work, and we are not liable for any broken machines.***  
+
+{{site.data.alerts.important}} Before doing this, start Red at least once and do the configuration process. {{site.data.alerts.end}}  
+
+How to make Red auto restart in case of crash, using Upstart. This guide assumes you used the Linux guide to install Red.
+
 
 `sudo nano /etc/init/red.conf`
 
