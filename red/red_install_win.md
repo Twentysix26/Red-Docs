@@ -26,7 +26,7 @@ git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordB
 ```
 
 Git should now start downloading the files and put everything into a folder called "Red-DiscordBot". If everything works correctly, your folder should look like this:  
-![mainfolderwin](http://i.imgur.com/pA8UlKc.png)  
+![mainfolderwin](http://i.imgur.com/OlELPTk.png)  
 
 This is pretty much it. Now, make a new account for the bot by following the ["Creating a new bot account"](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-account) section.  
 
