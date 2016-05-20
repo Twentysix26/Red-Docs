@@ -25,9 +25,10 @@ Assuming you have already installed the [requirements](/Red-Docs/red_win_require
 git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 ```
 
-Git should now start downloading the files and put everything into a folder called "Red-DiscordBot". If everything works correctly, your folder should look like this (if you haven't installed the audio requirements linked in the previous guide, those will be missing): ![mainfolderwin](http://i.imgur.com/OlELPTk.png)  
+Git should now start downloading the files and put everything into a folder called "Red-DiscordBot". If everything works correctly, your folder should look like this:  
+![mainfolderwin](http://i.imgur.com/pA8UlKc.png)  
 
-This is pretty much it. Now, [make a new account for the bot by following the "Creating a new bot account" section.](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-account)  
+This is pretty much it. Now, make a new account for the bot by following the ["Creating a new bot account"](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-account) section.  
 
 Enter the folder, run startRed.bat *(or startRedLoop.bat for auto restart in case of error)* and follow the instructions for setup.
 
