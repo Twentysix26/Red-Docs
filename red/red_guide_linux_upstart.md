@@ -12,10 +12,11 @@ To enable upstart on these systems, follow [this guide](https://www.maketecheasi
 
 How to make Red auto restart in case of crash, using Upstart. This guide assumes you used the Linux guide to install Red.
 
+Run this command in terminal:
 
 `sudo nano /etc/init/red.conf`
 
-Paste this script, replace `username` with your account name and `usergroup` with your user's group (usually the same as the username, but you can check with `groups username`)
+Next, paste the following script, replace `username` with your linux account name and `usergroup` with your user's group (usually the same as the username, but you can check with `groups username` in the terminal.)
 
 ```
 start on runlevel [2345]
@@ -29,6 +30,7 @@ exec python3.5 red.py --no-prompt
 ```
 
 Save with CTRL+O.  
+
 You can now start Red using  
 `sudo start red`  
 
