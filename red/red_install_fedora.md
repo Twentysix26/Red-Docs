@@ -34,6 +34,7 @@ python3.5 get-pip.py
 ```
 yum install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-23.noarch.rpm
 yum install ffmpeg
+yum install opus-devel
 ```
 
 ## Pip some good stuff:

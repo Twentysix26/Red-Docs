@@ -32,7 +32,10 @@ sudo apt-get install python3.5-dev -y
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3.5 get-pip.py
 ```
-
+#### Opus    
+``` 
+sudo apt-get install libopus-dev -y 
+``` 
 
 #### ffmpeg
 ```

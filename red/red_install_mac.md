@@ -22,6 +22,7 @@ A guide by orels1
 	  `brew install python3`  
 	  `brew install git`  
 	  `brew install ffmpeg`  
+	  `brew install opus
 	  `pip3 install git+https://github.com/Rapptz/discord.py@async`  
 	  `pip3 install youtube_dl`  
 	  `pip3 install imgurpython`  
@@ -38,9 +39,12 @@ A guide by orels1
 	```
 	  git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 	```
-	
-  If this works, your main folder should look like this:  
+
+
+  Do not close the terminal afterwards. If this works, your main folder should look like this:  
   ![mainfolderosx](https://i.imgur.com/M2qXWG3.png)
+
+* Run `export PATH=$PATH:/usr/local/Cellar/opus/1.1.2/lib/` in the terminal 
 
 * While in Red's folder, download [this script](https://cdn.discordapp.com/attachments/160386989819035648/174137122465251330/macRedLoop.command) and place the file inside your Red-DiscordBot folder, the same folder where red.py is.
   
