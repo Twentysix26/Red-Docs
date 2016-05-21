@@ -22,7 +22,7 @@ A guide by orels1
 	  `brew install python3`  
 	  `brew install git`  
 	  `brew install ffmpeg`  
-	  `brew install opus
+	  `brew install opus`  
 	  `pip3 install git+https://github.com/Rapptz/discord.py@async`  
 	  `pip3 install youtube_dl`  
 	  `pip3 install imgurpython`  
