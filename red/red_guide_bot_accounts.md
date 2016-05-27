@@ -34,7 +34,7 @@ Standard users are restricted to sending a certain amount of messages per minute
 
 >Bots can join more than one voice channel at a time.
 
-{{site.data.alerts.note}}This is not implemented into Red *yet*.{{site.data.alerts.end}}
+This means Red can play music in your main server at the same time as your test server. Dandy!
 
 ## Creating a new bot account
 
@@ -56,11 +56,7 @@ Enter your token and press 'Enter'. You can now set up the bot normally.
 
 ## Adding the bot account to your server
 
-To add the bot to your server, you need 2 things. The ``Client ID`` from your [application page](https://discordapp.com/developers/applications/me) and the following link.
-```
-https://discordapp.com/oauth2/authorize?&client_id=<CLIENTID>&scope=bot
-```
-Insert the ``<CLIENTID>`` part with your own client ID from the applications page, and visit that link in your browser, with your **main account**. And select the server you want the bot to be in.  
+To add your bot to your server, grab the link shown in console when you start the bot, and visit that link in your browser, with your **main account**. And select the server you want the bot to be in.  
 If you wish to add your bot to the [support server](https://discord.gg/0k4npTwMvTpv9wrh), use `?addbot <OAuth URL>` on the server.  
 If you want to add specific permissions, then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x`, replacing x with the number given.  
 
