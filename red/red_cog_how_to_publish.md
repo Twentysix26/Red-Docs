@@ -14,6 +14,7 @@ In order to get added to the approved repository list, your repository must:
 * Must explicitely declare what and if any of your modules modify/generate data outside of it's own subfolder (including posting data online). Must prompt the user with this information in order to complete an install of your cog
 * Not have malicious code
 * Only 1 ``.py`` per folder! As example see [this repository](https://github.com/tekulvw/Squid-Plugins)
+* Each ``.py`` file must be accompanied by an info.json, to give a better idea about what each cog does. You can create them with [this script](https://gist.github.com/Twentysix26/73a2a09238d6875b5cb7). See repo linked above for examples.
 
 The following list is good practice but isn't required:
 
