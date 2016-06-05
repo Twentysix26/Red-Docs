@@ -10,7 +10,8 @@ A info.json will provide information about the repository or cog the end user is
 
 ### Repository info.json
 A repository info.json sits at the root level of the repository (Before the cog folders). The following format is used for this info.json
-```
+
+```json
 {
     "AUTHOR" : "Author name",
     "NAME" : "Repository Name",
@@ -21,7 +22,8 @@ A repository info.json sits at the root level of the repository (Before the cog 
 
 ### Cog info.json
 A cog info.json sits in the cog folder (Besides the ``.py``). These are unique per cog. And can be changed per cog. The following format is used for them.
-```
+
+```json
 {
     "AUTHOR" : "Author name",
     "INSTALL_MSG" : "A install message that appears as soon as the end user does !cog install repo cogname",
