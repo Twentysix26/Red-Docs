@@ -14,6 +14,7 @@ A repository info.json sits at the root level of the repository (Before the cog 
 ```json
 {
     "AUTHOR" : "Author name",
+    "INSTALL_MSG" : "A install message that appears as soon as the end user does !cog repo add",
     "NAME" : "Repository Name",
     "SHORT" : "A short description, appears on !cog list",
     "DESCRIPTION" : "A longer description, appears on !cog info repo"
