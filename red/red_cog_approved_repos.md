@@ -15,6 +15,12 @@ After that you can use ``cog list reponame`` to check on what cogs you can insta
 
 ## Repository list
 
+#### 26-Cogs
+Repository Link: [https://github.com/Twentysix26/26-Cogs](https://github.com/Twentysix26/26-Cogs)  
+Author: Twentysix  
+Description: General purpose cogs  
+Command: ``cog repo add 26-cogs https://github.com/Twentysix26/26-Cogs``
+
 #### Squid-Plugins
 Repository Link: [https://github.com/tekulvw/Squid-Plugins](https://github.com/tekulvw/Squid-Plugins)  
 Author: Will / tekulvw  
