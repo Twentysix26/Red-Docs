@@ -32,6 +32,7 @@ A cog info.json sits in the cog folder (Besides the ``.py``). These are unique p
     "DESCRIPTION" : "A longer description, appears on !cog list repo cogname"
 }
 ```
+
 #### Info.json maker:
 [Link](https://gist.github.com/Twentysix26/73a2a09238d6875b5cb7)
 
