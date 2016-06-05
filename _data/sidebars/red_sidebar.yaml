@@ -95,6 +95,10 @@ entries:
       url: /red_cog_how_to_publish/
       output: web
 
+    - title: Info.json documentation
+      url: /red_cog_info_json/
+      output: web
+
     - title: Dota 2
       url: /red_cog_dota/
       output: web
