@@ -62,3 +62,9 @@ Repository Link: [https://github.com/Canule/Mash-Cogs](https://github.com/Canule
 Author: Mash/Canule  
 Description: General cogs. *Oboobs = NSFW*  
 Command: ``cog repo add mash-cogs https://github.com/Canule/Mash-Cogs``
+
+#### PaddoCogs  
+Repository Link: [https://github.com/PaddoInWonderland/PaddoCogs](https://github.com/PaddoInWonderland/PaddoCogs)  
+Author: PaddoInWonderland (Paddolicious#8880 on Discord)  
+Description: General cogs I developed.  
+Command: ``cog repo add paddo-cogs https://github.com/PaddoInWonderland/PaddoCogs``
