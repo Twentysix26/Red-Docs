@@ -5,7 +5,8 @@ permalink: /red_cog_approved_repos/
 last_updated: April 27, 2016
 toc: false
 ---
-This page will list all approved repository.
+![](http://i.fishyfing.xyz/cogforthat.png)  
+This page lists all of the approved repositories, full of cogs for you to use!  
 
 ## Adding Repository's
 
