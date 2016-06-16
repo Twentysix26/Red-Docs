@@ -52,11 +52,11 @@ You're done, you can now clone Red by following Step 3 of the installation here
 
 Let's start by creating a bot application and retrieving the token.
 Log in [here](https://discordapp.com/developers/applications/me) with your Discord account.
-And make a new application. Once you made your application, make a bot account from your new application page.
-Keep the page open. Since you will need it later.
+Then make a new application. Once you made your application, make a bot account from your new application page.
+Keep the page open since you will need it later.
 
 #### Cloning Red
-Next we clone Red. And lets move into the folder.
+The next thing we will be doing is cloning Red.
 
 ```
 git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git red-discordbot
@@ -72,11 +72,11 @@ python3 red.py
 ```
 
 #### Final notes.
-Congratulations! You have (If you done it right) successfully installed Red.
-In this paragraph we will share some final notes that you will need to know to get the most out of Red
+Congratulations! You have (If you have done it right) successfully installed Red.
+In the following chapter we will share some final notes that you will need to know to get the most out of Red
 
 ##### audio
-To use audio you need to toggle the player to use Avconv. To do this you can use the following command in your server. ``audioset player``
+To use audio you need to toggle the player to use Avconv. To do this you can use the following command in your Discord server. ``audioset player``
 
 # Installing Red manually (Experienced Linux users)
 In case you are experienced in Linux, or don't mind doing it all manual. Here the entire process of installing Python and the other requirements get explained in great detail.
