@@ -20,7 +20,7 @@ echo "-----"
 sudo apt-get update
 sudo apt-get install -y libbz2-dev libopus-dev liblzma-dev libsqlite3-dev libncurses5-dev libgdbm-dev zlib1g-dev libreadline-dev git unzip libssl-dev tk-dev build-essential libffi-dev libav-tools
 echo "-----"
-echo "STARTING BUILDING PYTHON!"
+echo "STARTING TO BUILD PYTHON... Somehow"
 echo "DO YOU WANT SOME BISCUITS WITH THAT?"
 echo "-----"
 sleep 5
