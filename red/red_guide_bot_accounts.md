@@ -18,7 +18,7 @@ This means that once you create a bot account, you cannot log into it. This is n
 >Bots cannot utilize the friends list feature.
 
 This is saying that you cannot add a bot to your friends list (which is a lie!). ![proof](https://i.imgur.com/pagjorI.png)
-![bs](http://i.imgur.com/0DSbAs4.gif)
+![bs](https://i.imgur.com/0DSbAs4.gif)
 
 >Bots cannot accept invites.
 
@@ -43,7 +43,7 @@ This means Red can play music in your main server at the same time as your test 
 3. Click "Create Bot User" and click "Yes, Do It!" when the dialog pops up.
 4. Copy down the `token`. This is what is used to login to Red.
 
-Here's a handy gif to explain the process. ![oauth new bot](http://i.imgur.com/Y2ouW7I.gif)
+Here's a handy gif to explain the process. ![oauth new bot](https://i.imgur.com/Y2ouW7I.gif)
 
 ## Logging in with a token
 
@@ -60,4 +60,4 @@ To add your bot to your server, grab the link shown in console when you start th
 If you wish to add your bot to the [support server](https://discord.gg/0k4npTwMvTpv9wrh), use `?addbot <OAuth URL>` on the server.  
 If you want to add specific permissions, then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x`, replacing x with the number given.  
 
-![](http://i.imgur.com/OSZkU1k.gif)
+![](https://i.imgur.com/OSZkU1k.gif)
