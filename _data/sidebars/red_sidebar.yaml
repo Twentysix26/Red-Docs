@@ -39,6 +39,10 @@ entries:
       url: /red_install_mac/
       output: web
 
+    - title: Installing on Raspbian
+      url: /red_install_raspbian/
+      output: web
+
   - title: How to use
     output: web
     folderitems:
