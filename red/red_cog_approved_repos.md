@@ -5,7 +5,7 @@ permalink: /red_cog_approved_repos/
 last_updated: April 27, 2016
 toc: false
 ---
-This page will list all approved repository.
+This page lists all of the approved cog repositories for Red.
 
 ## Adding Repository's
 
