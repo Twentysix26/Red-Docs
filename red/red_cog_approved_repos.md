@@ -5,15 +5,19 @@ permalink: /red_cog_approved_repos/
 last_updated: April 27, 2016
 toc: false
 ---
-This page will list all approved repository.
+This page lists all of the approved cog repositories for Red.
 
-## Adding Repository's
+{{site.data.alerts.warning}}These repositories are community made. We have no say over what goes into them. The author of Red and the contributors are not responsible for any damage caused by 3rd party cogs.{{site.data.alerts.end}}
+
+### Adding Repositoryies
 
 To install a community made cog you need to add the repository first.
 Use the command thats listed below the repository.
 After that you can use ``cog list reponame`` to check on what cogs you can install.
 
-## Repository list
+## Approved list
+
+High quality repositories  
 
 #### 26-Cogs
 Repository Link: [https://github.com/Twentysix26/26-Cogs](https://github.com/Twentysix26/26-Cogs)  
@@ -26,12 +30,6 @@ Repository Link: [https://github.com/tekulvw/Squid-Plugins](https://github.com/t
 Author: Will / tekulvw  
 Description: A collection of cogs and tools I find useful  
 Command: ``cog repo add squid-plugins https://github.com/tekulvw/Squid-Plugins``
-
-#### Refactored-Cogs
-Repository Link: [https://github.com/Kowlin/refactored-cogs](https://github.com/Kowlin/refactored-cogs)   
-Author: Kowlin  
-Description: General cogs with a slight sniff of moderation tools!  
-Command: ``cog repo add refactored-cogs https://github.com/Kowlin/refactored-cogs``
 
 #### Dumb-Cogs
 Repository Link: [https://github.com/irdumbs/Dumb-Cogs](https://github.com/irdumbs/Dumb-Cogs)  
@@ -51,12 +49,6 @@ Author: Redjumpman
 Description: Will be developing mostly cogs related to gaming such as Pokedex.  
 Command: ``cog repo add jumper-cogs https://github.com/Redjumpman/Jumper-Cogs``
 
-#### FishyCogs
-Repository Link: [https://github.com/FishyFing/FishyCogs](https://github.com/FishyFing/FishyCogs)  
-Author: FishyFing  
-Description: Some coding practice that may have created useful cogs.  
-Command: ``cog repo add fishycogs https://github.com/FishyFing/FishyCogs``
-
 #### Mash-Cogs  
 Repository Link: [https://github.com/Canule/Mash-Cogs](https://github.com/Canule/Mash-Cogs)  
 Author: Mash/Canule  
@@ -68,3 +60,19 @@ Repository Link: [https://github.com/PaddoInWonderland/PaddoCogs](https://github
 Author: PaddoInWonderland (Paddolicious#8880 on Discord)  
 Description: General cogs I developed.  
 Command: ``cog repo add paddo-cogs https://github.com/PaddoInWonderland/PaddoCogs``
+
+## Beta list
+
+General list of repositories  
+
+#### Refactored-Cogs
+Repository Link: [https://github.com/Kowlin/refactored-cogs](https://github.com/Kowlin/refactored-cogs)   
+Author: Kowlin  
+Description: General cogs with a slight sniff of moderation tools!  
+Command: ``cog repo add refactored-cogs https://github.com/Kowlin/refactored-cogs``
+
+#### FishyCogs
+Repository Link: [https://github.com/FishyFing/FishyCogs](https://github.com/FishyFing/FishyCogs)  
+Author: FishyFing  
+Description: Some coding practice that may have created useful cogs.  
+Command: ``cog repo add fishycogs https://github.com/FishyFing/FishyCogs``
