@@ -76,3 +76,9 @@ Repository Link: [https://github.com/FishyFing/FishyCogs](https://github.com/Fis
 Author: FishyFing  
 Description: Some coding practice that may have created useful cogs.  
 Command: ``cog repo add fishycogs https://github.com/FishyFing/FishyCogs``
+
+#### Eslyium-Cogs
+Repository Link: [https://github.com/Eslyium/Eslyium-Cogs](https://github.com/Eslyium/Eslyium-Cogs)  
+Author: Eslyium  
+Description: General and NSFW cogs.
+Command: ``cog repo add eslyium-cogs https://github.com/Eslyium/Eslyium-Cogs``
