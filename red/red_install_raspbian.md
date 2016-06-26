@@ -76,6 +76,9 @@ Congratulations! You have (If you have done it right) successfully installed Red
 In the following chapter we will share some final notes that you will need to know to get the most out of Red
 
 ##### audio
+
+{{site.data.alerts.warning}}Audio will fail to work on Raspberry Pi's ***below*** 2B. This is a CPU problem and *cannot* be fixed.e.data.alerts.end}}
+
 To use audio you need to toggle the player to use Avconv. To do this you can use the following command in your Discord server. ``audioset player``
 
 # Installing Red manually (Experienced Linux users)
