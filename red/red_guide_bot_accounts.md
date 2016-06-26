@@ -2,7 +2,7 @@
 title: Bot accounts
 sidebar: red_sidebar
 permalink: /red_guide_bot_accounts/
-last_updated: May 1, 2016
+last_updated: June 26, 2016
 ---
 
 ## What is a bot account?
@@ -17,8 +17,7 @@ This means that once you create a bot account, you cannot log into it. This is n
 
 >Bots cannot utilize the friends list feature.
 
-This is saying that you cannot add a bot to your friends list (which is a lie!). ![proof](https://i.imgur.com/pagjorI.png)
-![bs](https://i.imgur.com/0DSbAs4.gif)
+This is saying that you cannot add a bot to your friends list.
 
 >Bots cannot accept invites.
 
@@ -49,13 +48,13 @@ Here's a handy gif to explain the process. ![oauth new bot](https://i.imgur.com/
 
 *If* your bot was previously a user account, delete `/data/red/settings.json`. This will reset the bot login details, and allow you to login using a token.
 
-Upon startup, you should receive a screen that looks like this: ![login](https://i.imgur.com/Y21YuDx.png)   
+Upon startup, you should receive a screen that looks like this: ![login](https://i.imgur.com/KcnsQrT.png)   
 Enter your token and press 'Enter'. You can now set up the bot normally.
 
 ## Adding the bot account to your server
 
 To add your bot to your server, grab the link shown in console when you start the bot, and visit that link in your browser, with your **main account**. And select the server you want the bot to be in.  
 If you wish to add your bot to the [support server](https://discord.gg/0k4npTwMvTpv9wrh), use `?addbot <OAuth URL>` on the server.  
-If you want to add specific permissions, then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x`, replacing x with the number given.  
+If you want to add specific permissions, then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x` to the url, replacing x with the number given.  
 
 ![](https://i.imgur.com/OSZkU1k.gif)
