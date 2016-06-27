@@ -9,6 +9,7 @@ last_updated: May 19, 2016
 Instead, make a new one, following [this guide](https://help.ubuntu.com/14.04/ubuntu-help/user-add.html).  
 
 ### Repositories
+
 ```
 sudo add-apt-repository ppa:fkrull/deadsnakes -y
 sudo add-apt-repository ppa:mc3man/trusty-media -y
@@ -18,26 +19,31 @@ sudo apt-get install build-essential unzip -y
 ```
 
 #### Git
+
 ```
 sudo apt-get install git
 ```
 
 #### Python 3.5
+
 ```
 sudo apt-get install python3.5-dev -y
 ```
 
 #### Pip
+
 ```
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3.5 get-pip.py
 ```
-#### Opus    
-``` 
-sudo apt-get install libopus-dev -y 
-``` 
+#### Opus   
+
+```
+sudo apt-get install libopus-dev -y
+```
 
 #### ffmpeg
+
 ```
 sudo apt-get install ffmpeg -y
 ```
@@ -52,12 +58,14 @@ sudo pip3.5 install imgurpython
 ```   
 
 {{site.data.alerts.important}} If you're getting the "Command python setup.py egg_info error when installing discord.py, you'll have to do this first:{{site.data.alerts.end}}
+
 ```
 sudo apt-get install python3.5-dev build-essential libssl-dev libffi-dev
 ```
 
 ### Red  
 {{site.data.alerts.note}}Do not use sudo from now on! This will affect the permissions of the bot folder and will cause a failed installation!{{site.data.alerts.end}}
+
 ```
 git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 ```
