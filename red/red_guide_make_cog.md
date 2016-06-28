@@ -68,7 +68,9 @@ But if you reload the cog with `[p]reload mycog` it will still say `I can do stu
 
 Change your response to :
 ```python
+
 await self.bot.say("ONE PUNCH! And " + user.mention + " is out! ლ(ಠ益ಠლ)")
+
 ```
 
 *You can use any message, just remember to `+ user.mention` somewhere in there, for cog to target your prey!*
