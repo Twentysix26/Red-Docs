@@ -52,7 +52,7 @@ sudo apt-get install ffmpeg -y
 Not *all* of these are required, refer to [this](/Red-Docs/red_win_requirements/) for further explanations.
 
 ```
-sudo pip3.5 install git+https://github.com/Rapptz/discord.py@async
+sudo pip3.5 install -U git+https://github.com/Rapptz/discord.py@master#egg=discord.py[voice]
 sudo pip3.5 install youtube_dl
 sudo pip3.5 install imgurpython
 ```   
