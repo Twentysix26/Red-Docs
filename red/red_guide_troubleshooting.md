@@ -14,9 +14,13 @@ You're missing some files. [Read and follow the instructions for cogs.audio](/Re
 ![](https://cdn.discordapp.com/attachments/136940007024885760/182982072409915393/folder.png)  
 Each one of them is linked in the requirements page.
 
+***
+
 `Red is working but there are 0 cogs loaded`
 
 This mostly happens on Linux. Your current working directory must the bot's root folder (where red.py is). Run it from there. Don't run it from outside its own directory.
+
+***
 
 `ImportError: No module named 'discord'`
 
@@ -24,10 +28,14 @@ Your discord.py wasn't installed. Make sure you install with a command prompt an
 
 `pip3 install -U git+https://github.com/Rapptz/discord.py@master#egg=discord.py[voice]`
 
+***
+
 `SyntaxError: invalid syntax`
 
 Your python is inferior to 3.5.0. Red needs at least 3.5.0 32bit to run. Install it.  
 If you already did you might have two different versions of python and the older one is the default.
+
+***
 
 `filter:a`
 Uninstall and Reinstall FFMPEG
