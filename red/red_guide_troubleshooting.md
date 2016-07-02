@@ -9,34 +9,20 @@ Take a moment to read the error you're getting and see if the solution is alread
 
 ## Installation issues  
 
-![](http://i.imgur.com/GJY73ID.png)  
-Upgrade discord.py using:
-
-```
-pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async
-```
-
-![](http://i.imgur.com/YKWDg2J.png)
-
-Upgrade discord.py using:
-
-```
-pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async
-```
-
-_If upgrading does not work, `pip or pip3 uninstall discord.py` and try again._
-
-![](http://i.imgur.com/kUmiyxc.png)  
-You're missing some files. [Read and follow the instructions for cogs.audio](/Red-Docs/red_win_requirements/#python-libraries). These files need to be in the main Red-DiscordBot folder:  
-![](http://i.imgur.com/cZPEhq9.png?1)  
+![](http://i.imgur.com/iyPCJs9.png)  
+You're missing some files. [Read and follow the instructions for cogs.audio](/Red-Docs/red_win_requirements/#python-libraries). The 3 executables need to be in the main Red-DiscordBot folder:  
+![](https://cdn.discordapp.com/attachments/136940007024885760/182982072409915393/folder.png)  
+Each one of them is linked in the requirements page.
 
 `Red is working but there are 0 cogs loaded`
 
-Your current directory must the bot's root folder (where red.py is). Run it from there.
+This mostly happens on Linux. Your current working directory must the bot's root folder (where red.py is). Run it from there. Don't run it from outside its own directory.
 
 `ImportError: No module named 'discord'`
 
 Your discord.py wasn't installed. Make sure you install with a command prompt and admin rights.
+
+`pip3 install -U git+https://github.com/Rapptz/discord.py@master#egg=discord.py[voice]`
 
 `SyntaxError: invalid syntax`
 
@@ -51,24 +37,13 @@ For Linux users: `sudo apt-get purge ffmpeg && sudo apt-get install ffmpeg`
 
 > Red is not responding to my commands
 
-Red needs a separate account. Create a new one, don't use yours.
+Red must be invited in your server with the OAuth link that shows up when you start it. If you already did, make sure that Red has  [permissions](https://support.discordapp.com/hc/en-us/articles/206029707?flash_digest=cdf88bf221fe52a4aa2425665c38563efd63723e) to actually read your messages
 
 ## Other issues
 
 `BlockingIOError: [WinError10035] A non-blocking socket operation could not be completed immediately`
 
 It's most likely the connection on your end. Get a stable connection (not wifi) and restart the bot. It fixes this problem 99% of the time.
-
-`I keep getting an entries error.`
-
-Upgrade discord.py using:
-
-```
-pip3 install --upgrade git+https://github.com/Rapptz/discord.py@async
-```
-
-_If upgrading does not work, `pip or pip3 uninstall discord.py` and try again._
-
 
 > Why is Red spamming streamalerts?
 
