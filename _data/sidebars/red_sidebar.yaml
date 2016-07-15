@@ -76,12 +76,9 @@ entries:
       output: web
 
     - title: Autorestarting on Linux
-      url: /red_guide_linux_upstart/
+      url: /red_guide_linux_autostart/
       output: web
-    - title: Autorestarting on Linux (systemd)
-      url: /red_guide_linux_systemd/
-      output: web
-      
+
     - title: Bot Accounts
       url: /red_guide_bot_accounts/
       output: web

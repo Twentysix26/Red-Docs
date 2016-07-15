@@ -1,11 +1,42 @@
 ---
-title: Autorestarting on Linux (systemd)
+title: Autorestarting on Linux
 sidebar: red_sidebar
-permalink: /red_guide_linux_systemd/
+permalink: /red_guide_linux_autostart/
 ---
 
 {{site.data.alerts.important}} Before doing this, start Red at least once and do the configuration process. {{site.data.alerts.end}}  
 
+### Upstart
+
+How to make Red auto restart in case of crash, using Upstart. This guide assumes you used the Linux guide to install Red and that your Linux distribution uses Upstart.
+
+Run this command in terminal:
+
+`sudo nano /etc/init/red.conf`
+
+Next, paste the following script, replace `username` with your linux account name and `usergroup` with your user's group (usually the same as the username, but you can check with `groups username` in the terminal.)
+
+```
+start on runlevel [2345]
+stop on runlevel [016]
+
+respawn
+chdir /home/username/Red-DiscordBot
+setuid username
+setgid usergroup
+exec python3.5 red.py --no-prompt
+```
+
+Save with CTRL+O.  
+
+You can now start Red using  
+`sudo start red`  
+
+Other available commands:  
+`sudo stop red`  
+`sudo restart red`
+
+### systemd
 How to make Red auto restart in case of crash, using systemd. This guide assumes you used the Linux guide to install Red and that you are using a Linux distribution that uses systemd (Example: Ubuntu 15.04 or newer).
 
 Run this command in terminal:
