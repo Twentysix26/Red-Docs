@@ -10,12 +10,17 @@ You can make dynamic custom command by using some of the underlying library's ob
 
 There are 4 objects (and their attributes) supported for now:
 
-[author](http://discordpy.readthedocs.io/en/latest/api.html#user)
-[server](http://discordpy.readthedocs.io/en/latest/api.html#server)
-[channel](http://discordpy.readthedocs.io/en/latest/api.html#channel)
-[message](http://discordpy.readthedocs.io/en/latest/api.html#message)
+[author](http://discordpy.readthedocs.io/en/latest/api.html#user)  
+
+[server](http://discordpy.readthedocs.io/en/latest/api.html#server)  
+
+[channel](http://discordpy.readthedocs.io/en/latest/api.html#channel)  
+
+[message](http://discordpy.readthedocs.io/en/latest/api.html#message)  
+
 
 `Author` represents the user who issued the command, `server` and `channel` the server and channel in which it was issued and `message` the message that... Contains the command that triggered the custom command.  
+
 I swear it's simpler than it sounds.
 
 As an example, let's see how to create a custom command that shows the user's ID.
