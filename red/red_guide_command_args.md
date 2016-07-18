@@ -1,5 +1,5 @@
 ---
-title: Format Strings
+title: Custom commands arguments
 sidebar: red_sidebar
 permalink: /red_guide_command_args/
 ---
