@@ -83,7 +83,7 @@ entries:
       url: /red_guide_bot_accounts/
       output: web
 
-    - title: Format Strings
+    - title: Custom commands arguments
       url: /red_guide_command_args/
       output: web
 
