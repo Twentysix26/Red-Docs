@@ -8,7 +8,7 @@ permalink: /red_guide_linux_autostart/
 
 ### Upstart
 
-How to make Red auto restart in case of crash, using Upstart. This guide assumes you used the Linux guide to install Red and that your Linux distribution uses Upstart.
+This guide assumes you used the Linux guide to install Red and that your Linux distribution uses Upstart.
 
 Run this command in terminal:
 
@@ -37,23 +37,23 @@ Other available commands:
 `sudo restart red`
 
 ### systemd
-How to make Red auto restart in case of crash, using systemd. This guide assumes you used the Linux guide to install Red and that you are using a Linux distribution that uses systemd (Example: Ubuntu 15.04 or newer).
+This guide assumes you used the Linux guide to install Red and that you are using a Linux distribution that uses systemd (Example: Ubuntu 15.04 or newer).
 
 Run this command in terminal:
 
 `sudo nano /etc/systemd/system/red.service`
 
-Next, paste the following script, replace `bot location` with the absolute path to the location where the bot is located (for example `/home/username/Red-DiscordBot` as opposed to `~/Red-DiscordBot`),  `username` with your linux account name and `usergroup` with your user's group (usually the same as the username, but you can check with `groups username` in the terminal.)
+Next, paste the following script, replace, `username` with your linux account name and `usergroup` with your user's group (usually the same as the username, but you can check with `groups username` in the terminal.)
 
 ```
 [Unit]
 Description=Red-DiscordBot
 After=multi-user.target
 [Service]
-WorkingDirectory=bot location
+WorkingDirectory=/home/username/Red-DiscordBot
 User=username
 Group=usergroup
-ExecStart=/usr/bin/python3.5 bot location/red.py
+ExecStart=/usr/bin/python3.5 /home/username/Red-DiscordBot/red.py
 Type=idle
 Restart=always
 RestartSec=15
