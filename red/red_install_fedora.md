@@ -54,7 +54,7 @@ git clone https://github.com/Twentysix26/Red-DiscordBot/archive/develop.zip Red-
 
 ## Run Red
 
-Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_guide_linux_upstart). Otherwise, do this:
+Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_guide_linux_autostart). Otherwise, do this:
 ```
 cd Red-DiscordBot-develop/
 python3.5 ./red.py
