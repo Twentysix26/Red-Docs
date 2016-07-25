@@ -75,7 +75,7 @@ If all is done correctly, your main folder should look like this:
 
 #### Running Red  
 
-Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_guide_linux_upstart). Otherwise, do this:
+Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_guide_linux_autostart). Otherwise, do this:
 
 ```
 cd Red-DiscordBot
