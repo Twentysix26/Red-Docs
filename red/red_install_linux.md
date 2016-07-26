@@ -79,7 +79,7 @@ Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_
 
 ```
 cd Red-DiscordBot
-python3.5 red.py
+suco python3.5 red.py
 ```
 
 On the initial setup, you will be required to enter a token. Get one [here](https://discordapp.com/developers/applications/me). If you get stuck, follow the [bot accounts](/Red-Docs/red_guide_bot_accounts) guide.  
