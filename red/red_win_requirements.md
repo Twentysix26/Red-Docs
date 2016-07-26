@@ -16,10 +16,11 @@ last_updated: May 19, 2016
 
 ### Python libraries
 
-**Windows:** open the start menu, type cmd, right click and open the command prompt as admin.  
-**Linux:** open the console (Ctrl + Alt + T on Ubuntu)
+open the start menu, type cmd, right click and open the command prompt as admin.  
 
 With Red being modular, there's only one requirement that's necessary to run her. Any other requirement is dependent on the modules (cogs) you want to load. This is the full list, if you're not interested in certain modules feel free to ignore their requirements too.
+
+{{site.data.alerts.note}}After installing Python, close any command prompts you have open.{{site.data.alerts.end}}
 
 **Red's requirement (_must_ install this):**
 
