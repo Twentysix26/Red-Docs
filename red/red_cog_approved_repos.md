@@ -7,7 +7,7 @@ toc: false
 ---
 This page lists all of the approved cog repositories for Red.
 
-{{site.data.alerts.warning}}These repositories are community made. We have no say over what goes into them. The author of Red and the contributors are not responsible for any damage caused by 3rd party cogs.{{site.data.alerts.end}}
+{% include callout.html content="**Warning**: These repositories are community made. We have no say over what goes into them. The author of Red and the contributors are not responsible for any damage caused by 3rd party cogs." type="danger" %}
 
 ### Adding Repositoryies
 

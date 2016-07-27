@@ -4,14 +4,12 @@ sidebar: red_sidebar
 permalink: /red_win_requirements/
 last_updated: May 19, 2016
 ---
- 
-### Software
-- [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior.  
-{{site.data.alerts.important}}Remember to check "Add python to path"!{{site.data.alerts.end}}  
-![](http://i.imgur.com/dfsaVLx.png)  
 
+### Software
+{% include callout.html content="**Important**: Remember to do the following!<br/><br/>Select 'Add Python to path'<br/>Select 'Use Git from the Windows Command Prompt'<br/>*See the screenshots for more information*" type="info" %}
+- [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior.  
+![](http://i.imgur.com/dfsaVLx.png)<br/><br/>
 - [Install Git](https://git-scm.com/download/win)  
-{{site.data.alerts.important}}Don't forget to check "Use Git from the Windows Command Prompt"{{site.data.alerts.end}}  
 ![](http://i.imgur.com/guis7EE.png)  
 
 ### Python libraries
@@ -20,7 +18,7 @@ open the start menu, type cmd, right click and open the command prompt as admin.
 
 With Red being modular, there's only one requirement that's necessary to run her. Any other requirement is dependent on the modules (cogs) you want to load. This is the full list, if you're not interested in certain modules feel free to ignore their requirements too.
 
-{{site.data.alerts.note}}After installing Python, close any command prompts you have open.{{site.data.alerts.end}}
+{% include callout.html content="**Note**: After installing Python, close any command prompts you have open." type="info" %}
 
 **Red's requirement (_must_ install this):**
 
@@ -52,4 +50,3 @@ If you're on Windows, it's time to install Red herself.
 [Proceed here](/Red-Docs/red_install_win).  
 
 On Linux, your requirements are not yet fully installed. Proceed with [this guide](/Red-Docs/red_install_linux).
-
