@@ -28,7 +28,7 @@ Next we will run the script.
 This script will install pre-requirements to run your very own Red bot on your Pi.
 
 {{site.data.alerts.warning}}The installation of the pre-requirements can vary from at least 30 minutes to 90 minutes, depending on the model of Pi you own.{{site.data.alerts.end}}
-
+{% include callout.html content="**Important information**: The installation of the pre-requirements can vary from at least 30 minutes to 90 minutes, depending on the model of Pi you own." type="info" %}
 ```
 ./pi.sh
 ```
