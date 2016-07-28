@@ -4,7 +4,7 @@ sidebar: red_sidebar
 permalink: /red_guide_linux_autostart/
 ---
 
-{{site.data.alerts.important}} Before doing this, start Red at least once and do the configuration process. {{site.data.alerts.end}}  
+{% include callout.html content="**Important**: Before doing this, start Red at least once and do the configuration process." type="warning" %}
 
 ### Upstart
 
