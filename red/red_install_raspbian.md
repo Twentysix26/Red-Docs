@@ -27,7 +27,6 @@ sudo chmod +x pi.sh
 Next we will run the script.
 This script will install pre-requirements to run your very own Red bot on your Pi.
 
-{{site.data.alerts.warning}}The installation of the pre-requirements can vary from at least 30 minutes to 90 minutes, depending on the model of Pi you own.{{site.data.alerts.end}}
 {% include callout.html content="**Important information**: The installation of the pre-requirements can vary from at least 30 minutes to 90 minutes, depending on the model of Pi you own." type="info" %}
 ```
 ./pi.sh
@@ -39,7 +38,6 @@ Don't worry, you only need to enter one thing and you're done.
 In case you don't know your number of CPU cores, see the sheet below.
 
 | Pi 1 	| Pi 1+ 	| Pi 1B 	| Pi 1B+ 	| Pi 2B 	| Pi 3 	|
-|------	|-------	|-------	|--------	|-------	|------	|
 | 1    	| 1     	| 1     	| 1      	| 4     	| 4    	|
 
 ### Cloning and preparing Red
@@ -71,14 +69,14 @@ Run Red with the following command and read the instructions carefully for a smo
 python3 red.py
 ```
 
-#### Final notes.
+### Final notes.
 Congratulations! You have (If you have done it right) successfully installed Red.
 In the following chapter we will share some final notes that you will need to know to get the most out of Red
 
-##### audio
+#### audio
 To use audio you need to toggle the player to use Avconv. To do this you can use the following command in your Discord server. ``audioset player``
 
-{{site.data.alerts.warning}}Audio will fail to work on Raspberry Pi's ***below*** 2B. This is a CPU problem and *cannot* be fixed.{{site.data.alerts.end}}
+{% include callout.html content="**Warning**: Audio will fail to work on Raspberry Pi's ***below*** 2B. This is a CPU problem and *cannot* be fixed." type="warning" %}
 
 
 # Installing Red manually (Experienced Linux users)
@@ -100,7 +98,6 @@ This will take up to 90 minutes depending on the model of Pi you got.
 While entering ``redcores=x`` use your number of CPU cores coresponding with the Pi model
 
 | Pi 1 	| Pi 1+ 	| Pi 1B 	| Pi 1B+ 	| Pi 2B 	| Pi 3 	|
-|------	|-------	|-------	|--------	|-------	|------	|
 | 1    	| 1     	| 1     	| 1      	| 4     	| 4    	|
 
 ```
