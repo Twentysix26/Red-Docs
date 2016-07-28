@@ -14,6 +14,7 @@ Dota 2 cog relies on a couple of external libraries, you will need to install th
 pip3 install bs4
 pip3 install dota2py
 pip3 install tabulate
+pip3 install requests
 ```
 
 ### Dota 2 API
@@ -45,11 +46,11 @@ Example: `[p]dota online` to get the amount of players in Dota 2 at the moment.
 
 Sets the Dota 2 API key, works **only** in PM
 
-**Arguments:** 
+**Arguments:**
 
  * key
 
-**Example usage:** 
+**Example usage:**
 
 `[p]dota setkey 88dfsdf23fsdf243efd`
 
@@ -64,11 +65,11 @@ Key set and applied
 
 Returns current amount of players
 
-**Arguments:** 
+**Arguments:**
 
 None
 
-**Example usage:** 
+**Example usage:**
 
 `[p]dota online`
 
