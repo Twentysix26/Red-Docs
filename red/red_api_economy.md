@@ -48,6 +48,7 @@ Wipes the bank of a server.
 ### get_server_accounts(server)
 Returns a list of users who have bank accounts in the given server. Sends a empty list if no users are found.  
 List template:
+
 ```
 [Account(id='133801473317404673', name='Red', balance=1750, created_at=datetime.datetime(2016, 7, 5, 23, 42, 13), server=Server Object, member=Member Object)]
 ```
@@ -55,6 +56,7 @@ List template:
 ### get_all_accounts()
 Returns a list of users who have bank accounts in *any* server. Sends a empty list if no users are found.  
 List template:
+
 ```
 [Account(id='133801473317404673', name='Red', balance=1750, created_at=datetime.datetime(2016, 7, 5, 23, 42, 13), server=Server Object, member=Member Object)]
 ```
