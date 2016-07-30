@@ -1,7 +1,7 @@
 ---
-title: Audio module
+title: Economy API
 sidebar: red_sidebar
-permalink: /red_audio/
+permalink: /red_api_economy/
 last_updated: July 30, 2016
 ---
 
