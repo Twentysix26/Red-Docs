@@ -20,7 +20,7 @@ sudo apt-get upgrade -y
 
 ### Pre-requirements
 ```
-sudo apt-get install python3.5-dev build-essential libssl-dev libffi-dev git ffmpeg libopus-dev build-essentials unzip -y
+sudo apt-get install python3.5-dev build-essential libssl-dev libffi-dev git ffmpeg libopus-dev unzip -y
 ```
 
 #### Pip
