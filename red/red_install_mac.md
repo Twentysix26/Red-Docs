@@ -19,7 +19,7 @@ A guide by orels1
 
 *  After the installation, install the required packages by pasting commands below and pressing enter, one-by-one:
 
-	  `brew install python3`  
+	  `brew install python3 --with-brewed-openssl`  
 	  `brew install git`  
 	  `brew install ffmpeg`  
 	  `brew install opus`  
