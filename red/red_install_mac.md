@@ -21,7 +21,7 @@ A guide by orels1
 
 	  `brew install python3 --with-brewed-openssl`  
 	  `brew install git`  
-	  `brew install ffmpeg`  
+	  `brew install ffmpeg --with-ffplay`  
 	  `brew install opus`  
 	  `pip3 install -U git+https://github.com/Rapptz/discord.py@master#egg=discord.py[voice]`  
 	  `pip3 install youtube_dl`  
