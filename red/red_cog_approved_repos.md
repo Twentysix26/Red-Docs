@@ -88,3 +88,9 @@ Repository Link: [https://github.com/AznStevy/Maybe-Useful-Cogs](https://github.
 Author: Stevy  
 Description: General cogs.  
 Command: ``cog repo add maybe-useful-cogs https://github.com/AznStevy/Maybe-Useful-Cogs``
+
+#### Ax-Cogs
+Repository Link: [https://github.com/Aioxas/Ax-Cogs](https://github.com/Aioxas/Ax-Cogs)  
+Author: Aioxas  
+Description: Weird cogs that might or might not be useful for your needs.  
+Command: ``cog repo add ax-cogs https://github.com/Aioxas/Ax-Cogs``
