@@ -82,3 +82,9 @@ Repository Link: [https://github.com/Eslyium/Eslyium-Cogs](https://github.com/Es
 Author: Eslyium  
 Description: General and NSFW cogs.  
 Command: ``cog repo add eslyium-cogs https://github.com/Eslyium/Eslyium-Cogs``
+
+#### Maybe-Useful-Cogs
+Repository Link: [https://github.com/AznStevy/Maybe-Useful-Cogs](https://github.com/AznStevy/Maybe-Useful-Cogs)  
+Author: Stevy  
+Description: General cogs.  
+Command: ``cog repo add maybe-useful-cogs https://github.com/AznStevy/Maybe-Useful-Cogs``
