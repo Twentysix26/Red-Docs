@@ -47,7 +47,7 @@ sudo python3 get-pip.py
 # Asuming Pip is installed, lets run this
 sudo pip3 install youtube_dl
 sudo pip3 install imgurpython
-sudo pip3 install git+https://github.com/Rapptz/discord.py
+sudo pip3 install -U git+https://github.com/Rapptz/discord.py@master#egg=discord.py[voice]
 sudo rm -rf ~/redinstall
 echo "HORAAY!"
 echo "You're done, you can now clone Red by following Step 3 of the installation here:"
