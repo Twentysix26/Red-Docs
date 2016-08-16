@@ -122,7 +122,7 @@ wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
 sudo pip3 install youtube_dl
 sudo pip3 install imgurpython
-sudo pip3 install git+https://github.com/Rapptz/discord.py@5fa715c35033c4fd5438649a03f4d2835e7a7f06
+sudo pip3 install -U git+https://github.com/Rapptz/discord.py@master#egg=discord.py[voice]
 ```
 
 ### Cloning Red
