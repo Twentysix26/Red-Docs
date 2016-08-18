@@ -114,3 +114,11 @@ entries:
     - title: Approved repositories
       url: /red_cog_approved_repos/
       output: web
+
+  - title: APIs
+    output: web
+    folderitems:
+
+    - title: Economy
+      url: /red_api_economy/
+      output: web
