@@ -41,9 +41,11 @@ Git should now start downloading the files and put everything into a folder call
 
 * To start Red, double click **startRed.bat**
 
-It will ask you for a token. Make a new bot user by following the ["Creating a new bot account"](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-account) section.  
+You will be prompted for a token. Make a new bot user by following the ["Creating a new bot account"](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-account) section.  
 
 Complete the configuration process. You'll be able to invite your bot to your server by using the invite link that's provided at boot.
+
+{% include callout.html content="**Remember:**<br/><br/>Starting the bot with **startRedLoop.bat** will make it so that Red will restart in case of critical errors, such as networking issues." type="info" %}
 
 ### Updates
 
