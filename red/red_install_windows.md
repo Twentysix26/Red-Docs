@@ -1,8 +1,8 @@
 ---
 title: Installing on Windows
 sidebar: red_sidebar
-permalink: /red_install_win/
-last_updated: May 19, 2016
+permalink: /red_install_windows/
+last_updated: Aug 18, 2016
 ---
 
 > Disclaimer: If you modify tracked files (like .py) and then update with git, it might cause a conflict and Red won't be able to update. Modify any file at your risk.
