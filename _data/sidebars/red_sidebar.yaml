@@ -19,12 +19,8 @@ entries:
     output: web
     folderitems:
 
-    - title: Windows requirements
-      url: /red_win_requirements/
-      output: web
-
     - title: Installing on Windows
-      url: /red_install_win/
+      url: /red_install_windows/
       output: web
 
     - title: Installing on Ubuntu/Debian
