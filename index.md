@@ -11,9 +11,7 @@ Red is in continuous development and new features get added all the time. Stay t
 
 ### Windows
 
-* [Windows Requirements](/Red-Docs/red_win_requirements/) (**do this first!**)
-
-* [Installing Red](/Red-Docs/red_install_win/)
+* [Installing Red](/Red-Docs/red_install_windows/)
 
 ### Linux
 
