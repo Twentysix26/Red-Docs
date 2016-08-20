@@ -10,9 +10,7 @@ Take a moment to read the error you're getting and see if the solution is alread
 ## Installation issues  
 
 ![](http://i.imgur.com/iyPCJs9.png)  
-You're missing some files. [Read and follow the instructions for cogs.audio](/Red-Docs/red_win_requirements/#python-libraries). The 3 executables need to be in the main Red-DiscordBot folder:  
-![](https://cdn.discordapp.com/attachments/136940007024885760/182982072409915393/folder.png)  
-Each one of them is linked in the requirements page.
+If you're on Windows, run `download_ffmpeg.bat`. Otherwise read again the ffmpeg installation part of the guide you followed for your OS.
 
 ***
 
