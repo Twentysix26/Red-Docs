@@ -14,16 +14,16 @@ Run this command in terminal:
 
 `sudo nano /etc/init/red.conf`
 
-Next, paste the following script, replace `username` with your linux account name and `usergroup` with your user's group (usually the same as the username, but you can check with `groups username` in the terminal.)
+Next, paste the following script, replace `USERNAME` with your linux account name and `USERGROUP` with your user's group (usually the same as the username, but you can check with `groups username` in the terminal.)
 
 ```
 start on runlevel [2345]
 stop on runlevel [016]
 
 respawn
-chdir /home/username/Red-DiscordBot
-setuid username
-setgid usergroup
+chdir /home/USERNAME/Red-DiscordBot
+setuid USERNAME
+setgid USERGROUP
 exec python3.5 red.py --no-prompt
 ```
 
