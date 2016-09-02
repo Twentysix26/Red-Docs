@@ -22,7 +22,9 @@ Requires mod permissions or superior.
 
 To make local playlists, open the localtracks folder located in data/audio. Every folder you make in localtracks counts as a different playlist and the name of the folder will be its name (no spaces allowed). Put as many mp3 / flac as you want in them.  
 Then you can start it with:  
-`[p]local <playlist_name>`
+`[p]local start <playlist_name>`
+You can also list local playlists with:
+`[p]local list`
 <!--
 ## Cache
 
