@@ -9,14 +9,6 @@ permalink: /red_audio/
 ## Voice channels
 
 Red will automatically join the voice channel of whoever it's issuing the command. Restrictions may apply in case queue mode is active *and* the bot is already playing music for other people.
-<!--
-## Queue mode
-
-Queue mode forces the use of queue whenever possible/necessary. It also restricts a variety of commands if other people are already present.  Admins and mods are immune to it. Skipping is possible only through skip vote.  
-Queue mode can be disabled with  
-`[p]audioset queuemode`  
-Requires mod permissions or superior.
--->
 
 ## Local playlists
 
@@ -25,12 +17,3 @@ Then you can start it with:
 `[p]local start <playlist_name>`
 You can also list local playlists with:
 `[p]local list`
-<!--
-## Cache
-
-Red downloads every track you play in data/audio/cache. After a while the folder will inevitably get big.
-There are various commands to manage it:  
-`[p]cache` Shows current cache size  
-`[p]cache empty` Empties the cache  
-`[p]audioset maxcache` Sets the maximum size of the cache (in megabytes). After reaching it, the cache will empty automatically. If set to 0, auto cleanup is disabled.
--->
