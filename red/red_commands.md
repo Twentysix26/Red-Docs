@@ -17,6 +17,7 @@ Wrong Example: [p]play [http://youtube.com.....]
 
 Right Example:  [p]play http://youtube.com.....
 
+{% include callout.html content="**This list is not up to date with the current version and it's only meant to be a general reference for the features that Red offers. Always rely on the internal help command.**" type="danger" %}
 
 ### Alias Help
 
