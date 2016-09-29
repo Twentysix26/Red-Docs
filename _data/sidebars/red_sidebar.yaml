@@ -83,6 +83,10 @@ entries:
       url: /red_guide_command_args/
       output: web
 
+    - title: Twitch ClientID
+      url: /red_guide_twitch_clientid/
+      output: web
+
   - title: Custom cogs
     output: web
     folderitems:
