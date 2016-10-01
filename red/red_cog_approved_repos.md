@@ -61,6 +61,12 @@ Author: PaddoInWonderland (Paddolicious#8880 on Discord)
 Description: General cogs I developed.  
 Command: ``[p]cog repo add paddo-cogs https://github.com/PaddoInWonderland/PaddoCogs``
 
+#### CalebJ-Cogs  
+Repository Link: [https://github.com/neonobjclash/calebj-cogs](https://github.com/neonobjclash/calebj-cogs)  
+Author: CalebJ  
+Description: General and utility cogs I made or innovated upon.  
+Command: ``[p]cog repo add calebj-cogs https://github.com/neonobjclash/calebj-cogs``
+
 ## Beta list
 
 General list of repositories  
