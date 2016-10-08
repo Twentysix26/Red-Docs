@@ -106,3 +106,9 @@ Repository Link: [https://github.com/palmtree5/palmtree5-cogs](https://github.co
 Author: palmtree5  
 Description: Various internet and Minecraft-related cogs.  
 Command: ``[p]cog repo add palmtree5-cogs https://github.com/palmtree5/palmtree5-cogs``
+
+#### Ritsu-Cogs
+Repository Link: [https://github.com/ritsu/RitsuCogs](https://github.com/ritsu/RitsuCogs)  
+Author: Ritsu / kagami\#6142  
+Description: Some /usr/bin inspired cogs. Includes several text manipulation utilities ported from \*nix. Can read input from user message, chat log, or URL. Can chain commands together via pipes and redirect output to pastebin. Also includes an anime RSS alert cog specifically built for TokyoTosho.  
+Command: ``[p]cog repo add ritsu-cogs https://github.com/ritsu/RitsuCogs``
