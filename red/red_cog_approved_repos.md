@@ -100,3 +100,9 @@ Repository Link: [https://github.com/Aioxas/Ax-Cogs](https://github.com/Aioxas/A
 Author: Aioxas  
 Description: Weird cogs that might or might not be useful for your needs.  
 Command: ``[p]cog repo add ax-cogs https://github.com/Aioxas/Ax-Cogs``
+
+#### Palmtree5-Cogs
+Repository Link: [https://github.com/palmtree5/palmtree5-cogs](https://github.com/palmtree5/palmtree5-cogs)  
+Author: palmtree5  
+Description: Various internet and Minecraft-related cogs.  
+Command: ``[p]cog repo add palmtree5-cogs https://github.com/palmtree5/palmtree5-cogs``
