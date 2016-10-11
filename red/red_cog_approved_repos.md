@@ -112,3 +112,9 @@ Repository Link: [https://github.com/ritsu/RitsuCogs](https://github.com/ritsu/R
 Author: Ritsu / kagami\#6142  
 Description: Some /usr/bin inspired cogs. Includes several text manipulation utilities ported from \*nix. Can read input from user message, chat log, or URL. Can chain commands together via pipes and redirect output to pastebin. Also includes an anime RSS alert cog specifically built for TokyoTosho.  
 Command: ``[p]cog repo add ritsu-cogs https://github.com/ritsu/RitsuCogs``
+
+#### Dusty-Cogs
+Repository Link: [https://github.com/Lunar-Dust/Dusty-Cogs](https://github.com/Lunar-Dust/Dusty-Cogs)  
+Author: Awoonar Dust 
+Description: Cogs for server utilities and fun!  
+Command: ``[p]cog repo add dusty-cogs https://github.com/Lunar-Dust/Dusty-Cogs``
