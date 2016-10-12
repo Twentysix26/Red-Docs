@@ -115,6 +115,6 @@ Command: ``[p]cog repo add ritsu-cogs https://github.com/ritsu/RitsuCogs``
 
 #### Dusty-Cogs
 Repository Link: [https://github.com/Lunar-Dust/Dusty-Cogs](https://github.com/Lunar-Dust/Dusty-Cogs)  
-Author: Awoonar Dust 
+Author: Awoonar Dust  
 Description: Cogs for server utilities and fun!  
 Command: ``[p]cog repo add dusty-cogs https://github.com/Lunar-Dust/Dusty-Cogs``
