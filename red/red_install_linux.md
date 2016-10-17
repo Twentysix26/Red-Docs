@@ -11,9 +11,19 @@ This guide will explain on how to install Red onto Ubuntu/Debian. Keep in mind t
 
 
 ### Repositories
+
+#### Ubuntu 14.04 LTS (Trusty Tahr)
 ```
 sudo add-apt-repository ppa:fkrull/deadsnakes -y
 sudo add-apt-repository ppa:mc3man/trusty-media -y
+sudo apt-get update -y
+sudo apt-get upgrade -y
+```
+
+#### Ubuntu 16.04 LTS (Xenial Xerus)
+```
+sudo add-apt-repository ppa:fkrull/deadsnakes -y
+sudo add-apt-repository ppa:mc3man/xerus-media -y
 sudo apt-get update -y
 sudo apt-get upgrade -y
 ```
