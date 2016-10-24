@@ -49,7 +49,7 @@ pip3.5 install git+https://github.com/Rapptz/discord.py@async
 ## Install Red (You can use git here instead)
 
 ```
-git clone https://github.com/Twentysix26/Red-DiscordBot/archive/develop.zip Red-DiscordBot
+git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 ```
 
 ## Run Red
