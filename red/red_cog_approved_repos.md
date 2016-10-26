@@ -77,11 +77,7 @@ Author: Kowlin
 Description: General cogs with a slight sniff of moderation tools!  
 Command: ``[p]cog repo add refactored-cogs https://github.com/Kowlin/refactored-cogs``
 
-#### FishyCogs
-Repository Link: [https://github.com/FishyFing/FishyCogs](https://github.com/FishyFing/FishyCogs)  
-Author: FishyFing  
-Description: Some coding practice that may have created useful cogs.  
-Command: ``[p]cog repo add fishycogs https://github.com/FishyFing/FishyCogs``
+
 
 #### Eslyium-Cogs
 Repository Link: [https://github.com/Eslyium/Eslyium-Cogs](https://github.com/Eslyium/Eslyium-Cogs)  
