@@ -114,3 +114,9 @@ Repository Link: [https://github.com/Lunar-Dust/Dusty-Cogs](https://github.com/L
 Author: Awoonar Dust  
 Description: Cogs for server utilities and fun!  
 Command: ``[p]cog repo add dusty-cogs https://github.com/Lunar-Dust/Dusty-Cogs``
+
+#### tmerc-Cogs
+Repository Link: [https://github.com/tmercswims/tmerc-cogs](https://github.com/tmercswims/tmerc-cogs)  
+Author: tmerc  
+Description: Various cogs that range from playing sounds and getting cat facts to taking surveys and storing quotes.  
+Command: ``[p]cog repo add tmerc-cogs https://github.com/tmercswims/tmerc-cogs``
