@@ -3,6 +3,7 @@ title: Installing on Windows
 sidebar: red_sidebar
 permalink: /red_install_win/
 last_updated: May 19, 2016
+description: A guide for installing Red on Windows.
 ---
 
 > Disclaimer: if you modify tracked files (like .py) and then update with git, it might cause a conflict. I won't explain what to do in that case as this guide is mostly for normal users, but there are plenty of good git guides out there
@@ -32,7 +33,7 @@ This is pretty much it. Now, make a new account for the bot by following the ["C
 
 Enter the folder, run startRed.bat *(or startRedLoop.bat for auto restart in case of error)* and follow the instructions for setup.
 
-And we're done. 
+And we're done.
 
 ## Updates
 

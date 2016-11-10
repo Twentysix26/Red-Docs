@@ -3,6 +3,7 @@ title: Install on Fedora
 sidebar: red_sidebar
 permalink: /red_install_fedora/
 last_updated: May 19, 2016
+description: A guide for installing Red on Fedora.
 ---
 
 Fedora 23:  **Run these commands as root.**  I had a very minimal system, so I had to install multiple

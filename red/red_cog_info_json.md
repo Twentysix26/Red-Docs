@@ -4,6 +4,7 @@ sidebar: red_sidebar
 permalink: /red_cog_info_json/
 last_updated: June 3, 2016
 toc: false
+description: Information on the info.json file for 3rd party repositories
 ---
 
 A info.json will provide information about the repository or cog the end user is installing. What the info.json can provide are a set of messages. These messages will be displayed on actions the end user is taking.

@@ -2,6 +2,7 @@
 title: Custom commands arguments
 sidebar: red_sidebar
 permalink: /red_guide_command_args/
+description: Information on custom command arguments.
 ---
 
 ## Custom commands arguments

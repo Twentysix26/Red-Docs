@@ -4,6 +4,7 @@ sidebar: red_sidebar
 permalink: /red_cog_approved_repos/
 last_updated: April 27, 2016
 toc: false
+description: A list of approved repositories for 3rd party cogs.
 ---
 This page lists all of the approved cog repositories for Red.
 

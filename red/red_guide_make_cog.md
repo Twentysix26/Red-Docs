@@ -2,6 +2,7 @@
 title: Make your own cog
 sidebar: red_sidebar
 permalink: /red_guide_make_cog/
+description: A guide on how to make your own cog.
 ---
 
 The purpose of this tutorial is to help you create your first custom cog for Red Discord bot.  
@@ -48,7 +49,7 @@ Now you have a basic command interface! Let's make it more interesting, shall we
 Sometimes I want to punch something, or someone, but I'm weak, and I need some help. That's why we'll make a bot puch someone, instead of ourselves.
 
 In your code, change `async def mycom(self):` to `async def punch(self, user : discord.Member):` so now it will react to `[p]punch` and accept a user mention as an argument
- 
+
 The command's code should now look something like this
 
 ```python
@@ -95,12 +96,12 @@ try: # check if BeautifulSoup4 is installed
 	soupAvailable = True
 except:
 	soupAvailable = False
-	
+
 ...
 ```
 
 It's pretty straightforward, you just try to import bs4 from the module, and if it fails - we save that into variable
-  
+
 But that's not enough, we need to tell user that something went wrong, so modify your cog's setup section like this
 
 ```python
@@ -142,7 +143,7 @@ Remove your current `await self.bot.say()` code and add the following
 ```python
 url = "https://steamdb.info/app/570/graphs/" #build the web adress
 async with aiohttp.get(url) as response:
-    soupObject = BeautifulSoup(await response.text(), "html.parser") 
+    soupObject = BeautifulSoup(await response.text(), "html.parser")
 try:
     online = soupObject.find(class_='home-stats').find('li').find('strong').get_text()
     await self.bot.say(online + ' players are playing this game at the moment')
@@ -160,7 +161,7 @@ So, not that hard, right? BS4 allows you to get any info from the webpage, which
 
  Now, we will change the command's name to something more appropriate, and remove the `user : discord.Member` argument, as we don't need it.
  Something like `async def dotanow(self):` should be fitting.
-   
+
  Reload your cog with `[p]reload mycog` and type `[p]dotanow` in chat, the bot should respond with an amount of players online. Neat!
 
 The finished command's code should look something like this
@@ -175,7 +176,7 @@ async def dotanow(self):
     #Your code will go here
     url = "https://steamdb.info/app/570/graphs/" #build the web adress
     async with aiohttp.get(url) as response:
-        soupObject = BeautifulSoup(await response.text(), "html.parser") 
+        soupObject = BeautifulSoup(await response.text(), "html.parser")
     try:
         online = soupObject.find(class_='home-stats').find('li').find('strong').get_text()
         await self.bot.say(online + ' players are playing this game at the moment')

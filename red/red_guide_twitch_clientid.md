@@ -4,6 +4,7 @@ sidebar: red_sidebar
 permalink: /red_guide_twitch_clientid/
 last_updated: November 9, 2016
 toc: false
+description: A guide for adding a Twitch ClientID to Red.
 ---
 
 This guide will show you on how to make your own Twitch ClientID within 5 min or less.

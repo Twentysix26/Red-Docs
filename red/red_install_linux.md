@@ -3,6 +3,7 @@ title: Installing on Ubuntu/Debian
 sidebar: red_sidebar
 permalink: /red_install_linux/
 last_updated: May 19, 2016
+description: A guide for installing Red on Ubuntu/Debian.
 ---
 
 This guide will explain on how to install Red onto Ubuntu/Debian. Keep in mind that this guide is made for Ubuntu, and commands may differ with Debian.

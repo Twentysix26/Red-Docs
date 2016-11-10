@@ -3,6 +3,7 @@ title: Pre-requirements
 permalink: /red_install_prerequirements
 sidebar: red
 last_updated: April 27, 2016
+description: Pre-requirements for installing Red on Windows.
 ---
 In order to install Red you'll need a few pre-requirements that are universal across all operating systems.
 This guide will let you create all pre-requirements before you're going to install the software.

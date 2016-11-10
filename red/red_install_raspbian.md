@@ -4,6 +4,7 @@ sidebar: red_sidebar
 permalink: /red_install_raspbian/
 last_updated: June 13, 2016
 toc: true
+description: A guide for installing Red on Raspbian.
 ---
 
 The installation on Raspbian differs quite a bit from the a traditional Linux installation.

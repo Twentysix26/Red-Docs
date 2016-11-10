@@ -2,6 +2,7 @@
 title: Autorestarting on Linux
 sidebar: red_sidebar
 permalink: /red_guide_linux_autostart/
+description: Information for automatically starting Red on Linux.
 ---
 
 {% include callout.html content="**Important**: Before doing this, start Red at least once and do the configuration process." type="warning" %}

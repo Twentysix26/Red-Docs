@@ -2,9 +2,10 @@
 title: Publish your cog repo
 sidebar: red_sidebar
 permalink: /red_cog_how_to_publish/
+description: Information on how to publish your repository on the approved repo list.
 ---
 
-To give a better chance of approval to developers of all skils *there are two different lists*. The **approved list**, where high quality is expected (cogs that bring useful features to the community and are well documented). And the **beta list**, where approval rules are much more lax: basic functionality, non-conflict with the base bot, non-malicious code are still expected.
+To give a better chance of approval to developers of all skills *there are two different lists*. The **approved list**, where high quality is expected (cogs that bring useful features to the community and are well documented). And the **beta list**, where approval rules are much more lax: basic functionality, non-conflict with the base bot, non-malicious code are still expected.
 
 ### General rules (for both lists):  
 

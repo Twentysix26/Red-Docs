@@ -2,6 +2,8 @@
 title: Aliases
 sidebar: red_sidebar
 permalink: /red_guide_aliases/
+last_updated: November 10, 2016
+description: A guide on creating aliases.
 ---
 
 ## What are aliases?
@@ -47,13 +49,13 @@ You can use the command inputs like normal
 <sub>adding examples for each later<sub>
 
 * **debug** - aliasing the debug command allows you to evaluate arbitrary python code
-    - only the bot owner can use aliases with this 
+    - only the bot owner can use aliases with this
 * **List Comprehensions**
     - looping
     - assignment within an expression - `[None for my_var in ["value to put in my_var"]]``
     - filtering with if
 * **Conditional Expressions** (Ternery Operators) - if/else within expressions
-* **lambdas** 
+* **lambdas**
     - altering scopes
     - awaiting function calls
     - user input - `!alias add cmd debug (lambda input: #code)` user does `!cmd (input)`
@@ -86,7 +88,7 @@ You can edit `red.py` two ways:
 
 You may need to repeat this process when you update your bot, depending on how you update.
 
-Next, type 
+Next, type
 
 ```
 !alias add install debug (lambda fn_or_url, core_cog=0: 'Installed. Make sure to (re)load the cog.'*int(0==(lambda url: subprocess.call(['wget', '-P', 'cogs', '-N', url]))((lambda c=fn_or_url, co=core_cog: (c.replace('https://github.com/','https://raw.githubusercontent.com/')).replace('/blob','') if '.' in c or '/' in c else 'https://raw.githubusercontent.com/Twentysix26/Red-DiscordBot/develop/cogs/' +c+'.py' if bool(co) else 'https://raw.githubusercontent.com/Twentysix26/Red-Cogs/master/cogs'+('/'+c)*2+'.py')())))

@@ -3,6 +3,7 @@ title: General problems
 sidebar: red_sidebar
 permalink: /red_guide_troubleshooting/
 last_updated: May 19, 2016
+description: Troubleshooting for Red.
 ---
 
 Take a moment to read the error you're getting and see if the solution is already in this page.  I'm not reporting the full error here, only a line, so read carefully.

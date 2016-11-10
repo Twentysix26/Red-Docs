@@ -2,6 +2,7 @@
 title: Dota
 sidebar: red_sidebar
 permalink: /red_cog_dota/
+description: The installation documents for the Dota 2 cog.
 ---
 
 ## Installation

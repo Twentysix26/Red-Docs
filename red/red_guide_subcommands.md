@@ -2,6 +2,7 @@
 title: Subcommands
 sidebar: red_sidebar
 permalink: /red_guide_subcommands/
+description: Information on Discord.py subcommands.
 ---
 
 ## What are subcommands?

@@ -3,6 +3,7 @@ title: Installing on Windows
 sidebar: red_sidebar
 permalink: /red_install_windows/
 last_updated: Aug 18, 2016
+description: A guide for installing Red on Windows
 ---
 
 

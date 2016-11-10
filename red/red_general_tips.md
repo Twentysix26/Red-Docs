@@ -2,6 +2,7 @@
 title: General tips
 sidebar: red_sidebar
 permalink: /red_general_tips/
+description: General tips for Red.
 ---
 
 > In the examples I will use the ! prefix. Of course change it to whatever you chose during configuration.  

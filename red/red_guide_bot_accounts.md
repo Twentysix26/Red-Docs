@@ -3,6 +3,7 @@ title: Bot accounts
 sidebar: red_sidebar
 permalink: /red_guide_bot_accounts/
 last_updated: June 26, 2016
+description: Information about Discord bot accounts.
 ---
 
 ## What is a bot account?
