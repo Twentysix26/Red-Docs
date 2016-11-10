@@ -3,6 +3,7 @@ title: Economy API
 sidebar: red_sidebar
 permalink: /red_api_economy/
 last_updated: July 30, 2016
+description: The API documents for Economy
 ---
 
 This document provides information on the Economy API.
