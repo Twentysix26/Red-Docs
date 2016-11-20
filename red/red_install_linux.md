@@ -74,6 +74,7 @@ To invite your bot, use the link given to you in Terminal when booting the bot u
 #### Updating Red
 ```
 cd Red-DiscordBot
+sudo pip3.5 install --upgrade -r requirements.txt
 git pull
 ```
 
