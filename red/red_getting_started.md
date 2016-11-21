@@ -35,8 +35,8 @@ Pick a command at random and issue:
 `[p]help commandname`  
 This will explain what the command does and show what parameter it needs (if any).
 
-**Parameters** are enclosed in `< >` if needed or `[ ]` if optional.
-An example is `[p]ban`. The help will show `$ban <user> [days=0]`. This means that it is necessary to provide the `user` you want to ban (ideally, by mentioning them to prevent mistakes) but the days can be omitted, making it default to 0.  
+**Parameters** are shown as enclosed in `< >` if needed or `[ ]` if optional.
+An example is `[p]ban`. The help will show `[p]ban <user> [days=0]`. This means that it is necessary to provide the `user` you want to ban (ideally, by mentioning them to prevent mistakes) but the days can be omitted, making it default to 0.  
 So, the command can be used by doing `[p]ban @username`. Please don't test that on yourself or your friends ;)
 
 `[p]help` will also show you **command groups**. Command groups are simply, well, group of commands. For example, `[p]cleanup` currently holds six *subcommands*. When using one of them you'll need to also specify the command group, e.g. `[p]cleanup messages 5`
