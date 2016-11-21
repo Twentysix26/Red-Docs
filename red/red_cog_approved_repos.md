@@ -10,11 +10,15 @@ This page lists all of the approved cog repositories for Red.
 
 {% include callout.html content="**Warning**: These repositories are community made. We have no say over what goes into them. The author of Red and the contributors are not responsible for any damage caused by 3rd party cogs." type="danger" %}
 
-### Adding Repositoryies
+### Adding Repositories
 
 To install a community made cog you need to add the repository first.
 Use the command thats listed below the repository.
 After that you can use ``[p]cog list reponame`` to check on what cogs you can install.
+
+### Cog support
+
+For additional support please visit the following [Discord server](https://discord.gg/SzUq8fy)
 
 ## Approved list
 
