@@ -13,7 +13,7 @@ That's Red.  Leave it open if you want the bot to function.
 
 ![](https://i.imgur.com/an6AT2M.png)
 
-# Inviting Red to your server
+## Inviting Red to your server
 
 When started, Red will show you an **invite URL**. Being a URL, simply open it in your browser. That is used to invite Red to a server that *you own* or you have the *manage server* permissions on. If you don't, pass the URL to who does so that they can invite your bot.
 
@@ -21,11 +21,11 @@ Once done, it should tell you "Authorized". It joins as soon as you do that (eve
 - The bot has joined but the user list is not yet showing it
 - The bot has joined but it cannot read messages in the text channel you're in. Set the [proper permissions](https://support.discordapp.com/hc/en-us/articles/206029707).
 
-# Interacting with Red
+## Interacting with Red
 
 Being a chatbot, Red reacts to commands. Commands are preceded by a prefix, usually a single character. Since the prefix can be anything and is decided by you, the user, we'll refer to it as `[p]` in the documentation.  
 
-## The commands
+### The commands
 
 The single command you'll swear by when using Red is `[p]help`. Help will show you the commands' list and how to use each one of them.
 
@@ -37,7 +37,7 @@ So, the command can be used by doing `[p]ban @username`. Please don't test that 
 
 `[p]help` will also show you command groups. Command groups are simply, well, group of commands. For example, `[p]cleanup` currently holds six *subcommands*. When using one of them you'll need to also specify the command group, e.g. `[p]cleanup messages 5`
 
-# Cogs
+## Cogs
 
 Cogs, fancy term for plugins, are additional modules that enhance the functionality of Red. Most of the time, they contain commands for you to use.  
 Red, at the moment of writing, comes with 10 standard cogs (technically 11, but the owner cog is internal and necessary for Red to function). 
@@ -45,7 +45,7 @@ Red, at the moment of writing, comes with 10 standard cogs (technically 11, but 
 You can see your current cogs with `[p]cogs`. It's possible to load the unloaded ones by using `[p]load` and unload the loaded ones with `[p]unload`.  
 You can disable and enable everything you see with the exception of the basic owner cog. This means that, as promised on the tin, you can customize Red how you want.
 
-## Community cogs
+### Community cogs
 
 There's an entire [community](https://discord.me/Red-DiscordBot) that revolves around contributing to Red. Most of those contributors make additional cogs for you to use.  Technically, taking a cog file and dropping it in the cogs folder would be enough to install it, but we made a downloader (which is a cog itself!) to install and keep up to date 3rd party cogs.  
 
@@ -64,7 +64,7 @@ This cog in particular allows to set up "triggers", which are custom responses f
 
 **Remember: there's no actual limit on what a cog can do on your system. This is all open source, if you have the capacity to do so you can check what a cog does before installing it. The author of Red and its contributors take no responsibility on what gets uploaded in 3rd party repositories and for any damage that they might cause to your system.**
 
-# Permissions
+## Permissions
 
 There are three level of permissions on Red: owner, admins, mods.  
 
