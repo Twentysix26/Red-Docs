@@ -18,6 +18,7 @@ That's Red.  Leave it open if you want the bot to function.
 When started, Red will show you an **invite URL**. Being a URL, simply open it in your browser. That is used to invite Red to a server that *you own* or you have the *manage server* permissions on. If you don't, pass the URL to who does so that they can invite your bot.
 
 Once done, it should tell you "Authorized". It joins as soon as you do that (even with the bot closed!), so if you don't see it in your server yet there could be two reasons:
+
 * The bot has joined but the user list is not yet showing it
 * The bot has joined but it cannot read messages in the text channel you're in. Set the [proper permissions](https://support.discordapp.com/hc/en-us/articles/206029707).
 
