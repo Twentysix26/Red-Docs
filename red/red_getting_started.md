@@ -14,6 +14,7 @@ That's Red.  Leave it open if you want the bot to function.
 ![](https://i.imgur.com/an6AT2M.png)
 
 # Inviting Red to your server
+
 When started, Red will show you an **invite URL**. Being a URL, simply open it in your browser. That is used to invite Red to a server that *you own* or you have the *manage server* permissions on. If you don't, pass the URL to who does so that they can invite your bot.
 
 Once done, it should tell you "Authorized". It joins as soon as you do that (even with the bot closed!), so if you don't see it in your server yet there could be two reasons:
@@ -21,6 +22,7 @@ Once done, it should tell you "Authorized". It joins as soon as you do that (eve
 - The bot has joined but it cannot read messages in the text channel you're in. Set the [proper permissions](https://support.discordapp.com/hc/en-us/articles/206029707).
 
 # Interacting with Red
+
 Being a chatbot, Red reacts to commands. Commands are preceded by a prefix, usually a single character. Since the prefix can be anything and is decided by you, the user, we'll refer to it as `[p]` in the documentation.  
 
 ## The commands
@@ -36,6 +38,7 @@ So, the command can be used by doing `[p]ban @username`. Please don't test that 
 `[p]help` will also show you command groups. Command groups are simply, well, group of commands. For example, `[p]cleanup` currently holds six *subcommands*. When using one of them you'll need to also specify the command group, e.g. `[p]cleanup messages 5`
 
 # Cogs
+
 Cogs, fancy term for plugins, are additional modules that enhance the functionality of Red. Most of the time, they contain commands for you to use.  
 Red, at the moment of writing, comes with 10 standard cogs (technically 11, but the owner cog is internal and necessary for Red to function). 
 
@@ -43,7 +46,8 @@ You can see your current cogs with `[p]cogs`. It's possible to load the unloaded
 You can disable and enable everything you see with the exception of the basic owner cog. This means that, as promised on the tin, you can customize Red how you want.
 
 ## Community cogs
-There's an entire community that revolves around contributing to Red. Most of those contributors make additional cogs for you to use.  Technically, taking a cog file and dropping it in the cogs folder would be enough to install it, but we made a downloader (which is a cog itself!) to install and keep up to date 3rd party cogs.  
+
+There's an entire [community](https://discord.me/Red-DiscordBot) that revolves around contributing to Red. Most of those contributors make additional cogs for you to use.  Technically, taking a cog file and dropping it in the cogs folder would be enough to install it, but we made a downloader (which is a cog itself!) to install and keep up to date 3rd party cogs.  
 
 [Here you can see the list of 3rd party repositories](https://twentysix26.github.io/Red-Docs/red_cog_approved_repos/). But what is a repository anyway? You might want to google the *actual* definition up, but in this context, we can define repositories as **containers of cogs that you can install**.  
 
