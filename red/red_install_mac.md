@@ -57,3 +57,5 @@ You may need to set it as executable first: `chmod u+x macRedLoop.command` in Te
 * To invite your bot, use the link given to you in Terminal when booting the bot up.
 
 * To verify that the bot works, do `[your_prefix_here]ping` on your server (in any chat Red can read and write messages). It should respond "pong".
+
+* Consider consulting the [Getting started](/Red-Docs/red_getting_started/) page for a practical guide on familiarizing yourself with Red.

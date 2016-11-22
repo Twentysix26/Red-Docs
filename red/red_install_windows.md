@@ -46,6 +46,8 @@ You will be prompted for a token. Make a new bot user by following the ["Creatin
 
 Complete the configuration process. You'll be able to invite your bot to your server by using the invite link that's provided at boot.
 
+Consult the [Getting started](/Red-Docs/red_getting_started/) page for a practical guide on familiarizing yourself with Red.
+
 {% include callout.html content="**Remember:**<br/><br/>Starting the bot with **startRedLoop.bat** will make it so that Red will restart in case of critical errors, such as networking issues." type="info" %}
 
 ### Updates

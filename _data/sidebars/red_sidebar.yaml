@@ -43,6 +43,10 @@ entries:
     output: web
     folderitems:
 
+    - title: Getting started
+      url: /red_getting_started/
+      output: web
+
     - title: General tips
       url: /red_general_tips/
       output: web
