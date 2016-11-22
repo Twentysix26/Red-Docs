@@ -47,16 +47,20 @@ entries:
       url: /red_getting_started/
       output: web
 
+    - title: FAQs
+      url: /red_faq/
+      output: web
+
     - title: General tips
       url: /red_general_tips/
       output: web
 
-    - title: Red's commands
-      url: /red_commands/
-      output: web
-
     - title: Audio module
       url: /red_audio/
+      output: web
+
+    - title: Red's commands
+      url: /red_commands/
       output: web
 
   - title: Troubleshooting
