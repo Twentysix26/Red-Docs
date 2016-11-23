@@ -8,7 +8,7 @@ description: A guide for installing Red on Ubuntu/Debian.
 
 This guide will explain on how to install Red onto Ubuntu/Debian. Keep in mind that this guide is made for Ubuntu, and commands may differ with Debian.
 
-{% include callout.html content="**Warning**: For saftey considerations, DO NOT install Red onto the root user. Instead, make a new one, following [this guide](https://help.ubuntu.com/14.04/ubuntu-help/user-add.html)." type="danger" %}
+{% include callout.html content="**Warning**: For safety reasons, DO NOT install Red with a root user. Instead, make a new one, following [this guide](https://help.ubuntu.com/14.04/ubuntu-help/user-add.html)." type="danger" %}
 
 
 ### Repositories
