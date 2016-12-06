@@ -8,7 +8,7 @@ permalink: /red_audio/
 
 ## Voice channels
 
-Red will automatically join the voice channel of whoever it's issuing the command. Restrictions may apply in case queue mode is active *and* the bot is already playing music for other people.
+Red will automatically join the voice channel of whoever is issuing the command. Restrictions may apply in case queue mode is active *and* the bot is already playing music for other people.
 
 ## Local playlists
 
