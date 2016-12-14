@@ -8,7 +8,7 @@ description: Information about Discord bot accounts.
 
 ## What is a bot account?
 
-A bot account is different to a normal account. Any public bot account will have this ![Bot tag](https://i.imgur.com/OQufliA.png "Bot Tag") next to them, and this is a *must* for all public bot accounts (aka a bot which you can publically get an OAuth invite link for).  
+A bot account is different compared to a normal account. Any public bot account will have this ![Bot tag](https://i.imgur.com/OQufliA.png "Bot Tag") next to them, and this is a *must* for all public bot accounts (aka a bot which you can publically get an OAuth invite link for).  
 
 Next, the differences between normal user accounts and bot accounts.
 
@@ -46,8 +46,6 @@ This means Red can play music in your main server at the same time as your test 
 Here's a handy gif to explain the process. ![oauth new bot](https://i.imgur.com/Y2ouW7I.gif)
 
 ## Logging in with a token
-
-*If* your bot was previously a user account, delete `/data/red/settings.json`. This will reset the bot login details, and allow you to login using a token.
 
 Upon startup, you should receive a screen that looks like this: ![login](https://i.imgur.com/KcnsQrT.png)   
 Enter your token and press 'Enter'. You can now set up the bot normally.
