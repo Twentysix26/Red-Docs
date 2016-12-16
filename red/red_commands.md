@@ -34,32 +34,41 @@ Right Example:  [p]play http://youtube.com.....
 
 |  Commands |  Description |
 --------|----------
-| [p]shuffle  |  Shuffles the playlist (no subcommands) |
-| [p]resume  |  Resumes currently paused song (no subcommands) |
+| [p]play | Plays link  |
+| [p]stop | Stops audio activities  |
 | [p]skip | Skips song  |
-| [p]list | Lists playlist (has subcommands)  |  
-| [p]list playlist   |   |
-| [p]list local   |   |
-| [p]list queue   |   |
-| [p]local [local folder name] | Plays local playlist  |
-| [p]mix | Plays saved playlist (shuffled)  |
+| [p]shuffle  |  Shuffles the current queue (no subcommands) |
+| [p]resume  |  Resumes currently paused song (no subcommands) |
+| [p]playlist add | Adds a YouTube or Soundcloud playlist |
+| [p]playlist append | Appends to a playlist |
+| [p]playlist create | Creates an empty playlist |
+| [p]playlist extend | Extends a playlist with a playlist link |
+| [p]playlist list | Lists playlist |
+| [p]playlist mix | Plays saved playlist (shuffled) |
+| [p]playlist queue | Adds a song to the playlist loop |
+| [p]playlist remove | Deletes a saved playlist |
+| [p]playlist start | Plays a playlist |
+| [p]local start [local folder name] | Plays local playlist  |
+| [p]local list | Lists local playlists  |
 | [p]audioset | Changes audio module settings  (has subcommands)  |
+| [p]audioset cachemax | Sets the max cache size in MB |
+| [p]audioset emptydisconnect | Toggles auto disconnection when everyone leaves the channel |
 | [p]audioset volume [volume number] | Sets the volume (0-1)  |
-| [p]audioset queue  | Enables/disables forced queue  |
 | [p]audioset status  | Enables/disables songs' titles as status  |
 | [p]audioset maxlength [time in seconds]  | Maximum track length (seconds) for requested links |
+| [p]audioset vote | Percentage needed for the masses to skip songs. 0 to disable. |
 | [p]loop | Loops single song  |
 | [p]playlist [playlist name] | Plays saved playlist  |
-| [p]queue [link] | Add link to queue  |
+| [p]queue [link] | Adds link to queue  |
 | [p]pause | Pauses the current song  |
 | [p]prev | Previous song  |
-| [p]addplaylist [playlist name] [playlist link] | Adds tracks from youtube playlist link. |
-|  | Do not use spaces in playlist name |
-|  | Replace them with hyphens or underscores instead |
 | [p]song or [p]title | Shows the current song title  |
-| [p]stop | Stops audio activities  |
 | [p]sing | Make Red sing!  |
-| [p]play | Plays link  |
+| [p]audiostat | General stats on audio stuff |
+| [p]cache dump | Dumps the cache |
+| [p]cache minimum | Current minimum cache size, based on server count. |
+| [p]cache size | Current size of the cache |
+
 
 
 ### Custom Commands
