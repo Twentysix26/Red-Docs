@@ -2,7 +2,7 @@
 title: Red's commands
 sidebar: red_sidebar
 permalink: /red_commands/
-description: A (outdated) list of commands for Red
+description: A (somewhat up to date) list of commands for Red
 ---
 
 Red is now modular and uses commands + subcommands~
@@ -20,159 +20,153 @@ Right Example:  [p]play http://youtube.com.....
 
 {% include callout.html content="**This list is not up to date with the current version and it's only meant to be a general reference for the features that Red offers. Always rely on the internal help command.**" type="danger" %}
 
-### Alias Help
-
-|  Commands |  Description |
-|---|---|
-| [p]alias  |  Manage per-server aliases for commands (has subcommands) |
-| [p]alias show [command]  |  Shows what command the alias executes. |
-| [p]alias add [command] [to_execute]  |  Add an alias for a command |
-| [p]alias help [command]  |  Tries to execute help for the base command of the alias |
-| [p]alias del [command]  |  Deletes an alias |
-
-### Audio Help
-
-|  Commands |  Description |
---------|----------
-| [p]play | Plays link  |
-| [p]stop | Stops audio activities  |
-| [p]skip | Skips song  |
-| [p]shuffle  |  Shuffles the current queue (no subcommands) |
-| [p]resume  |  Resumes currently paused song (no subcommands) |
-| [p]playlist add | Adds a YouTube or Soundcloud playlist |
-| [p]playlist append | Appends to a playlist |
-| [p]playlist create | Creates an empty playlist |
-| [p]playlist extend | Extends a playlist with a playlist link |
-| [p]playlist list | Lists playlist |
-| [p]playlist mix | Plays saved playlist (shuffled) |
-| [p]playlist queue | Adds a song to the playlist loop |
-| [p]playlist remove | Deletes a saved playlist |
-| [p]playlist start | Plays a playlist |
-| [p]local start [local folder name] | Plays local playlist  |
-| [p]local list | Lists local playlists  |
-| [p]audioset | Changes audio module settings  (has subcommands)  |
-| [p]audioset cachemax | Sets the max cache size in MB |
-| [p]audioset emptydisconnect | Toggles auto disconnection when everyone leaves the channel |
-| [p]audioset volume [volume number] | Sets the volume (0-1)  |
-| [p]audioset status  | Enables/disables songs' titles as status  |
-| [p]audioset maxlength [time in seconds]  | Maximum track length (seconds) for requested links |
-| [p]audioset vote | Percentage needed for the masses to skip songs. 0 to disable. |
-| [p]loop | Loops single song  |
-| [p]playlist [playlist name] | Plays saved playlist  |
-| [p]queue [link] | Adds link to queue  |
-| [p]pause | Pauses the current song  |
-| [p]prev | Previous song  |
-| [p]song or [p]title | Shows the current song title  |
-| [p]sing | Make Red sing!  |
-| [p]audiostat | General stats on audio stuff |
-| [p]cache dump | Dumps the cache |
-| [p]cache minimum | Current minimum cache size, based on server count. |
-| [p]cache size | Current size of the cache |
 
 
+### Alias
 
-### Custom Commands
+| Command   | Description                            |
+|:----------|:---------------------------------------|
+| alias     | Manage per-server aliases for commands |
 
-|  Commands |  Description |
-|---|---|
-| [p]delcom [command] | Deletes a custom command  |
-| [p]addcom [command] [text/link]  | Adds a custom command  |
-| [p]customcommands  |   |
-| [p]editcom [command] [edited text/link] | Edits a custom command  |
+### Audio
+
+| Command    | Description                                                     |
+|:-----------|:----------------------------------------------------------------|
+| cache      | Cache management tools.                                         |
+| skip       | Skips a song, using the set threshold if the requester isn't    |
+| queue      | Queues a song to play next. Extended functionality in `[p]help` |
+| shuffle    | Shuffles the current queue                                      |
+| local      | Local playlists commands                                        |
+| prev       | Goes back to the last song.                                     |
+| stop       | Stops a currently playing song or playlist. CLEARS QUEUE.       |
+| playlist   | Playlist management/control.                                    |
+| yt         | Searches and plays a video from YouTube                         |
+| joinvoice  | Joins your voice channel                                        |
+| disconnect | Disconnects from voice channel in current server.               |
+| sing       | Makes Red sing one of her songs                                 |
+| pause      | Pauses the current song, `[p]resume` to continue.               |
+| play       | Plays a link / searches and play                                |
+| skip       | Skips a song, using the set threshold if the requester isn't    |
+| song       | Info about the current song.                                    |
+| audiostat  | General stats on audio stuff.                                   |
+| repeat     | Toggles REPEAT                                                  |
+| audioset   | Audio settings.                                                 |
+| resume     | Resumes a paused song or playlist                               |
+
+### CustomCommands
+
+| Command        | Description                |
+|:---------------|:---------------------------|
+| editcom        | Edits a custom command     |
+| customcommands | Shows custom commands list |
+| delcom         | Deletes a custom command   |
+| addcom         | Adds a custom command      |
+
+### Downloader
+
+| Command   | Description                |
+|:----------|:---------------------------|
+| cog       | Additional cogs management |
 
 ### Economy
 
-|  Commands |  Description |
-|---|---|
-| [p]payday  | Get some free credits |
-| [p]slot  | Play the slot machine |
-| [p]economyset  | Changes economy module settings  |
-| [p]economyset paydaycredits [credits] | Credits earned each payday |
-| [p]economyset slotmax [bid] | Maximum slot machine bid |
-| [p]economyset paydaytime [seconds]  | Seconds between each payday |
-| [p]economyset slotmin [bid] | Minimum slot machine bid |
-| [p]bank  | Bank operations |
-| [p]bank balance [user]  | Shows balance of user. |
-| [p]bank transfer [user] [sum]  | Transfer credits to other users |
-| [p]bank register  | Registers an account at the Twentysix bank |
-| [p]payouts  | Shows slot machine payouts |
+| Command     | Description                     |
+|:------------|:--------------------------------|
+| payday      | Get some free credits           |
+| economyset  | Changes economy module settings |
+| slot        | Play the slot machine           |
+| leaderboard | Server / global leaderboard     |
+| bank        | Bank operations                 |
+| payouts     | Shows slot machine payouts      |
 
 ### General
 
-|  Commands |  Description |
-|---|---|
-| [p]flip or [p]flip [user]  | Flips a coin... or a user. |
-| [p]rps [rock, paper, or scissors]  | Play rock paper scissors |
-| [p]poll [question];[option1];[option2]  etc | Starts a poll |
-| [p]poll stop | Ends a poll |
-| [p]roll [number] | Rolls random number (between 1 and user choice). Default number is 100 |
-| [p]8  [question?] | Ask 8 ball a question |
-|   | Must end with a "?" |
-| [p]urban [word]  | Urban Dictionary search |
-| [p]stopwatch  | Starts/stops stopwatch |
-| [p]choose [option 1] [option 2] | Chooses between multiple choices. |
-| [p]info or [p]info [user]  | Shows users's informations |
-| [p]server  | Shows server's informations |
-| [p]lmgtfy [search]  | Creates a lmgtfy link |
+| Command    | Description                                     |
+|:-----------|:------------------------------------------------|
+| flip       | Flips a coin... or a user.                      |
+| roll       | Rolls random number (between 1 and user choice) |
+| stopwatch  | Starts/stops stopwatch                          |
+| 8          | Ask 8 ball a question                           |
+| lmgtfy     | Creates a lmgtfy link                           |
+| hug        | Because everyone likes hugs                     |
+| userinfo   | Shows users's informations                      |
+| poll       | Starts/stops a poll                             |
+| rps        | Play rock paper scissors                        |
+| stopwatch  | Starts/stops stopwatch                          |
+| choose     | Chooses between multiple choices.               |
+| 8          | Ask 8 ball a question                           |
+| urban      | Urban Dictionary search                         |
+| serverinfo | Shows server's informations                     |
+| ping       | Pong.                                           |
 
 ### Image
 
-|  Commands |  Description |
-|---|---|
-| [p]gif [search] | Retrieves first search result from giphy |
-| [p]imgur [search] | Retrieves a random imgur picture |
-| [p]gifr [search]  | Retrieves a random gif from a giphy search |
+| Command   | Description                                |
+|:----------|:-------------------------------------------|
+| gif       | Retrieves first search result from giphy   |
+| gifr      | Retrieves a random gif from a giphy search |
+| imgur     | Retrieves a picture from imgur             |
 
 ### Mod
 
-|  Commands |  Description |
-|---|---|
-| [p]ignore | Adds servers/channels to ignorelist (has subcommands) |
-| [p]ignore server | Ignores current server |
-| [p]ignore channel or [p]ignore channel [channel] | Ignores channel, defaults to current one |
-| [p]ban [user] [days=0] | Bans user and deletes last X days worth of messages. |
-| [p]modset | Manages server administration settings. (has subcommands) |
-| [p]modset adminrole [role_name] | Sets the admin role for this server, case insensitive. |
-| [p]modset modrole [role_name] | Sets the mod role for this server, case insensitive. |
-| [p]cleanup | Deletes messages. |
-| [p]cleanup messages [number] | Deletes last X messages. |
-| [p]cleanup user [name/mention] [number] | Deletes last X messages from specified user. |
-| [p]cleanup text "Text here" [number] | Deletes last X messages matching the specified text. |
-| [p]filter | Adds/removes words from filter |
-| [p]filter remove [words...] | Remove words from the filter |
-| [p]filter add [words...] | Adds words to the filter |
-| [p]unignore | Removes servers/channels from ignorelist (has subcommands) |
-| [p]unignore server | Removes current server from ignore list |
-| [p]unignore channel or [p]unignore channel [channel] | Removes channel from ignore list |
-| [p]editrole | Edits roles settings (has subcommands) |
-| [p]editrole colour [role] [value] | Edits a role's colour |
-| [p]editrole name [role] [name] | Edits a role's name |
-| [p]kick [user] | Kicks user. |
+| Command   | Description                                          |
+|:----------|:-----------------------------------------------------|
+| reason    | Lets you specify a reason for mod-log's cases        |
+| names     | Show previous names/nicknames of a user              |
+| ignore    | Adds servers/channels to ignorelist                  |
+| mute      | Mutes user in the channel/server                     |
+| whitelist | Users who will be able to use the bot                |
+| editrole  | Edits roles settings                                 |
+| ban       | Bans user and deletes last X days worth of messages. |
+| modset    | Manages server administration settings.              |
+| blacklist | Bans user from using the bot                         |
+| unmute    | Unmutes user in the channel/server                   |
+| cleanup   | Deletes messages.                                    |
+| rename    | Changes user's nickname                              |
+| kick      | Kicks user.                                          |
+| unignore  | Removes servers/channels from ignorelist             |
+| filter    | Adds/removes words from filter                       |
+| softban   | Kicks the user, deleting 1 day worth of messages.    |
 
+### Owner
+
+| Command   | Description                       |
+|:----------|:----------------------------------|
+| unload    | Unloads a module                  |
+| load      | Loads a module                    |
+| command   | Disables/enables commands         |
+| leave     | Leaves server                     |
+| reload    | Reloads a module                  |
+| version   | Shows Red's current version       |
+| shutdown  | Shuts down Red                    |
+| contact   | Sends message to the owner        |
+| cogs      | Shows loaded/unloaded cogs        |
+| servers   | Lists and allows to leave servers |
+| set       | Changes Red's global settings.    |
+| uptime    | Shows Red's uptime                |
+| info      | Shows info about Red              |
+| join      | Joins new server                  |
+| debug     | Evaluates code                    |
 
 ### Streams
 
-|  Commands |  Description |
-|---|---|
-| [p]hitbox [name] | Checks if hitbox stream is online |
-| [p]twitch [name] | Checks if twitch stream is online |
-| [p]streamalert  | Adds/removes stream alerts from the current channel |
-| [p]streamalert twitch [channel] | Checks if twitch stream is online |
-| [p]streamalert hitbox [channel]  | Checks if hitbox stream is online |
+| Command     | Description                                         |
+|:------------|:----------------------------------------------------|
+| streamset   | Stream settings                                     |
+| streamalert | Adds/removes stream alerts from the current channel |
+| twitch      | Checks if twitch stream is online                   |
+| hitbox      | Checks if hitbox stream is online                   |
+| beam        | Checks if beam stream is online                     |
 
 ### Trivia
 
-|  Commands |  Description |
-|---|---|
-| [p]trivia | Show's trivia list names (has subcommands) |
-| [p]trivia [list name] | Start a trivia session with the specified list |
-| [p]trivia stop | Ends the current session |
+| Command   | Description                                    |
+|:----------|:-----------------------------------------------|
+| trivia    | Start a trivia session with the specified list |
+| triviaset | Change trivia settings                         |
 
-### No Category
+### None
 
-|  Commands |  Description |
-|---|---|
-| [p]uptime | Shows how long Red's been online |
-| [p]set | Changes settings (has subcommand) |
-| [p]set owner | Sets owner. |
-| [p]help | Shows list of commands |
+| Command   | Description         |
+|:----------|:--------------------|
+| help      | Shows this message. |
