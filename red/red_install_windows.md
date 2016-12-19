@@ -6,9 +6,6 @@ last_updated: Aug 18, 2016
 description: A guide for installing Red on Windows
 ---
 
-
-> Disclaimer: If you modify tracked files (like .py) and then try to update, it might cause a conflict and the update process will fail. Modify any file at your risk.
-
 ### Software
 {% include callout.html content="**Important**: Remember to do the following!<br/><br/>Select 'Add Python to path'<br/>Select 'Use Git from the Windows Command Prompt'<br/>*See the screenshots for more information*" type="info" %}
 - [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior.  
@@ -40,6 +37,10 @@ Git should now start downloading the files and put everything into a folder call
 
 * Right click **update.bat** and open it as admin. This will install the requirements and will also allow you to update Red and its requirements in the future.
 
+{% include important.html content="<br/>Verify that **update.bat** goes through with no errors. If the error 'Unable to find vcvarsall.bat'
+shows up it may be necessary to update pip by doing<br/>**`py -3.5 -m pip install --upgrade pip`**<br/> in a command prompt with admin privileges
+and start **update.bat** again." type="info" %}
+
 * To start Red, double click **startRed.bat**
 
 You will be prompted for a token. Make a new bot user by following the ["Creating a new bot account"](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-account) section.  
@@ -48,8 +49,8 @@ Complete the configuration process. You'll be able to invite your bot to your se
 
 Consult the [Getting started](/Red-Docs/red_getting_started/) page for a practical guide on familiarizing yourself with Red.
 
-{% include callout.html content="**Remember:**<br/><br/>Starting the bot with **startRedLoop.bat** will make it so that Red will restart in case of critical errors, such as networking issues." type="info" %}
+{% include tip.html content="<br/>Starting Red with **startRedLoop.bat** will make it so it automatically restarts in case of critical errors, such as networking issues." type="info" %}
 
 ### Updates
 
-To update Red, simply run as admin the update.bat
+To update Red, simply run as admin **update.bat**
