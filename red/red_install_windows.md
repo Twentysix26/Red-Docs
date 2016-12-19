@@ -7,13 +7,13 @@ description: A guide for installing Red on Windows
 ---
 
 ### Software
-{% include callout.html content="**Important**: Remember to do the following!<br/><br/>Select 'Add Python to path'<br/>Select 'Use Git from the Windows Command Prompt'<br/>*See the screenshots for more information*" type="info" %}
+
 - [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior.  
 ![](http://i.imgur.com/dfsaVLx.png)<br/><br/>
 - [Install Git](https://git-scm.com/download/win)  
 ![](http://i.imgur.com/guis7EE.png)  
 
-Failure to add the above sofware to PATH like shown will result in failure of the following steps.
+{% include important.html content="<br/>Failure to add the above sofware to PATH like shown will result in failure of the following steps." type="info" %}
 
 ### Installation
 
