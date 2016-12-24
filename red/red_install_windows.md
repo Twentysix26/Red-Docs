@@ -8,12 +8,12 @@ description: A guide for installing Red on Windows
 
 ### Software
 
-- [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior.  
+- [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior. **Currently Red doesn't support Python 3.6.0! Install Python 3.5.2**  
 ![](http://i.imgur.com/dfsaVLx.png)<br/><br/>
 - [Install Git](https://git-scm.com/download/win)  
 ![](http://i.imgur.com/guis7EE.png)  
 
-{% include important.html content="<br/>Failure to add the above sofware to PATH like shown will result in failure of the following steps." type="info" %}
+{% include important.html content="<br/>Failure to add the above software to PATH like shown will result in failure of the following steps." type="info" %}
 
 ### Installation
 
