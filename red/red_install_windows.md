@@ -38,7 +38,7 @@ Git should now start downloading the files and put everything into a folder call
 * Right click **update.bat** and open it as admin. This will install the requirements and will also allow you to update Red and its requirements in the future.
 
 {% include important.html content="<br/>Verify that **update.bat** goes through with no errors. If the error 'Unable to find vcvarsall.bat'
-shows up it may be necessary to update pip by doing<br/>**`py -3.5 -m pip install --upgrade pip`**<br/> in a command prompt with admin privileges
+shows up it may be necessary to update pip by doing<br/>**`py -3 -m pip install --upgrade pip`**<br/> in a command prompt with admin privileges
 and start **update.bat** again." type="info" %}
 
 * To start Red, double click **startRed.bat**
