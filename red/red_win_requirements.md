@@ -8,7 +8,7 @@ description: Windows Requirements for Red.
 
 ### Software
 {% include callout.html content="**Important**: Remember to do the following!<br/><br/>Select 'Add Python to path'<br/>Select 'Use Git from the Windows Command Prompt'<br/>*See the screenshots for more information*" type="info" %}
-- [Install Python](https://www.python.org/downloads/). Red **needs** 3.5.0 or superior.  
+- [Install Python](https://www.python.org/downloads/). Red **needs** 3.5. **Avoid 3.6 for the time being as it causes installation issues.**  
 ![](http://i.imgur.com/dfsaVLx.png)<br/><br/>
 - [Install Git](https://git-scm.com/download/win)  
 ![](http://i.imgur.com/guis7EE.png)  
