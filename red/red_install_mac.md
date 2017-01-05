@@ -6,11 +6,13 @@ last_updated: May 19, 2016
 description: A guide for installing Red on Mac.
 ---
 
-A guide by orels1
+Guide originally made by orels1
 
-*  Install brew  
+#### Installation
+
+*  **Install brew**  
   In Finder or Spotlight, search for and open terminal
-  In the window opened - paste this:
+  In the that will open, paste this:
 
 	```
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -18,15 +20,12 @@ A guide by orels1
 
    And press enter.
 
-*  After the installation, install the required packages by pasting commands below and pressing enter, one-by-one:
+*  After the installation, install the required packages by pasting the commands and pressing enter, one-by-one:
 
 	  `brew install python3 --with-brewed-openssl`  
 	  `brew install git`  
 	  `brew install ffmpeg --with-ffplay`  
 	  `brew install opus`  
-	  `pip3 install -U git+https://github.com/Rapptz/discord.py@master#egg=discord.py[voice]`  
-	  `pip3 install youtube_dl`  
-	  `pip3 install imgurpython`  
 
 * Enter the folder you want to install Red in through the Terminal:
   use the command `cd` (change directory) and `ls` (list files/dirs) to navigate to the folder.
@@ -41,21 +40,34 @@ A guide by orels1
 	  git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 	```
 
-
-  Do not close the terminal afterwards. If this works, your main folder should look like this:  
-  ![mainfolderosx](https://i.imgur.com/M2qXWG3.png)
+  Do not close the terminal afterwards. If this works, the content of the folder should be this:  
+  ![mainfolderosx](https://i.imgur.com/1EIjOQj.png)
 
 * Run `export PATH=$PATH:/usr/local/Cellar/opus/1.1.2/lib/` in the terminal
 
-* While in Red's folder, download [this script](https://cdn.discordapp.com/attachments/160386989819035648/174137122465251330/macRedLoop.command) and place the file inside your Red-DiscordBot folder, the same folder where red.py is.
+* Then `python3 launcher.py`
 
-* Double-click the `macRedLoop.command` file you place into the Red-DiscordBot folder.  
-You may need to set it as executable first: `chmod u+x macRedLoop.command` in Terminal, inside the Red-DiscordBot folder.
+* This will open **Red's launcher**. The launcher is an applications made to facilitate many common operations. Navigating the menus is simple: pick a number and press enter.
 
-* Complete the initial setup. On the setup, you will be required to enter a token. Get one [here](https://discordapp.com/developers/applications/me). If you get stuck, follow the [bot accounts](/Red-Docs/red_guide_bot_accounts) guide.
+* Install the requirements by reaching the correct submenu
 
-* To invite your bot, use the link given to you in Terminal when booting the bot up.
+![updatescreen](https://i.imgur.com/pdCB1xh.png)
 
-* To verify that the bot works, do `[your_prefix_here]ping` on your server (in any chat Red can read and write messages). It should respond "pong".
+* You can now run Red from the launcher's main menu
+
+* Complete the initial setup. During the setup, you will be asked to enter a token. Get one [here](https://discordapp.com/developers/applications/me). If you get stuck, follow the [bot accounts](/Red-Docs/red_guide_bot_accounts) guide.
+
+* To invite your bot, use the link given to you in the Terminal when Red has been started.
 
 * Consider consulting the [Getting started](/Red-Docs/red_getting_started/) page for a practical guide on familiarizing yourself with Red.
+
+{% include tip.html content="<br/>The launcher will create 2 scripts: **start_red.command** and **start_red_autostart.command**. You can use those to start
+Red directly without passing through the launcher." type="info" %}
+
+#### Updating Red
+Pick the update option from the launcher or do
+```
+python3 -m pip install --upgrade -r requirements.txt
+git pull
+```
+in Red's main folder.

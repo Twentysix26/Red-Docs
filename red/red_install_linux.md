@@ -40,42 +40,48 @@ wget https://bootstrap.pypa.io/get-pip.py
 sudo python3.5 get-pip.py
 ```
 
-
-### Requirements
-Not *all* of these are required, refer to [this](/Red-Docs/red_win_requirements/) for further explanations.
-
-```
-sudo pip3.5 install -U git+https://github.com/Rapptz/discord.py@master#egg=discord.py[voice]
-sudo pip3.5 install youtube_dl
-sudo pip3.5 install imgurpython
-```   
-
 ### Red  
-{% include callout.html content="**Warning**: Do not use sudo from now on! This will affect the permissions of the bot and will cause a failed instalation!" type="danger" %}
+{% include important.html content="<br/>Do not use sudo from now on. This might cause installation issues" type="info" %}
 
 ```
 git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
 ```
 
 If all is done correctly, your main folder should look like this:  
-![mainfolderlinux](https://i.imgur.com/9pwxtYm.png)
+![mainfolderlinux](https://i.imgur.com/cfLOpvJ.png)
 
-#### Running Red  
-Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_guide_linux_autostart). Otherwise, do this:
+Let's open the launcher.
 
 ```
 cd Red-DiscordBot
+python3.5 launcher.py
+```
+
+The launcher is an applications made to facilitate many common operations. Navigating the menus is simple: pick a number and press enter.
+Install the requirements by choosing the appropriate menu entry.
+
+#### Running Red  
+
+{% include tip.html content="<br/>Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_guide_linux_autostart)" type="info" %}
+
+You can run Red from the launcher's main menu or directly by doing:
+
+```
 python3.5 red.py
 ```
+The launcher will offer autorestart in case of critical errors so you might want to use it.
 
 On the initial setup, you will be required to enter a token. Get one [here](https://discordapp.com/developers/applications/me). If you get stuck, follow the [bot accounts](/Red-Docs/red_guide_bot_accounts) guide.  
 To invite your bot, use the link given to you in Terminal when booting the bot up.  
 
 #### Updating Red
+**Pick the update option from the launcher** or do
+
 ```
-cd Red-DiscordBot
 sudo pip3.5 install --upgrade -r requirements.txt
 git pull
 ```
+
+in Red's main folder.
 
 Credit for part of this guide goes to MusicBot's wiki

@@ -31,17 +31,24 @@ git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordB
 ```
 
 Git should now start downloading the files and put everything into a folder called "Red-DiscordBot". This will be the content of the folder:  
-![mainfolderwin](https://i.imgur.com/603QQYK.png)  
+![mainfolderwin](https://i.imgur.com/1EIjOQj.png)  
 
-* If you're interested in audio features, double click **download_ffmpeg.bat**
+* Click on **start_launcher.bat**. Red's launcher will open up: it's an applications made to facilitate many common operations.
+Navigating the menus is simple: pick a number and press enter.
 
-* Right click **update.bat** and open it as admin. This will install the requirements and will also allow you to update Red and its requirements in the future.
+* First things first: **let's install Red's requirements**. Pick the appropriate option from the main menu.  
+If you're interested in audio you'll need to pick **ffmpeg** as well: make sure to install the 64 bit version (assuming you're on a 64bit system),
+as the installation is entirely automated.
 
-{% include important.html content="<br/>Verify that **update.bat** goes through with no errors. If the error 'Unable to find vcvarsall.bat'
-shows up it may be necessary to update pip by doing<br/>**`py -3 -m pip install --upgrade pip`**<br/> in a command prompt with admin privileges
-and start **update.bat** again." type="info" %}
+![updatescreen](https://i.imgur.com/pdCB1xh.png)
 
-* To start Red, double click **startRed.bat**
+{% include important.html content="<br/>If the requirements installation fails with the error **'Unable to find vcvarsall.bat'** it may be necessary to update pip first.  
+This might require admin privileges, in that case you'll have to close the launcher and reopen it as admin (right click -> open as admin).
+You'll find the option 'Update pip' in the 'Update' submenu" type="info" %}
+
+### Running Red
+
+Having completed the previous steps, Red should be good to go. Go back to the main menu and pick the **Run Red** option.
 
 You will be prompted for a token. Make a new bot user by following the ["Creating a new bot account"](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-account) section.  
 
@@ -49,8 +56,9 @@ Complete the configuration process. You'll be able to invite your bot to your se
 
 Consult the [Getting started](/Red-Docs/red_getting_started/) page for a practical guide on familiarizing yourself with Red.
 
-{% include tip.html content="<br/>Starting Red with **startRedLoop.bat** will make it so it automatically restarts in case of critical errors, such as networking issues." type="info" %}
+{% include tip.html content="<br/>The launcher will create 2 batch files: **start_red.bat** and **start_red_autostart.bat**. You can use those to start
+Red directly without passing through the launcher." type="info" %}
 
 ### Updates
 
-To update Red, simply run as admin **update.bat**
+Keep Red and its requirements up to date by occasionally running the update option from the launcher.
