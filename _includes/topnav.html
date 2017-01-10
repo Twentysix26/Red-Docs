@@ -60,10 +60,10 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: '{{ "/search.json" | prepend: site.baseurl }}',
-                                searchResultTemplate: '<li><a href="{url}" title="{{page.title | replace: "'", "\"}}">{title}</a></li>',
-                    noResultsText: '{{site.data.strings.search_no_results_text}}',
-                            limit: 10,
-                            fuzzy: true,
+                                searchResultTemplate: '<li><a href="{url}" title="{{page.title | replace: "\'", "\"}}">{title}</a></li>',
+                                noResultsText: '{{site.data.strings.search_no_results_text}}',
+                                limit: 10,
+                                fuzzy: true,
                     })
                     </script>
                     <!--end search-->
