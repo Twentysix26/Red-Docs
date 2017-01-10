@@ -1,5 +1,5 @@
 ---
-title: Red documentation
+title: Red - Discord Bot documentation
 sidebar: red_sidebar
 type: homepage
 ---
