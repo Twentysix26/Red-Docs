@@ -82,8 +82,6 @@ Author: Kowlin
 Description: General cogs with a slight sniff of moderation tools!  
 Command: ``[p]cog repo add refactored-cogs https://github.com/Kowlin/refactored-cogs``
 
-
-
 #### Eslyium-Cogs
 Repository Link: [https://github.com/Eslyium/Eslyium-Cogs](https://github.com/Eslyium/Eslyium-Cogs)  
 Author: Eslyium  
@@ -125,3 +123,15 @@ Repository Link: [https://github.com/tmercswims/tmerc-cogs](https://github.com/t
 Author: tmerc  
 Description: Various cogs that range from playing sounds and getting cat facts to taking surveys and storing quotes.  
 Command: ``[p]cog repo add tmerc-cogs https://github.com/tmercswims/tmerc-cogs``
+
+#### Nerdie-Cogs
+Repository Link: [https://github.com/Nerdietony/Nerdie-Cogs](https://github.com/Nerdietony/Nerdie-Cogs)  
+Author: NerdieTony  
+Description: The only Red Cogs made out of boredom, loneliness, and what I think is sweat.  
+Command: ``[p]cog repo add nerdie-cogs https://github.com/Nerdietony/Nerdie-Cogs``
+
+#### Scarlet-Cogs
+Repository Link: [https://github.com/ScarletRav3n/Scarlet-Cogs](https://github.com/ScarletRav3n/Scarlet-Cogs)  
+Author: ScarletRav3n  
+Description: Fun and random cogs for general entertainment.  
+Command: ``[p]cog repo add scarlet-cogs https://github.com/ScarletRav3n/Scarlet-Cogs``
