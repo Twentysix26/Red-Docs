@@ -8,6 +8,8 @@ description: A list of approved repositories for 3rd party cogs.
 ---
 This page lists all of the approved cog repositories for Red.
 
+{% include redportal.html type="info" %}
+
 {% include callout.html content="**Warning**: These repositories are community made. We have no say over what goes into them. The author of Red and the contributors are not responsible for any damage caused by 3rd party cogs." type="danger" %}
 
 ### Adding Repositories
