@@ -74,6 +74,12 @@ Author: CalebJ
 Description: General and utility cogs I made or innovated upon.  
 Command: ``[p]cog repo add calebj-cogs https://github.com/neonobjclash/calebj-cogs``
 
+#### ORELS-Cogs  
+Repository Link: [https://github.com/orels1/ORELS-Cogs](https://github.com/orels1/ORELS-Cogs)  
+Author: orels1  
+Description: Gaming / data based cogs, with a bit of some fun stuff  
+Command: ``[p]cog repo add orels-cogs https://github.com/orels1/ORELS-Cogs``
+
 ## Beta list
 
 General list of repositories  
