@@ -8,8 +8,8 @@ description: A guide for installing Red on Windows
 
 ### Software
 
-- [Install Python](https://www.python.org/downloads/). Red **needs 3.5 or above**. **Avoid 3.6 for the time being as there are known installation issues with it**.  
-![](http://i.imgur.com/dfsaVLx.png)<br/><br/>
+- [Install Python](https://www.python.org/downloads/). Red **needs the latest 3.5.x**. **Avoid 3.6 for the time being as there are known installation issues with it**.  
+![](http://i.imgur.com/tTeIWaW.png)<br/><br/>
 - [Install Git](https://git-scm.com/download/win)  
 ![](http://i.imgur.com/guis7EE.png)  
 
