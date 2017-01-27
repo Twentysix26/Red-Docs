@@ -27,3 +27,7 @@ You don't, use `[p]set` instead.
 ### How do I change the avatar?
 
 See `[p]set`.
+
+### How do I change the prefix?
+
+See `[p]set`.
