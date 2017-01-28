@@ -73,8 +73,9 @@ Red directly without passing through the launcher." type="info" %}
 #### Updating Red
 Pick the update option from the launcher or do
 ```
-python3 -m pip install --upgrade -r requirements.txt  
-
+python3 -m pip install --upgrade -r requirements.txt
+```
+```
 git pull
 ```
 in Red's main folder.
