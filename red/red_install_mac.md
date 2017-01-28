@@ -64,6 +64,12 @@ Guide originally made by orels1
 {% include tip.html content="<br/>The launcher will create 2 scripts: **start_red.command** and **start_red_autostart.command**. You can use those to start
 Red directly without passing through the launcher." type="info" %}
 
+{% include important.html content="<br/>If the login fails with **'SSLError'** it may be necessary to run this command first:
+<br/>
+`python3 -m pip install certifi`
+<br/>
+[You can find more informations about this issue here](https://github.com/Rapptz/discord.py/issues/423#issuecomment-272093801)" type="info" %}
+
 #### Updating Red
 Pick the update option from the launcher or do
 ```
