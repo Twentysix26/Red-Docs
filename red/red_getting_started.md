@@ -80,4 +80,4 @@ Only the owner can load/unload cogs, change Red's name, change her status, etc.
 
 If you exclude the owner, admins are the maximum level. What they can do depends on the cogs, but for example, in the standard moderation module they have power to ban and kick people.
 
-Mods are a step above the average user. Again, what they can do depends on each cog. In the standar moderation module they have the ability to mass delete messages through the bot.
+Mods are a step above the average user. Again, what they can do depends on each cog. In the standard moderation module they have the ability to mass delete messages through the bot.
