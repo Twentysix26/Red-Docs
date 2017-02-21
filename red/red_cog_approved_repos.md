@@ -69,10 +69,10 @@ Description: General cogs I developed.
 Command: ``[p]cog repo add paddo-cogs https://github.com/PaddoInWonderland/PaddoCogs``
 
 #### CalebJ-Cogs  
-Repository Link: [https://github.com/neonobjclash/calebj-cogs](https://github.com/neonobjclash/calebj-cogs)  
+Repository Link: [https://github.com/calebj/calebj-cogs](https://github.com/calebj/calebj-cogs)  
 Author: CalebJ  
 Description: General and utility cogs I made or innovated upon.  
-Command: ``[p]cog repo add calebj-cogs https://github.com/neonobjclash/calebj-cogs``
+Command: ``[p]cog repo add calebj-cogs https://github.com/calebj/calebj-cogs``
 
 #### ORELS-Cogs  
 Repository Link: [https://github.com/orels1/ORELS-Cogs](https://github.com/orels1/ORELS-Cogs)  
