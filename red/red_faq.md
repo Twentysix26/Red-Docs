@@ -13,6 +13,16 @@ description: Frequently asked questions
 
 [No, it is not. Red is a chatbot, commands go in the chat.](/Red-Docs/red_getting_started)
 
+### Red doesn't respond to my commands
+
+- Make sure Red is active. Check that the console is open. Like any other software it won't work if it's not open.
+- Make sure that you're using the correct prefix. This is the prefix you set during the initial configuration and it's displayed on the console.
+- Make sure that Red has `read messages` AND `send messages` [permissions](https://support.discordapp.com/hc/en-us/articles/206029707) in the channel you're trying to issue commands in
+
+### Red doesn't respond to some commands. They seem to be mod / admin ones.
+
+Make sure that you're the owner by checking in the console. The owner is automatically set to who owns the application. If you created the bot user with another account by mistake you can use `[p]set owner` to set yourself as owner.
+
 ### How do I make it join a channel? / I installed and it won't join a voice channel
 
 Red *has no need* to get into a voice channel as soon as it gets installed nor *you need* to make her join manually.  
@@ -31,3 +41,10 @@ See `[p]set`.
 ### How do I change the prefix?
 
 See `[p]set`.
+
+### How do I restrict Red to one channel / some channels?
+
+Two ways:
+- Set the [proper permissions](https://support.discordapp.com/hc/en-us/articles/206029707). Disallow `read messages`: if Red cannot read the messages it also cannot respond to them.
+
+- Use the `[p]ignore` command
