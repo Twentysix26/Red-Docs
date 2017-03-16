@@ -53,7 +53,6 @@ Enter your token and press 'Enter'. You can now set up the bot normally.
 ## Adding the bot account to your server
 
 To add your bot to your server, grab the link shown in console when you start the bot, and visit that link in your browser, with your **main account**. And select the server you want the bot to be in.  
-If you wish to add your bot to the [support server](https://discord.gg/0k4npTwMvTpv9wrh), use `?addbot <OAuth URL>` on the server.  
-If you want to add specific permissions, then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x` to the url, replacing x with the number given.  
+If you want to add specific permissions, then use [this](https://abal.moe/Discord/permissions.html) and add `&permissions=x` to the url, replacing x with the number given. This is not strictly necessary: additional permissions can always be added after the join.  
 
 ![](https://i.imgur.com/OSZkU1k.gif)
