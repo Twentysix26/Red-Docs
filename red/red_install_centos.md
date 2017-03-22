@@ -2,11 +2,11 @@
 title: Install on CentOS
 sidebar: red_sidebar
 permalink: /red_install_centos/
-last_updated: Mar 20, 2016
+last_updated: Mar 22, 2017
 description: A guide for installing Red on CentOS.
 ---
 
-This guide is aimed as installing Red on CentOS.
+This guide is aimed as installing Red on CentOS 7.
 
 {% include callout.html content="**Warning**: For safety reasons, DO NOT install Red with a root user. Instead, make a new one." type="danger" %}
 
@@ -42,7 +42,7 @@ python3.5 launcher.py
 
 ## Updating the bot
 
-To update the bot enter the bot directory and start the launcher,  then select ``Install requirements`` and select 1 or 2
+To update the bot enter the bot directory and start the launcher,  then select ``Update`` and select 1, 2, or 3
 ```
 python3.5 launcher.py
 ```

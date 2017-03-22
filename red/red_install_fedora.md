@@ -42,7 +42,7 @@ python3 launcher.py
 
 ## Updating the bot
 
-To update the bot enter the bot directory and start the launcher,  then select ``Install requirements`` and select 1 or 2
+To update the bot enter the bot directory and start the launcher,  then select ``Update`` and select 1, 2, or 3
 ```
 python3 launcher.py
 ```
