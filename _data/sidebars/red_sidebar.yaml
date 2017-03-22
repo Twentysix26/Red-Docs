@@ -23,14 +23,30 @@ entries:
       url: /red_install_windows/
       output: web
 
-    - title: Installing on Ubuntu/Debian
-      url: /red_install_linux/
+    - title: Installing on Ubuntu
+      url: /red_install_ubuntu/
+      output: web
+    
+    - title: Install on Alpine
+      url: /red_install_alpine/
       output: web
 
+    - title: Installing on CentOS
+      url: /red_install_centos/
+      output: web
+    
     - title: Installing on Fedora
       url: /red_install_fedora/
       output: web
-
+    
+    - title: Installing on Debian
+      url: /red_install_debian/
+      output: web
+    
+    - title: Installing on Archlinux
+      url: /red_install_archlinux/
+      output: web
+    
     - title: Installing on Mac
       url: /red_install_mac/
       output: web
