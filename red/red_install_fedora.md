@@ -2,66 +2,47 @@
 title: Install on Fedora
 sidebar: red_sidebar
 permalink: /red_install_fedora/
-last_updated: May 19, 2016
+last_updated: Mar 22, 2017
 description: A guide for installing Red on Fedora.
 ---
 
-Fedora 23:  **Run these commands as root.**  I had a very minimal system, so I had to install multiple
-basic packages which you may already have.
+This guide is aimed as installing Red on Fedora 25.
 
-## Install Pre-Requisites
+{% include callout.html content="**Warning**: For safety reasons, DO NOT install Red with a root user. Instead, make a new one." type="danger" %}
 
-```
-dnf install wget
-dnf install unzip
-dnf install git
-dnf install gcc
-dnf install libffi-devel
-dnf install redhat-rpm-config
-dnf install make
-```
-
-## Install Python 3.5 and Pip 3.5
+## Installing the pre-requirements
 
 ```
-dnf copr enable -y mstuchli/Python3.5
-dnf install -y python35-python3
-wget https://bootstrap.pypa.io/get-pip.py
-python3.5 get-pip.py
+dnf group install 'development tools'
+dnf install wget redhat-rpm-config libffi-devel python3-devel
+dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-25.noarch.rpm
+dnf install ffmpeg opus-devel
 ```
 
-## Install rpmfusion repo:
+## Cloning the bot
 
 ```
-yum install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-23.noarch.rpm
-yum install ffmpeg
-yum install opus-devel
+git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git
 ```
 
-## Pip some good stuff:
+## Updating the bot requirements
 
 ```
-pip3.5 install youtube_dl
-pip3.5 install imgurpython
-pip3.5 install discord.py
-pip3.5 install git+https://github.com/Rapptz/discord.py@async
+cd Red-DiscordBot
+python3 launcher.py
+```
+From there select ``Install requirements`` and select 1 or 2
+
+## Running the bot
+
+Enter the bot directory and start the launcher, then select option 1 or 2 and follow the initial setup.
+```
+python3 launcher.py
 ```
 
-## Install Red (You can use git here instead)
+## Updating the bot
 
+To update the bot enter the bot directory and start the launcher,  then select ``Install requirements`` and select 1 or 2
 ```
-git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git Red-DiscordBot
+python3 launcher.py
 ```
-
-## Run Red
-
-Want Red to auto-restart whenever it crashes? Follow [this guide](/Red-Docs/red_guide_linux_autostart). Otherwise, do this:
-```
-cd Red-DiscordBot-develop/
-python3.5 ./red.py
-```
-
-On the initial setup, you will be required to enter a token. Get one [here](https://discordapp.com/developers/applications/me). If you get stuck, follow the [bot accounts](/Red-Docs/red_guide_bot_accounts) guide.  
-To invite your bot, use the link given to you in Terminal when booting the bot up.
-
-Full credit goes to Tex#2170!
