@@ -13,13 +13,7 @@ This guide is aimed as installing Red on Debian 8.
 ## Installing the pre-requirements
 
 ```
-apt install nano
-nano /etc/apt/sources.list
-```
-
-add `deb http://httpredir.debian.org/debian jessie-backports main contrib non-free` on its own line at the end of the file. Save and exit (Ctrl+X, y, Enter)
-
-```
+echo "deb http://httpredir.debian.org/debian jessie-backports main contrib non-free" >> /etc/apt/sources.list
 apt update
 apt install build-essential libssl-dev libffi-dev git ffmpeg libopus-dev unzip -y
 wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz
