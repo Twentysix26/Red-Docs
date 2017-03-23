@@ -30,38 +30,10 @@ entries:
     - title: Installing on Raspbian
       url: /red_install_raspbian/
       output: web
-    
-    - title: Linux Installation
+
+    - title: Installing on Linux
+      url: /red_install_linux/
       output: web
-      folderitems:
-
-      - title: Installing on Linux
-        url: /red_install_linux/
-        output: web
-
-      - title: Installing on Ubuntu
-        url: /red_install_ubuntu/
-        output: web
-
-      - title: Installing on Alpine
-        url: /red_install_alpine/
-        output: web
-
-      - title: Installing on CentOS
-        url: /red_install_centos/
-        output: web
-      
-      - title: Installing on Fedora
-        url: /red_install_fedora/
-        output: web
-      
-      - title: Installing on Debian
-        url: /red_install_debian/
-        output: web
-      
-      - title: Installing on Archlinux
-        url: /red_install_archlinux/
-        output: web
 
   - title: How to use
     output: web
