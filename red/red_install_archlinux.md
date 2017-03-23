@@ -2,7 +2,7 @@
 title: Install on Archlinux
 sidebar: red_sidebar
 permalink: /red_install_archlinux/
-last_updated: Mar 22, 2017
+last_updated: Mar 23, 2017
 description: A guide for installing Red on Archlinux.
 ---
 
@@ -29,6 +29,10 @@ cd Red-DiscordBot
 python launcher.py
 ```
 From there select ``Install requirements`` and select 1 or 2
+
+## Creating a bot account
+
+Follow the guide [here](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-account)
 
 ## Running the bot
 
