@@ -16,7 +16,7 @@ Red is in continuous development and new features get added all the time. Stay t
 
 ### Linux
 
-* [How to install on Linux, general steps](/Red-Docs/red_install_linux/)
+* [Linux Installation Guides](/Red-Docs/red_install_linux/)
 
 * [Autorestarting](/Red-Docs/red_guide_linux_autostart/)
 

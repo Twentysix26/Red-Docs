@@ -22,21 +22,17 @@ entries:
     - title: Installing on Windows
       url: /red_install_windows/
       output: web
-
-    - title: Installing on Ubuntu/Debian
-      url: /red_install_linux/
-      output: web
-
-    - title: Installing on Fedora
-      url: /red_install_fedora/
-      output: web
-
+    
     - title: Installing on Mac
       url: /red_install_mac/
       output: web
 
     - title: Installing on Raspbian
       url: /red_install_raspbian/
+      output: web
+
+    - title: Installing on Linux
+      url: /red_install_linux/
       output: web
 
   - title: How to use

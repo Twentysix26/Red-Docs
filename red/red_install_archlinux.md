@@ -1,22 +1,19 @@
 ---
-title: Install on Fedora
+title: Install on Archlinux
 sidebar: red_sidebar
-permalink: /red_install_fedora/
+permalink: /red_install_archlinux/
 last_updated: Mar 23, 2017
-description: A guide for installing Red on Fedora.
+description: A guide for installing Red on Archlinux.
 ---
 
-This guide is aimed as installing Red on Fedora 25.
+This guide is aimed as installing Red on Archlinux.
 
 {% include callout.html content="**Warning**: For safety reasons, DO NOT install Red with a root user. Instead, make a new one." type="danger" %}
 
 ## Installing the pre-requirements
 
 ```
-dnf group install 'development tools'
-dnf install wget redhat-rpm-config libffi-devel python3-devel
-dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-25.noarch.rpm
-dnf install ffmpeg opus-devel
+pacman -S python python-pip git ffmpeg base-devel openssl libffi libsodium
 ```
 
 ## Cloning the bot
@@ -29,7 +26,7 @@ git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordB
 
 ```
 cd Red-DiscordBot
-python3 launcher.py
+python launcher.py
 ```
 From there select ``Install requirements`` and select 1 or 2
 
@@ -41,12 +38,12 @@ Follow the guide [here](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-acc
 
 Enter the bot directory and start the launcher, then select option 1 or 2 and follow the initial setup.
 ```
-python3 launcher.py
+python launcher.py
 ```
 
 ## Updating the bot
 
 To update the bot enter the bot directory and start the launcher,  then select ``Update`` and select 1, 2, or 3
 ```
-python3 launcher.py
+python launcher.py
 ```

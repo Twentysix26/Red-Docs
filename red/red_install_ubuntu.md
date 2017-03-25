@@ -1,22 +1,19 @@
 ---
-title: Install on Fedora
+title: Install on Ubuntu
 sidebar: red_sidebar
-permalink: /red_install_fedora/
+permalink: /red_install_ubuntu/
 last_updated: Mar 23, 2017
-description: A guide for installing Red on Fedora.
+description: A guide for installing Red on Ubuntu.
 ---
 
-This guide is aimed as installing Red on Fedora 25.
+This guide is aimed as installing Red on Ubuntu 16.04.
 
 {% include callout.html content="**Warning**: For safety reasons, DO NOT install Red with a root user. Instead, make a new one." type="danger" %}
 
 ## Installing the pre-requirements
 
 ```
-dnf group install 'development tools'
-dnf install wget redhat-rpm-config libffi-devel python3-devel
-dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-25.noarch.rpm
-dnf install ffmpeg opus-devel
+apt-get install python3.5-dev python3-pip build-essential libssl-dev libffi-dev git ffmpeg libopus-dev unzip -y
 ```
 
 ## Cloning the bot

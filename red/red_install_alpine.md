@@ -1,22 +1,19 @@
 ---
-title: Install on Fedora
+title: Install on Alpine
 sidebar: red_sidebar
-permalink: /red_install_fedora/
+permalink: /red_install_alpine/
 last_updated: Mar 23, 2017
-description: A guide for installing Red on Fedora.
+description: A guide for installing Red on Alpine.
 ---
 
-This guide is aimed as installing Red on Fedora 25.
+This guide is aimed as installing Red on Alpine.
 
 {% include callout.html content="**Warning**: For safety reasons, DO NOT install Red with a root user. Instead, make a new one." type="danger" %}
 
 ## Installing the pre-requirements
 
 ```
-dnf group install 'development tools'
-dnf install wget redhat-rpm-config libffi-devel python3-devel
-dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-25.noarch.rpm
-dnf install ffmpeg opus-devel
+apk add python3-dev ffmpeg git openssl libffi-dev libsodium-dev g++ make
 ```
 
 ## Cloning the bot
