@@ -143,3 +143,9 @@ Repository Link: [https://github.com/ScarletRav3n/Scarlet-Cogs](https://github.c
 Author: ScarletRav3n  
 Description: Fun and random cogs for general entertainment.  
 Command: ``[p]cog repo add scarlet-cogs https://github.com/ScarletRav3n/Scarlet-Cogs``
+
+#### Snap-ons
+Repository Link: [https://github.com/SnappyDragon18/Snap-ons](https://github.com/SnappyDragon18/Snap-ons)  
+Author: SnappyDragon18  
+Description: Cogs based on nerd-culture and games for Red-Discord Bot.  
+Command: ``[p]cog repo add snap-ons https://github.com/SnappyDragon18/Snap-ons``
