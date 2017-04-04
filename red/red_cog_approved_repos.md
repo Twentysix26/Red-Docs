@@ -80,6 +80,12 @@ Author: orels1
 Description: Gaming / data based cogs, with a bit of some fun stuff  
 Command: ``[p]cog repo add orels-cogs https://github.com/orels1/ORELS-Cogs``
 
+#### FlapJack-Cogs  
+Repository Link: [https://github.com/flapjax/FlapJack-Cogs](https://github.com/flapjax/FlapJack-Cogs)  
+Author: FlapJack  
+Description: Cogs containing features such as sfx, reaction polls, game utilities, name color management, triggered emoji reactions, a server DEFCON system, and dongers.  
+Command: ``[p]cog repo add flapjack-cogs https://github.com/flapjax/FlapJack-Cogs``
+
 ## Beta list
 
 General list of repositories  
