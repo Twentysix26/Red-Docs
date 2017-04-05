@@ -44,7 +44,7 @@ the installer ensures that those packages are installed via `pip`.
 The `TAGS` key is used on our official cogs library portal, [cogs.red](https://cogs.red/)
 
 #### Info.json maker:
-[Link](https://gist.github.com/Twentysix26/73a2a09238d6875b5cb7)
+[Link](https://gist.github.com/calebj/5623559dd1fc003623bedca8dc5f529b)
 
 #### Example repo:
 [Link](https://github.com/Twentysix26/26-Cogs)
