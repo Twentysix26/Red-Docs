@@ -34,14 +34,17 @@ per cog. And can be changed per cog. The following format is used for them.
     "SHORT" : "A Short description, appears on !cog list repo",
     "DESCRIPTION" : "A longer description, appears on !cog list repo cogname",
     "TAGS" : ["example", "tags", "list"],
-    "REQUIREMENTS" : ["tabulate", "Pillow"]
+    "REQUIREMENTS" : ["tabulate", "Pillow"],
+    "HIDDEN" : false
 }
 ```
+
+The `HIDDEN` key specifies whether a cog should be hidden in `[p]cog list`.
 
 The `REQUIREMENTS` key is used when installing the cog. Before it is loaded,
 the installer ensures that those packages are installed via `pip`.
 
-The `TAGS` key is used on our official cogs library portal, [cogs.red](https://cogs.red/)
+Finally, the `TAGS` key is used on our official cogs library portal, [cogs.red](https://cogs.red/)
 
 #### Info.json maker:
 [Link](https://gist.github.com/calebj/5623559dd1fc003623bedca8dc5f529b)
