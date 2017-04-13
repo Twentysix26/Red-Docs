@@ -25,7 +25,7 @@ respawn
 chdir /home/USERNAME/Red-DiscordBot
 setuid USERNAME
 setgid USERGROUP
-exec python3.5 red.py --no-prompt
+exec python3.5 launcher.py -s --auto-restart --update-red --update-reqs
 ```
 
 Save with CTRL+O.  
@@ -53,8 +53,8 @@ After=multi-user.target
 [Service]
 WorkingDirectory=/home/username/Red-DiscordBot
 User=username
-Group=usergroup
-ExecStart=/usr/bin/python3.5 /home/username/Red-DiscordBot/red.py --no-prompt
+Group=username
+ExecStart=/usr/bin/python3 /home/username/Red-DiscordBot/launcher.py -s --auto-restart --update-red --update-reqs
 Type=idle
 Restart=always
 RestartSec=15
