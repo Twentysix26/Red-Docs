@@ -138,11 +138,11 @@ Author: tmerc
 Description: Various cogs that range from playing sounds and getting cat facts to taking surveys and storing quotes.  
 Command: ``[p]cog repo add tmerc-cogs https://github.com/tmercswims/tmerc-cogs``
 
-#### Nerdie-Cogs
-Repository Link: [https://github.com/Nerdietony/Nerdie-Cogs](https://github.com/Nerdietony/Nerdie-Cogs)  
-Author: NerdieTony  
+#### Neko-Cogs
+Repository Link: [https://github.com/NekoTony/Neko-Cogs](https://github.com/NekoTony/Neko-Cogs)  
+Author: NekoTony  
 Description: The only Red Cogs made out of boredom, loneliness, and what I think is sweat.  
-Command: ``[p]cog repo add nerdie-cogs https://github.com/Nerdietony/Nerdie-Cogs``
+Command: ``[p]cog repo add neko-cogs https://github.com/NekoTony/Neko-Cogs``
 
 #### Scarlet-Cogs
 Repository Link: [https://github.com/ScarletRav3n/Scarlet-Cogs](https://github.com/ScarletRav3n/Scarlet-Cogs)  
