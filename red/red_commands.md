@@ -41,8 +41,6 @@ Right Example:  [p]play http://youtube.com.....
 | stop       | Stops a currently playing song or playlist. CLEARS QUEUE.       |
 | playlist   | Playlist management/control.                                    |
 | yt         | Searches and plays a video from YouTube                         |
-| joinvoice  | Joins your voice channel                                        |
-| disconnect | Disconnects from voice channel in current server.               |
 | sing       | Makes Red sing one of her songs                                 |
 | pause      | Pauses the current song, `[p]resume` to continue.               |
 | play       | Plays a link / searches and play                                |
@@ -57,10 +55,10 @@ Right Example:  [p]play http://youtube.com.....
 
 | Command        | Description                |
 |:---------------|:---------------------------|
-| editcom        | Edits a custom command     |
-| customcommands | Shows custom commands list |
-| delcom         | Deletes a custom command   |
-| addcom         | Adds a custom command      |
+| cc edit        | Edits a custom command     |
+| cc list        | Shows custom commands list |
+| cc delete      | Deletes a custom command   |
+| cc add         | Adds a custom command      |
 
 ### Downloader
 
