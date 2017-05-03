@@ -58,3 +58,21 @@ To update the bot enter the bot directory and start the launcher,  then select `
 ```
 python3.6 launcher.py
 ```
+
+## Known issues
+
+The version of pip that Ubuntu is using has a known [bug](https://github.com/pypa/pip/issues/3826#issuecomment-232115009)
+This results in an exception when attempting to install Red's requirements and the following message
+```
+You are using pip version 8.1.1, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+An error occurred and the requirements setup might not be completed. Consult the docs.
+```
+on Ubuntu you can not upgrade pip this way, instead follow these steps:
+
+* run launcher.py (might require sudo to install files)
+* Select Option 3 (Update)
+* Select Option 4 (Update pip)
+* Close launcher
+* Retry installing the [requirements](#Updating-the-bot-requirements)
