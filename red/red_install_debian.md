@@ -75,4 +75,4 @@ on Ubuntu you can not upgrade pip this way, instead follow these steps:
 * Select Option 3 (Update)
 * Select Option 4 (Update pip)
 * Close launcher
-* Retry installing the [requirements](#Updating-the-bot-requirements)
+* Retry installing the [requirements](/Red-Docs/red_install_ubuntu/#Updating-the-bot-requirements)
