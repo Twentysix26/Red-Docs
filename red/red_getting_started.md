@@ -51,7 +51,7 @@ You can disable and enable everything you see with the exception of the basic ow
 
 ### Community cogs
 
-There's an entire [community](https://discord.me/Red-DiscordBot) that revolves around contributing to Red. Most of those contributors make additional cogs for you to use.  Technically, taking a cog file and dropping it in the cogs folder would be enough to install it, but we made a downloader (which is a cog itself!) to install and keep up to date 3rd party cogs.  
+There's an entire [community](https://discord.gg/red) that revolves around contributing to Red. Most of those contributors make additional cogs for you to use.  Technically, taking a cog file and dropping it in the cogs folder would be enough to install it, but we made a downloader (which is a cog itself!) to install and keep up to date 3rd party cogs.  
 
 [Here you can see the list of 3rd party repositories](https://twentysix26.github.io/Red-Docs/red_cog_approved_repos/). But what is a repository anyway? You might want to google the *actual* definition up, but in this context, we can define repositories as **containers of cogs that you can install**.  
 
@@ -65,6 +65,8 @@ Installing the trigger cog will be as easy as doing
 `[p]cog install 26-cogs trigger`  
 
 This cog in particular allows to set up "triggers", which are custom responses from the bot to specific words.
+
+Don't forget to check out our new cog indexing portal, [cogs.red](https://cogs.red)
 
 **Remember: there's no actual limit on what a cog can do on your system. This is all open source, if you have the capacity to do so you can check what a cog does before installing it. The author of Red and its contributors take no responsibility on what gets uploaded in 3rd party repositories and for any damage that they might cause to your system.**
 

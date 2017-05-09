@@ -80,6 +80,12 @@ Author: orels1
 Description: Gaming / data based cogs, with a bit of some fun stuff  
 Command: ``[p]cog repo add orels-cogs https://github.com/orels1/ORELS-Cogs``
 
+#### FlapJack-Cogs  
+Repository Link: [https://github.com/flapjax/FlapJack-Cogs](https://github.com/flapjax/FlapJack-Cogs)  
+Author: FlapJack  
+Description: Cogs containing features such as sfx, reaction polls, game utilities, name color management, triggered emoji reactions, a server DEFCON system, and dongers.  
+Command: ``[p]cog repo add flapjack-cogs https://github.com/flapjax/FlapJack-Cogs``
+
 ## Beta list
 
 General list of repositories  
@@ -132,11 +138,11 @@ Author: tmerc
 Description: Various cogs that range from playing sounds and getting cat facts to taking surveys and storing quotes.  
 Command: ``[p]cog repo add tmerc-cogs https://github.com/tmercswims/tmerc-cogs``
 
-#### Nerdie-Cogs
-Repository Link: [https://github.com/Nerdietony/Nerdie-Cogs](https://github.com/Nerdietony/Nerdie-Cogs)  
-Author: NerdieTony  
+#### Neko-Cogs
+Repository Link: [https://github.com/NekoTony/Neko-Cogs](https://github.com/NekoTony/Neko-Cogs)  
+Author: NekoTony  
 Description: The only Red Cogs made out of boredom, loneliness, and what I think is sweat.  
-Command: ``[p]cog repo add nerdie-cogs https://github.com/Nerdietony/Nerdie-Cogs``
+Command: ``[p]cog repo add neko-cogs https://github.com/NekoTony/Neko-Cogs``
 
 #### Scarlet-Cogs
 Repository Link: [https://github.com/ScarletRav3n/Scarlet-Cogs](https://github.com/ScarletRav3n/Scarlet-Cogs)  

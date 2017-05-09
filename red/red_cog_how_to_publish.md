@@ -22,7 +22,7 @@ To give a better chance of approval to developers of all skills *there are two d
 
 ### Good practice:  
 
-* Each ``.py`` file must be accompanied by an info.json, to give a better idea about what each cog does. [This is the format guide](http://twentysix26.github.io/Red-Docs/red_cog_info_json/). You can create them with [this script](https://gist.github.com/Twentysix26/73a2a09238d6875b5cb7). See repo linked above for examples.
+* Each ``.py`` file must be accompanied by an info.json, to give a better idea about what each cog does. [This is the format guide](http://twentysix26.github.io/Red-Docs/red_cog_info_json/). You can create them with [this script](https://gist.github.com/calebj/5623559dd1fc003623bedca8dc5f529b). See repo linked above for examples.
 * Have a Readme in the repository with general information such as:
     * The cogs in the repository and its requirements and so on
     * Your contact info, in what server can users DM you for help
