@@ -4,9 +4,9 @@ sidebar: red_sidebar
 type: homepage
 ---
 
-[<img src="https://discordapp.com/api/guilds/133049272517001216/widget.png?style=shield">](https://discord.gg/0k4npTwMvTpv9wrh)
+[<img src="https://discordapp.com/api/guilds/133049272517001216/widget.png?style=shield">](https://discord.gg/red)
 
-Red is in continuous development and new features get added all the time. Stay tuned by [joining the official server](https://discord.gg/0k4npTwMvTpv9wrh)!
+Red is in continuous development and new features get added all the time. Stay tuned by [joining the official server](https://discord.gg/red)!
 
 ## Installation
 

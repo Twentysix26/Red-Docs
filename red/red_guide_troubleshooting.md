@@ -66,4 +66,4 @@ Of course! Feel free to send it to us or the Trivia "issue" on our github.
 
 ***
 
-**If you reached the end of this list and your problem is not here, [head into #support](https://discord.gg/0k4npTwMvTpv9wrh) to get some help.**
+**If you reached the end of this list and your problem is not here, [head into #support](https://discord.gg/red) to get some help.**
