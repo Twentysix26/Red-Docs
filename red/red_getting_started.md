@@ -78,7 +78,7 @@ The **owner** is you, *person* (emphasis on person, singular) who is hosting the
 Red is designed to be able to run on multiple servers and so she has server specific settings and such. As a general rule, commands that can impact multiple servers are owner only. 
 Only the owner can load/unload cogs, change Red's name, change her status, etc.
 
-**Admins** and **mods** are designated by assigning them the role you specified during the initial configuration. e.g. If you specified "Transistor" as the admin role, people having a role named "Transistor" will be seen as admin by Red. You (and the server's owner) can also specify different, server-based ones with `[p]modset modrole` and `[p]modset adminrole`
+**Admins** and **mods** are designated by assigning them the role you specified during the initial configuration. e.g. If you specified "Transistor" as the admin role, people having a role named "Transistor" will be seen as admin by Red. You (and the server's owner) can also specify different, server-based ones with `[p]set modrole` and `[p]set adminrole`
 
 If you exclude the owner, admins are the maximum level. What they can do depends on the cogs, but for example, in the standard moderation module they have power to ban and kick people.
 
