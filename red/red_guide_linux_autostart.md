@@ -79,7 +79,28 @@ Other available commands:
 `sudo systemctl restart red.service`
 
 ### pm2
-This guide assumes you used the Linux guide to install Red and that you have pm2 installed
+How to install node and npm which is needed for installing pm2
+```
+    cd ~
+    curl -sL https://deb.nodesource.com/setup_7.x -o nodesource_setup.sh
+    sudo bash nodesource_setup.sh
+    sudo apt-get install nodejs
+    sudo apt-get install build-essential
+```
+Now we are going to check what node verison we are on
+```
+node -v
+```
+You should see 
+```
+v7.0.0
+```
+Then we are going to install pm2
+```
+npm install pm2 -g
+```
+
+Now we are going to use pm2 to launch Red
 
 cd into your Red directory and find out the location of your python installation.
 This can be done using
