@@ -102,7 +102,7 @@ npm install pm2 -g
 
 Now we are going to use pm2 to launch Red
 
-`cd` to your Red's installation directory and find out the location of your Python installation by doing `which python3.5`
+`cd` into your Red's installation directory and find out the location of your Python installation by doing `which python3.5`
 
 Use the path that you got from the above command as the argument in the command shown below (no need for brackets)
 ```
