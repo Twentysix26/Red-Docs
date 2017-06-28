@@ -9,7 +9,7 @@ description: Information for automatically starting Red on Linux.
 
 ### Upstart
 
-This guide assumes you used the Linux guide to install Red and that your Linux distribution uses Upstart.
+This guide assumes you used the Linux guide to install Red **and that your Linux distribution uses Upstart**.
 
 Run this command in terminal:
 
@@ -38,7 +38,7 @@ Other available commands:
 `sudo restart red`
 
 ### systemd
-This guide assumes you used the Linux guide to install Red and that you are using a Linux distribution that uses systemd (Example: Ubuntu 15.04 or newer).
+This guide assumes you used the Linux guide to install Red **and that your Linux distribution uses systemd** (Example: Ubuntu 15.04 or newer).
 
 Run this command in terminal:
 
@@ -77,3 +77,39 @@ If you need to view Red's log, you can do
 Other available commands:  
 `sudo systemctl stop red.service`  
 `sudo systemctl restart red.service`
+
+### pm2
+This guide will show you how to install pm2 and set your Red instance to autorestart with it.
+
+First, the requirements, node.js and npm:
+```
+    cd ~
+    curl -sL https://deb.nodesource.com/setup_7.x -o nodesource_setup.sh
+    sudo bash nodesource_setup.sh
+    sudo apt-get install nodejs
+    sudo apt-get install build-essential
+```
+Verify that you have the proper node.js version by doing `node -v`. You should see `v7.0.0`.
+
+Finally, to install pm2:
+```
+npm install pm2 -g
+```
+
+Now we are going to use pm2 to launch Red
+
+`cd` into your Red's installation directory and find out the location of your Python installation by doing `which python3.5`
+
+Use the path that you got from the above command as the argument in the command shown below (no need for brackets)
+```
+pm2 start red.py --name "Red-Discordbot" --interpreter <path to python 3.5> -- --no-prompt
+```
+
+Verify that everything went fine with
+`pm2 status`
+
+To enable auto startup on critical errors and boot use
+`pm2 startup`
+If you aren't root it will show you a command that you need to issue before this will take effect.
+
+You can also monitor your Red instance online at https://keymetrics.io/ 
