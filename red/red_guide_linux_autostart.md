@@ -9,7 +9,7 @@ description: Information for automatically starting Red on Linux.
 
 ### Upstart
 
-This guide assumes you used the Linux guide to install Red and that your Linux distribution uses Upstart.
+This guide assumes you used the Linux guide to install Red **and that your Linux distribution uses Upstart**.
 
 Run this command in terminal:
 
@@ -38,7 +38,7 @@ Other available commands:
 `sudo restart red`
 
 ### systemd
-This guide assumes you used the Linux guide to install Red and that you are using a Linux distribution that uses systemd (Example: Ubuntu 15.04 or newer).
+This guide assumes you used the Linux guide to install Red **and that your Linux distribution uses systemd** (Example: Ubuntu 15.04 or newer).
 
 Run this command in terminal:
 
@@ -79,7 +79,7 @@ Other available commands:
 `sudo systemctl restart red.service`
 
 ### pm2
-How to install node and npm which is needed for installing pm2
+Node.js and npm are required:
 ```
     cd ~
     curl -sL https://deb.nodesource.com/setup_7.x -o nodesource_setup.sh
@@ -87,36 +87,33 @@ How to install node and npm which is needed for installing pm2
     sudo apt-get install nodejs
     sudo apt-get install build-essential
 ```
-Now we are going to check what node verison we are on
+Now, when checking node.js' version with
 ```
 node -v
 ```
-You should see 
+you should see 
 ```
 v7.0.0
 ```
-Then we are going to install pm2
+Finally, to install pm2:
 ```
 npm install pm2 -g
 ```
 
 Now we are going to use pm2 to launch Red
 
-cd into your Red directory and find out the location of your python installation.
+`cd` to your Red's installation directory and find out the location of your Python installation by doing `which python3.5`
 
-This can be done using
-`which python3.5`
-
-Use the path that you got from the above command in the command shown below and put it where the text and the brackets are
+Use the path that you got from the above command as the argument in the command shown below (no need for brackets)
 ```
 pm2 start red.py --name "Red-Discordbot" --interpreter <path to python 3.5> -- --no-prompt
 ```
 
-Confirm that you setup red with pm2 with
+Verify that everything went fine with
 `pm2 status`
 
-To enable auto startup on error and startup use
+To enable auto startup on critical errors and boot use
 `pm2 startup`
-If you arent root it will give you a command that you will need to run before it will take effect.
+If you aren't root it will show you a command that you need to issue before this will take effect.
 
-You can also view statistics of your Red online on https://keymetrics.io/ 
+You can also monitor your Red instance online at https://keymetrics.io/ 
