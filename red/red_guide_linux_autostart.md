@@ -84,7 +84,7 @@ This guide will show you how to install pm2 and set your Red instance to autores
 First, the requirements, node.js and npm:
 ```
     cd ~
-    curl -sL https://deb.nodesource.com/setup_7.x -o nodesource_setup.sh
+    curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
     sudo bash nodesource_setup.sh
     sudo apt-get install nodejs
     sudo apt-get install build-essential
@@ -102,7 +102,7 @@ Now we are going to use pm2 to launch Red
 
 Use the path that you got from the above command as the argument in the command shown below (no need for brackets)
 ```
-pm2 start red.py --name "Red-Discordbot" --interpreter <path to python 3.5> -- --no-prompt
+pm2 start red.py --name "Red-Discordbot" --interpreter <path to python 3.5/3.6> -- --no-prompt
 ```
 
 Verify that everything went fine with
