@@ -34,3 +34,7 @@ description: A list of guides for installing on Linux.
 ## Ubuntu 16.04
 
 * [How to install on Ubuntu 16.04](/Red-Docs/red_install_ubuntu/)
+
+## Kali 
+
+* [How to install on Kali](/Red-Docs/red_install_kali/)
