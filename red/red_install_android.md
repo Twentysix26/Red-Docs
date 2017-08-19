@@ -6,7 +6,7 @@ last_updated: August, 18 2017
 description: A guide for installing Red on Android.
 ---
 
-This guide will explain on how to install Red onto Android. Keep in mind that this guide is made for Ubuntu, and commands may differ with Debian.
+This guide will explain on how to install Red onto Android. Keep in mind that this guide is made for Android, and commands may differ with Android.
 
 There is no audio support on android at this time.
 
