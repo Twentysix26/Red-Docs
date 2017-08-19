@@ -11,6 +11,10 @@ description: A list of guides for installing on Linux.
 
 * [How to install on Alpine](/Red-Docs/red_install_alpine/)
 
+## Android
+
+* [How to install on Android](/Red-Docs/red_install_android/)
+
 ## Archlinux
 
 * [How to install on Archlinux](/Red-Docs/red_install_archlinux/)
@@ -39,6 +43,4 @@ description: A list of guides for installing on Linux.
 
 * [How to install on Kali](/Red-Docs/red_install_kali/)
 
-## Android
 
-* [How to install on Android](/Red-Docs/red_install_android/)
