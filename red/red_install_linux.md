@@ -42,5 +42,3 @@ description: A list of guides for installing on Linux.
 ## Kali 
 
 * [How to install on Kali](/Red-Docs/red_install_kali/)
-
-
