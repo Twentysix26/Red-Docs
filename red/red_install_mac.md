@@ -43,6 +43,8 @@ Guide originally made by orels1
   Do not close the terminal afterwards. If this works, the content of the folder should be this:  
   ![mainfolderosx](https://i.imgur.com/1EIjOQj.png)
 
+* Run `cd Red-DiscordBot` in the terminal
+
 * Run `export PATH=$PATH:/usr/local/Cellar/opus/1.1.2/lib/` in the terminal
 
 * Then `python3 launcher.py`
