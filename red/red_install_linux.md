@@ -27,6 +27,10 @@ description: A list of guides for installing on Linux.
 
 * [How to install on Fedora 25](/Red-Docs/red_install_fedora/)
 
+## Kali 
+
+* [How to install on Kali](/Red-Docs/red_install_kali/)
+
 ## OpenSUSE 42.2
 
 * [How to install on OpenSUSE 42.2](/Red-Docs/red_install_opensuse/)
@@ -34,7 +38,3 @@ description: A list of guides for installing on Linux.
 ## Ubuntu 16.04
 
 * [How to install on Ubuntu 16.04](/Red-Docs/red_install_ubuntu/)
-
-## Kali 
-
-* [How to install on Kali](/Red-Docs/red_install_kali/)
