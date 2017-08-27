@@ -45,6 +45,8 @@ Guide originally made by orels1
 
 * Run `export PATH=$PATH:/usr/local/Cellar/opus/1.1.2/lib/` in the terminal
 
+* Run `cd Red-DiscordBot` in the terminal
+
 * Then `python3 launcher.py`
 
 * This will open **Red's launcher**. The launcher is an applications made to facilitate many common operations. Navigating the menus is simple: pick a number and press enter.
