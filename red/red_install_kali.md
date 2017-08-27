@@ -6,7 +6,7 @@ last_updated: Aug 18, 2017
 description: A guide for installing Red on Kali Linux.
 ---
  
-This guide is aimed as installing Red on Kali Linux.
+This guide is aimed at installing Red on Kali Linux.
  
 {% include callout.html content="**Warning**: For safety reasons, DO NOT install Red with a root user. Instead, make a new one." type="danger" %}
  
