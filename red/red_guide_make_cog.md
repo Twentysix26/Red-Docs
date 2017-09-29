@@ -6,7 +6,7 @@ description: A guide on how to make your own cog.
 ---
 
 The purpose of this tutorial is to help you create your first custom cog for Red Discord bot.  
-It assumes that you have some basic programming skills and have touched python before. But don't be afraid, I will provide all the needed code for some copy-paste action.
+It assumes that you have some basic programming skills and have touched Python before. But don't be afraid, I will provide all the needed code for some copy-paste action.
 
 
 ## Boilerplate
@@ -46,7 +46,7 @@ def setup(bot):
 Now you have a basic command interface! Let's make it more interesting, shall we?
 
 ## Mentioning users
-Sometimes I want to punch something, or someone, but I'm weak, and I need some help. That's why we'll make a bot puch someone, instead of ourselves.
+Sometimes I want to punch something, or someone, but I'm weak, and I need some help. That's why we'll make a bot punch someone, instead of ourselves.
 
 In your code, change `async def mycom(self):` to `async def punch(self, user : discord.Member):` so now it will react to `[p]punch` and accept a user mention as an argument
 
@@ -57,7 +57,7 @@ The command's code should now look something like this
 
 @commands.command()
 async def punch(self, user : discord.Member):
-    """I will puch anyone! >.<"""
+    """I will punch anyone! >.<"""
 
     #Your code will go here
     await self.bot.say("I can do stuff!")
