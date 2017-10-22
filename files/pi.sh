@@ -24,10 +24,10 @@ echo "STARTING TO BUILD PYTHON... Somehow"
 echo "DO YOU WANT SOME BISCUITS WITH THAT?"
 echo "-----"
 sleep 5
-release=3.5.1
+release=3.6.2
 mkdir ~/redinstall
-mkdir ~/redinstall/python3
-cd ~/redinstall/python3
+mkdir ~/redinstall/python3.6.2
+cd ~/redinstall/python3.6.2
 wget https://www.python.org/ftp/python/$release/Python-$release.tar.xz
 tar xvf Python-$release.tar.xz
 cd Python-$release
@@ -39,15 +39,15 @@ echo "-----"
 echo "PYTHON IS INSTALLED! \o/"
 echo "INSTALLING PIP3 AND ITS MODULES"
 echo "YOU STILL DIDN'T TOUCH MY TEA YET?"
-echo "DON'T YOU LIKE TEA? :("
+echo "Kowlins shitty jokes"
 echo "-----"
 sleep 5
 wget https://bootstrap.pypa.io/get-pip.py
-sudo python3 get-pip.py
+sudo python3.6.2 get-pip.py
 # Asuming Pip is installed, lets run this
-sudo pip3 install youtube_dl
-sudo pip3 install imgurpython
-sudo pip3 install -U git+https://github.com/Rapptz/discord.py@master#egg=discord.py[voice]
+sudo pip3.6.2 install youtube_dl
+sudo pip3.6.2 install imgurpython
+sudo pip3.6.2 install -U git+https://github.com/Rapptz/discord.py@master#egg=discord.py[voice]
 sudo rm -rf ~/redinstall
 echo "HORAAY!"
 echo "You're done, you can now clone Red by following Step 3 of the installation here:"
