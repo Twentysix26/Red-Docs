@@ -11,8 +11,8 @@ Guide originally made by orels1
 #### Installation
 
 *  **Install brew**  
-  In Finder or Spotlight, search for and open terminal
-  In the that will open, paste this:
+  In Finder or Spotlight, search for and open terminal.
+  In the terminal that will open, paste this:
 
 	```
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
