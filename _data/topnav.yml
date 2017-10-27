@@ -20,6 +20,8 @@ topnav_dropdowns:
           external_url: https://discordpy.readthedocs.org/en/async/
         - title: Discord Developer API documentation
           external_url: https://discordapp.com/developers/docs/intro
+        - title: Cogs for Red-DiscordBot
+          external_url: https://cogs.red
 
 
 
