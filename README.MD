@@ -1,8 +1,8 @@
-#This repo contains all the documentation and tutorials regarding Red-DiscordBot
+# This repo contains all the documentation and tutorials regarding Red-DiscordBot
 
 [Open docs](http://Twentysix26.github.io/Red-Docs)
 
-##How to add new docs
+## How to add new docs
  * First of all you need to create a `.md` file inside the `red` dir on `gh-pages` branch.
  * Naming convention is as follows: `red_<category>_<topic>.md`. It's not strict, but please, follow it as much as possible.
  * Add a frontmatter header based off this template:
