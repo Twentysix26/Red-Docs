@@ -84,12 +84,12 @@ This guide will show you how to install pm2 and set your Red instance to autores
 First, the requirements, node.js and npm:
 ```
     cd ~
-    curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
+    curl -sL https://deb.nodesource.com/setup_9.x -o nodesource_setup.sh
     sudo bash nodesource_setup.sh
     sudo apt-get install nodejs
     sudo apt-get install build-essential
 ```
-Verify that you have the proper node.js version by doing `node -v`. You should see `v7.0.0`.
+Verify that you have the proper node.js version by doing `node -v`. You should see `v9.0.0`.
 
 Finally, to install pm2:
 ```
