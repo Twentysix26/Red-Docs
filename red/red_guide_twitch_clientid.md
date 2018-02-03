@@ -14,7 +14,7 @@ This guide will show you on how to make your own Twitch ClientID within 5 min or
 2. Click ``Register your application``.  
 3. Put in the required information. Set a name, for the redirect URL use ``http://localhost`` and select as category ``Chat Bot`` (For more information see the screenshot below)
 4. Now copy the ClientID and run the following command in your discord chat ``streamset twitchtoken <clientID>``
-5. Add your stream alerts with ``streamalert twitch <channelname>``
+5. Add your stream alerts with ``streamalert twitch <stream>``
 
 - - -
 
