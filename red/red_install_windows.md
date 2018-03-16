@@ -36,9 +36,8 @@ Git should now start downloading the files and put everything into a folder call
 * Click on **start_launcher.bat**. Red's launcher will open up: it's an applications made to facilitate many common operations.
 Navigating the menus is simple: pick a number and press enter.
 
-* First things first: **let's install Red's requirements**. Pick the appropriate option from the main menu.  
-If you're interested in audio you'll need to pick **ffmpeg** as well: make sure to install the 64 bit version (assuming you're on a 64bit system),
-as the installation is entirely automated.
+* First things first: **let's install Red's requirements**. Pick the appropriate option from the main menu (1 or 2).  
+Then, if you’re interested in audio, you’ll need to pick **ffmpeg** as well: make sure to install the 64 bit version (assuming you’re on a 64bit system), as the installation is entirely automated.
 
 ![updatescreen](https://i.imgur.com/pdCB1xh.png)
 
