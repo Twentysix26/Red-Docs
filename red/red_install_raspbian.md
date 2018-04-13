@@ -11,33 +11,19 @@ The installation on Raspbian differs quite a bit from the a traditional Linux in
 Due the fact that Raspbian does not natively support Python 3.5 (and above),
 and that Raspbian does not support Ffmpeg. In this guide there is a easy fix for all these problems.
 
-# Installing with script (**Rasbian Stretch**)
+# Installing on Rasbian Stretch
 {% include callout.html content="**Important information**: This will only work on **Raspbian Stretch.** Continue to the next section if you're using Rasbian Jessie" type="info" %}
-You can use the following ``.sh`` script and instructions to install all pre-requirements
 
-### Downloading the ``.sh`` to your Rasbian
-To acquire and run the script. you must transfer it to your server with sftp or with ``wget``,
-for the sake of simplicity we will use ``wget``
+### Update and install pip
 
 ```
-wget https://twentysix26.github.io/Red-Docs/files/pi-stretch.sh
-sudo chmod +x pi-stretch.sh
-```
-
-### Running the script
-If you're on the latest version of Rasbian, this script will get you setup
-
-```
-./pi-stretch.sh
+sudo apt-get update
+sudo apt-get install build-essential libssl-dev libffi-dev git unzip -y
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3.5 get-pip.py
 ```
 
 ### Cloning and preparing Red
-Once the script says the following you can start cloning Red and installing it.
-From here you need to generate your new bot account.
-
-```
-You're done, you can now clone Red by following Step 3 of the installation here
-```
 
 Let's start by creating a bot application and retrieving the token.
 Log in [here](https://discordapp.com/developers/applications/me) with your Discord account.
