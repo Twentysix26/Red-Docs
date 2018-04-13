@@ -11,7 +11,71 @@ The installation on Raspbian differs quite a bit from the a traditional Linux in
 Due the fact that Raspbian does not natively support Python 3.5 (and above),
 and that Raspbian does not support Ffmpeg. In this guide there is a easy fix for all these problems.
 
-# Installing with a script (Easiest)
+# Installing with script (**Rasbian Stretch**)
+{% include callout.html content="**Important information**: This will only work on **Raspbian Stretch.** Continue to the next section if you're using Rasbian Jessie" type="info" %}
+You can use the following ``.sh`` script and instructions to install all pre-requirements
+
+### Downloading the ``.sh`` to your Rasbian
+To acquire and run the script. you must transfer it to your server with sftp or with ``wget``,
+for the sake of simplicity we will use ``wget``
+
+```
+wget https://twentysix26.github.io/Red-Docs/files/pi-stretch.sh
+sudo chmod +x pi-stretch.sh
+```
+
+### Running the script
+If you're on the latest version of Rasbian, this script will get you setup
+
+```
+./pi-stretch.sh
+```
+
+### Cloning and preparing Red
+Once the script says the following you can start cloning Red and installing it.
+From here you need to generate your new bot account.
+
+```
+You're done, you can now clone Red by following Step 3 of the installation here
+```
+
+Let's start by creating a bot application and retrieving the token.
+Log in [here](https://discordapp.com/developers/applications/me) with your Discord account.
+Then make a new application. Once you made your application, make a bot account from your new application page.
+Keep the page open since you will need it later.
+
+#### Cloning Red
+The next thing we will be doing is cloning Red.
+
+```
+git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git red-discordbot
+cd red-discordbot
+```
+
+#### Install Requirements
+Now you'll need to install the requirements 
+
+```
+sudo python3.5 -m pip install -r requirements_no_audio.txt
+```
+
+#### Running Red
+We're at the last step. You will need your token for this final part of the installation.
+Run Red with the following command and read the instructions carefully for a smooth installation.
+
+```
+python3 red.py
+```
+
+### Final notes.
+Congratulations! You have (If you have done it right) successfully installed Red.
+In the following chapter we will share some final notes that you will need to know to get the most out of Red
+
+#### audio
+To use audio you need to toggle the player to use Avconv. To do this you can use the following command in your Discord server. ``audioset player``
+
+# *OLD* Installing with a script (**Rasbian Jessie**)
+{% include callout.html content="**Important information**: This will only work on **Raspbian Jessie.** Running this script on Rasbian Stretch will break your installation" type="info" %}
 For ease of access and installing.
 You can use the following ``.sh`` script to install all the pre-requirements.
 
