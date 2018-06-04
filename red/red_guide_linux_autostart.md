@@ -98,11 +98,11 @@ npm install pm2 -g
 
 Now we are going to use pm2 to launch Red
 
-`cd` into your Red's installation directory and find out the location of your Python installation by doing `which python3.5`
+`cd` into your Red's installation directory and find out the location of your Python installation by doing `which python3/3.5/3.6`
 
 Use the path that you got from the above command as the argument in the command shown below (no need for brackets)
 ```
-pm2 start red.py --name "Red-Discordbot" --interpreter <path to python 3.5/3.6> -- --no-prompt
+pm2 start red.py --name "Red-Discordbot" --interpreter <path to python3/3.5/3.6> -- --no-prompt
 ```
 
 Verify that everything went fine with
