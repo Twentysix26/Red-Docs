@@ -27,7 +27,7 @@ git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordB
 
 ```
 cd Red-DiscordBot
-python3 launcher.py
+python3/3.5/3.6 launcher.py
 ```
 From there select ``Install requirements`` and select 1 or 2
 
@@ -39,12 +39,12 @@ Follow the guide [here](/Red-Docs/red_guide_bot_accounts/#creating-a-new-bot-acc
 
 Enter the bot directory and start the launcher, then select option 1 or 2 and follow the initial setup.
 ```
-python3 launcher.py
+python3/3.5/3.6 launcher.py
 ```
 
 ## Updating the bot
 
 To update the bot enter the bot directory and start the launcher,  then select ``Update`` and select 1, 2, or 3
 ```
-python3 launcher.py
+python3/3.5/3.6 launcher.py
 ```
