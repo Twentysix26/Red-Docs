@@ -6,7 +6,7 @@ type: homepage
 
 [<img src="https://discordapp.com/api/guilds/133049272517001216/widget.png?style=shield">](https://discord.gg/red)
 
-Red is in continuous development and new features get added all the time. Stay tuned by [joining the official server](https://discord.gg/red)!
+Red is in [continuous development](https://red-discordbot.readthedocs.io/en/v3-develop/) and new features get added all the time. Stay tuned by [joining the official server](https://discord.gg/red)!
 
 ## Installation
 
