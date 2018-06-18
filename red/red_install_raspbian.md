@@ -11,8 +11,8 @@ The installation on Raspbian differs quite a bit from the a traditional Linux in
 Due the fact that Raspbian does not natively support Python 3.5 (and above),
 and that Raspbian does not support Ffmpeg. In this guide there is a easy fix for all these problems.
 
-# Installing on Rasbian Stretch
-{% include callout.html content="**Important information**: This will only work on **Raspbian Stretch.** Continue to the next section if you're using Rasbian Jessie" type="info" %}
+# Installation on Raspbian Stretch
+{% include callout.html content="**Important information**: This will only work on **Raspbian Stretch.** Continue to the next section if you're using Raspbian Jessie" type="info" %}
 
 ### Update and install pip
 
@@ -54,14 +54,14 @@ python3 red.py
 ```
 
 ### Final notes.
-Congratulations! You have (If you have done it right) successfully installed Red.
-In the following chapter we will share some final notes that you will need to know to get the most out of Red
+Congratulations! You should now have successfully installed Red.
+Consult the [Getting started](/Red-Docs/red_getting_started/) page for a practical guide on familiarizing yourself with Red.
 
 #### audio
 To use audio you need to toggle the player to use Avconv. To do this you can use the following command in your Discord server. ``audioset player``
 
-# *OLD* Installing with a script (**Rasbian Jessie**)
-{% include callout.html content="**Important information**: This will only work on **Raspbian Jessie.** Running this script on Rasbian Stretch will break your installation" type="info" %}
+# Easy installation (**Raspbian Jessie**)
+{% include callout.html content="**Important information**: This will only work on **Raspbian Jessie.** Running this script on Raspbian Stretch will break your installation" type="info" %}
 For ease of access and installing.
 You can use the following ``.sh`` script to install all the pre-requirements.
 
@@ -122,8 +122,8 @@ python3 red.py
 ```
 
 ### Final notes.
-Congratulations! You have (If you have done it right) successfully installed Red.
-In the following chapter we will share some final notes that you will need to know to get the most out of Red
+Congratulations! You should now have successfully installed Red.
+Consult the [Getting started](/Red-Docs/red_getting_started/) page for a practical guide on familiarizing yourself with Red.
 
 #### audio
 To use audio you need to toggle the player to use Avconv. To do this you can use the following command in your Discord server. ``audioset player``
@@ -131,7 +131,7 @@ To use audio you need to toggle the player to use Avconv. To do this you can use
 {% include callout.html content="**Warning**: Audio will fail to work on Raspberry Pi's ***below*** 2B. This is a CPU problem and *cannot* be fixed." type="warning" %}
 
 
-# Installing Red manually (Experienced Linux users)
+# Manual installation (Raspbian Jessie)
 In case you are experienced in Linux, or don't mind doing it all manual. Here the entire process of installing Python and the other requirements get explained in great detail.
 
 ### Getting the easy stuff from ``apt-get``
