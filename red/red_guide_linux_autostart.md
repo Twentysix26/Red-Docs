@@ -9,7 +9,7 @@ description: Information for automatically starting Red on Linux.
 
 ### Upstart
 
-This guide assumes you used the Linux guide to install Red **and that your Linux distribution uses Upstart**.
+This guide assumes you used the Linux guide to install Red, you are using Python 3.5.x **and that your Linux distribution uses Upstart**.
 
 Run this command in terminal:
 
@@ -38,7 +38,7 @@ Other available commands:
 `sudo restart red`
 
 ### systemd
-This guide assumes you used the Linux guide to install Red **and that your Linux distribution uses systemd** (Example: Ubuntu 15.04 or newer).
+This guide assumes you used the Linux guide to install Red, you are using Python 3.5.x **and that your Linux distribution uses systemd** (Example: Ubuntu 15.04 or newer).
 
 Run this command in terminal:
 
