@@ -58,7 +58,7 @@ Congratulations! You should now have successfully installed Red.
 Consult the [Getting started](/Red-Docs/red_getting_started/) page for a practical guide on familiarizing yourself with Red.
 
 #### audio
-To use audio you need to toggle the player to use Avconv. To do this you can use the following command in your Discord server. ``audioset player``
+To use audio you need to install ffmpeg. ``sudo apt-get install ffmpeg``
 
 # Easy installation (**Raspbian Jessie**)
 {% include callout.html content="**Important information**: This will only work on **Raspbian Jessie.** Running this script on Raspbian Stretch will break your installation" type="info" %}
