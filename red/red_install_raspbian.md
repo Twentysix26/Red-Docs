@@ -11,7 +11,61 @@ The installation on Raspbian differs quite a bit from the a traditional Linux in
 Due the fact that Raspbian does not natively support Python 3.5 (and above),
 and that Raspbian does not support Ffmpeg. In this guide there is a easy fix for all these problems.
 
-# Installing with a script (Easiest)
+# Installation on Raspbian Stretch
+{% include callout.html content="**Important information**: This will only work on **Raspbian Stretch.** Continue to the next section if you're using Raspbian Jessie" type="info" %}
+
+### Update and install pip
+
+```
+sudo apt-get update
+sudo apt-get install build-essential libssl-dev libffi-dev git unzip -y
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3.5 get-pip.py
+```
+
+### Cloning and preparing Red
+
+Let's start by creating a bot application and retrieving the token.
+Log in [here](https://discordapp.com/developers/applications/me) with your Discord account.
+Then make a new application. Once you made your application, make a bot account from your new application page.
+Keep the page open since you will need it later.
+
+#### Cloning Red
+The next thing we will be doing is cloning Red.
+
+```
+git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git red-discordbot
+cd red-discordbot
+```
+
+#### Install Requirements
+Now you'll need to install the requirements 
+
+```
+sudo python3.5 -m pip install -r requirements_no_audio.txt
+```
+
+#### Running Red
+We're at the last step. You will need your token for this final part of the installation.
+Run Red with the following command and read the instructions carefully for a smooth installation.
+
+```
+python3 red.py
+```
+
+### Final notes.
+Congratulations! You should now have successfully installed Red.
+Consult the [Getting started](/Red-Docs/red_getting_started/) page for a practical guide on familiarizing yourself with Red.
+
+#### audio
+To use audio you need to install ffmpeg. 
+
+```
+sudo apt-get install ffmpeg
+```
+
+# Easy installation (**Raspbian Jessie**)
+{% include callout.html content="**Important information**: This will only work on **Raspbian Jessie.** Running this script on Raspbian Stretch will break your installation" type="info" %}
 For ease of access and installing.
 You can use the following ``.sh`` script to install all the pre-requirements.
 
@@ -29,6 +83,7 @@ Next we will run the script.
 This script will install pre-requirements to run your very own Red bot on your Pi.
 
 {% include callout.html content="**Important information**: The installation of the pre-requirements can vary from at least 30 minutes to 90 minutes, depending on the model of Pi you own." type="info" %}
+
 ```
 ./pi.sh
 ```
@@ -71,8 +126,8 @@ python3 red.py
 ```
 
 ### Final notes.
-Congratulations! You have (If you have done it right) successfully installed Red.
-In the following chapter we will share some final notes that you will need to know to get the most out of Red
+Congratulations! You should now have successfully installed Red.
+Consult the [Getting started](/Red-Docs/red_getting_started/) page for a practical guide on familiarizing yourself with Red.
 
 #### audio
 To use audio you need to toggle the player to use Avconv. To do this you can use the following command in your Discord server. ``audioset player``
@@ -80,7 +135,7 @@ To use audio you need to toggle the player to use Avconv. To do this you can use
 {% include callout.html content="**Warning**: Audio will fail to work on Raspberry Pi's ***below*** 2B. This is a CPU problem and *cannot* be fixed." type="warning" %}
 
 
-# Installing Red manually (Experienced Linux users)
+# Manual installation (Raspbian Jessie)
 In case you are experienced in Linux, or don't mind doing it all manual. Here the entire process of installing Python and the other requirements get explained in great detail.
 
 ### Getting the easy stuff from ``apt-get``
