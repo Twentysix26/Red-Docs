@@ -26,15 +26,15 @@ I swear it's simpler than it sounds.
 
 As an example, let's see how to create a custom command that shows the user's ID.
 
-    [p]addcom id Here's your id: {author.id}
+    [p]cc add id Here's your id: {author.id}
 
 This custom command uses the [user's attribute id](http://discordpy.readthedocs.io/en/latest/api.html#discord.User.id). In the discord.py's docs linked above you can see all the attributes of those objects. "Author" is a special case, you can find it in the docs as [Member](http://discordpy.readthedocs.io/en/latest/api.html#member) and [User](http://discordpy.readthedocs.io/en/latest/api.html#user).
 
 **Some other examples:**
 
-    [p]addcom kickme :boot: {author.name}
-    [p]addcom greet Hi {author.mention}! Welcome to {server.name}!
-    [p]addcom whereami? You're in channel {channel.name}!
-    [p]addcom discordtime Current Discord time: {message.timestamp}
+    [p]cc add kickme :boot: {author.name}
+    [p]cc add greet Hi {author.mention}! Welcome to {server.name}!
+    [p]cc add whereami? You're in channel {channel.name}!
+    [p]cc add discordtime Current Discord time: {message.timestamp}
 
 Invalid or forbidden arguments will be ignored.
