@@ -22,7 +22,7 @@ Guide originally made by orels1
 
 *  After the installation, install the required packages by pasting the commands and pressing enter, one-by-one:
 
-	  `brew install python3 --with-brewed-openssl`  
+	  `brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/f2a764ef944b1080be64bd88dca9a1d80130c558/Formula/python.rb --with-brewed-openssl`  
 	  `brew install git`  
 	  `brew install ffmpeg --with-ffplay`  
 	  `brew install opus`  
