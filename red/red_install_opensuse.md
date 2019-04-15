@@ -6,6 +6,8 @@ last_updated: Mar 23, 2017
 description: A guide for installing Red on OpenSUSE.
 ---
 
+{% include callout.html content="⚠ **Warning!** ⚠ This site is for an out-of-date version of Red! If you are looking to install the latest version, please see [our new site!](https://red-discordbot.readthedocs.io/en/v3-develop/)" type="danger" %}
+
 This guide is aimed as installing Red on OpenSUSE 42.2.
 
 {% include callout.html content="**Warning**: For safety reasons, DO NOT install Red with a root user. Instead, make a new one." type="danger" %}

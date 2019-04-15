@@ -7,6 +7,8 @@ toc: false
 description: A list of guides for installing on Linux.
 ---
 
+{% include callout.html content="⚠ **Warning!** ⚠ This site is for an out-of-date version of Red! If you are looking to install the latest version, please see [our new site!](https://red-discordbot.readthedocs.io/en/v3-develop/)" type="danger" %}
+
 ## Alpine
 
 * [How to install on Alpine](/Red-Docs/red_install_alpine/)
