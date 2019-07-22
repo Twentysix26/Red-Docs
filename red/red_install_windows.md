@@ -6,7 +6,7 @@ last_updated: Aug 18, 2016
 description: A guide for installing Red on Windows
 ---
 
-{% include callout.html content="⚠ **Warning!** ⚠ This site is for an out-of-date version of Red! If you are looking to install the latest version, please see [our new site!](https://red-discordbot.readthedocs.io/en/v3-develop/)" type="danger" %}
+{% include callout.html content="⚠ **Warning!** ⚠ This site is for an out-of-date version of Red! If you are looking to install the latest version, please see [our new site!](https://red-discordbot.readthedocs.io/en/stable/)" type="danger" %}
 
 ### Software
 

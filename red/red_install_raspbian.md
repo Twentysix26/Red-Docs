@@ -7,7 +7,7 @@ toc: true
 description: A guide for installing Red on Raspbian.
 ---
 
-{% include callout.html content="⚠ **Warning!** ⚠ This site is for an out-of-date version of Red! If you are looking to install the latest version, please see [our new site!](https://red-discordbot.readthedocs.io/en/v3-develop/)" type="danger" %}
+{% include callout.html content="⚠ **Warning!** ⚠ This site is for an out-of-date version of Red! If you are looking to install the latest version, please see [our new site!](https://red-discordbot.readthedocs.io/en/stable/)" type="danger" %}
 
 The installation on Raspbian differs quite a bit from the a traditional Linux installation.
 Due the fact that Raspbian does not natively support Python 3.5 (and above),
