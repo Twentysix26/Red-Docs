@@ -1,0 +1,45 @@
+<div class="modal fade" id="old-version-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <span style="font-size:18px;font-weight:500" class="modal-title">Red V2 has reached end of life</span>
+      </div>
+      <div class="modal-body">
+        <p>But don't worry! Red V3 is already here and you can install it using one of installation guides on <a href="https://red-discordbot.readthedocs.io/en/stable/">our new site!</a>
+      </div>
+      <div class="modal-footer" style="padding-top:14px;padding-bottom:10px">
+        <a class="btn btn-primary" href="https://red-discordbot.readthedocs.io/en/stable/" role="button">Go to Red V3 docs</a>
+        <button type="button" class="btn" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script type="text/javascript">
+  function setCookie(cname, cvalue, exhours) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exhours*60*60*1000));
+    var expires = 'expires='+ d.toUTCString();
+    document.cookie = cname + '='+ cvalue + ';' + expires + ';path=/';
+  }
+
+  function getCookie(cname) {
+    var name = cname + '=';
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return true;
+      }
+    }
+    return false;
+  }
+  if(!getCookie('modal-shown')) {
+    $('#old-version-modal').modal()
+    setCookie('modal-shown', 1, 24)
+  }
+</script>
