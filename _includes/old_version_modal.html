@@ -1,45 +1,30 @@
-<div class="modal fade" id="old-version-modal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <span style="font-size:18px;font-weight:500" class="modal-title">Red V2 has reached end of life</span>
-      </div>
-      <div class="modal-body">
-        <p>But don't worry! Red V3 is already here and you can install it using one of installation guides on <a href="https://red-discordbot.readthedocs.io/en/stable/">our new site!</a>
-      </div>
-      <div class="modal-footer" style="padding-top:14px;padding-bottom:10px">
-        <a class="btn btn-primary" href="https://red-discordbot.readthedocs.io/en/stable/" role="button">Go to Red V3 docs</a>
-        <button type="button" class="btn" data-dismiss="modal">Close</button>
+<div class="modal fade in" id="old-version-modal" tabindex="-1" role="dialog" style="display: block">
+  <div class="modal-dialog modal-lg" role="document" style="width:95%;height:92%;padding:0;margin-top:2em">
+    <div class="modal-content" style="height:99%">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div style="top:50%;transform:translateY(-50%);position:relative;text-align:center">
+        <div class="modal-header" style="border-bottom:none">
+          <span style="font-size:2.6em;font-weight:600" class="modal-title">Red V2 has reached end of life</span>
+        </div>
+        <div class="modal-body" style="padding:20px 25%">
+          <p style="font-size:2em;font-weight:500">But don't worry! Red V3 is already here and you can install it using one of installation guides on <a href="https://red-discordbot.readthedocs.io/en/stable/">our new site!</a></p>
+        </div>
+        <div class="modal-footer" style="padding-top:14px;padding-bottom:10px;text-align:center;border-top:none">
+          <a class="btn btn-primary" href="https://red-discordbot.readthedocs.io/en/stable/" role="button">Go to Red V3 docs</a>
+          <button type="button" class="btn" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <script type="text/javascript">
-  function setCookie(cname, cvalue, exhours) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exhours*60*60*1000));
-    var expires = 'expires='+ d.toUTCString();
-    document.cookie = cname + '='+ cvalue + ';' + expires + ';path=/';
-  }
+  $(document).ready(
+    function() {
+      $('body').removeClass('modal-open');
+      $('.modal-backdrop').remove();
 
-  function getCookie(cname) {
-    var name = cname + '=';
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i < ca.length; i++) {
-      var c = ca[i];
-      while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-      }
-      if (c.indexOf(name) == 0) {
-        return true;
-      }
+      $('#old-version-modal').modal('show');
     }
-    return false;
-  }
-  if(!getCookie('modal-shown')) {
-    $('#old-version-modal').modal()
-    setCookie('modal-shown', 1, 24)
-  }
+  );
 </script>
+<div class="modal-backdrop in"></div>
