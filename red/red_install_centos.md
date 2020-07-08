@@ -6,7 +6,7 @@ last_updated: Mar 23, 2017
 description: A guide for installing Red on CentOS.
 ---
 
-{% include callout.html content="⚠ **Warning!** ⚠ This site is for an out-of-date version of Red! If you are looking to install the latest version, please see [our new site!](https://red-discordbot.readthedocs.io/en/stable/)" type="danger" %}
+{% include callout.html content="⚠ **Warning!** ⚠ This site is for an out-of-date version of Red! If you are looking to install the latest version, please see [our new site!](https://docs.discord.red/en/stable/)" type="danger" %}
 
 This guide is aimed as installing Red on CentOS 7.
 
